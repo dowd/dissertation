@@ -42,7 +42,7 @@ min2lines=function(os_point,osmlines) {
 
 #LOOP TO BE ADDED - go through city and elements
 for (element_type in element_types[,1]) {
-  type=element_types[element_types$V1==element_type,7]
+  #type=element_types[element_types$V1==element_type,7]
   print(paste(city,element_type))
     
   #read the OS csv file for the city/element type
@@ -83,8 +83,9 @@ for (element_type in element_types[,1]) {
       #put all of the results into one data frame
       result_all=data.frame(result_points,result_lines,result_polygons)
       #put the minimum distance and osmid into os_temp spatial data frame
+      distance=min(result_all[1,],na.rm=TRUE)
       os_temp@data$osm_id[ents]=result_all[2,which(result_all[1,]==distance)]
-      os_temp@data$osm_dist[ents]=distance=min(result_all[1,],na.rm=TRUE)
+      os_temp@data$osm_dist[ents]=distance
     }
   }
 }
@@ -92,8 +93,8 @@ for (element_type in element_types[,1]) {
 
 
 
-
-
+review=as.data.frame(os_temp)
+View(review)
 
 #testing variables - only used to test thing working while creating project!!
 city="Cardiff"
