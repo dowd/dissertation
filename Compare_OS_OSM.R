@@ -61,31 +61,27 @@ for (element_type in element_types[,1]) {
     osm_points=as_sp(osm_temp, 'points')
     osm_lines=as_sp(osm_temp,'lines')
     osm_polygons=as_sp(osm_temp,'polygons')
+    if(is.null(osm_points)) {point_file=0}else{point_file=1}
+    if(is.null(osm_lines)) {line_file=0}else{line_file=1}
+    if(is.null(osm_polygons)) {polygon_file=0}else{polygon_file=1}
     
     #for loop to go over every row in os_temp and find nearest point/line/polygon in OSM data and return osmid and distance into os_temp
     for (ents in 1:nrow(os_temp)){
       #points
       os_point=os_temp[ents,]
-      if (!(is.null(osm_points))) {
-        result_points=min2points(os_point,osm_points)
-      }else{result_points=c(NA,NA)}
+      if (point_file==1){result_points=min2points(os_point,osm_points)}else{result_points=c(NA,NA)}
       #lines
-      if (!(is.null(osm_lines))){
-        result_lines=min2lines(os_point,osm_lines)
-        print("lines")
-        }else{result_lines=c(NA,NA)}
+      if (line_file==1){result_lines=min2lines(os_point,osm_lines)}else{result_lines=c(NA,NA)}
       #polygons
-      if (!(is.null(osm_polygons))){
-        result_polygons=min2lines(os_point,osm_polygons)
-        print("polygons")
-        }else{result_polygons=c(NA,NA)}
-  
+      if (polygon_file==1){result_polygons=min2lines(os_point,osm_polygons)}else{result_polygons=c(NA,NA)}
       #put all of the results into one data frame
       result_all=data.frame(result_points,result_lines,result_polygons)
       #put the minimum distance and osmid into os_temp spatial data frame
       distance=min(result_all[1,],na.rm=TRUE)
       os_temp@data$osm_id[ents]=result_all[2,which(result_all[1,]==distance)]
       os_temp@data$osm_dist[ents]=distance
+      os_temp_df=as.data.frame(os_temp)
+      os_all = rbind(os_temp_df, if(exists("os_all")) os_all)
     }
   }
 }
@@ -93,7 +89,9 @@ for (element_type in element_types[,1]) {
 
 
 
-review=as.data.frame(os_temp)
+
+
+
 View(review)
 
 #testing variables - only used to test thing working while creating project!!
