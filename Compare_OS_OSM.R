@@ -14,6 +14,7 @@ element_types=element_types[!element_types$V7=="",]
 
 #function to find distances between a point and multiple lines and returns a matrix of those distances
 min2points=function(os_point,osmpoints) {
+  print(paste("min2points",os_point))
   distance_matrix=distm (osm_points,os_point)
   if (!(is.na(distance_matrix))){
     min_dist=min(distance_matrix)
@@ -28,6 +29,7 @@ min2points=function(os_point,osmpoints) {
 
 #function to find distances between a point and multiple lines and returns a matrix of those distances
 min2lines=function(os_point,osmlines) {
+  print(paste("min2lines",os_point))
   distance_matrix=matrix()
   for (line in 1:nrow(osm_lines)) {
     tryCatch({ distance_matrix[line]=dist2Line(os_point,osmlines[line,])[1] }, error=function(e){distance_matrix[line]=NA})}
@@ -68,6 +70,7 @@ for (element_type in element_types[,1]) {
     for (ents in 1:nrow(os_temp)){
       #points
       os_point=os_temp[ents,]
+      print(paste("OS Ref:",os_point@data$Reference.Number))
       if (point_file==1){result_points=min2points(os_point,osm_points)}else{result_points=c(NA,NA)}
       #lines
       if (line_file==1){result_lines=min2lines(os_point,osm_lines)}else{result_lines=c(NA,NA)}
@@ -89,9 +92,6 @@ for (element_type in element_types[,1]) {
 
 
 
-
-
-View(review)
 
 #testing variables - only used to test thing working while creating project!!
 city="Cardiff"
