@@ -52,7 +52,6 @@ for (element_type in element_types[,1]) {
   osm_temp = get_osm(bbox, osmsource_osmosis(file = paste("/Users/dowd/GIS_Data/easter/OSM_metro_extract/OS/",city,"_",element_type,".osm",sep="")))
   
 
-  
   #check that the files contain rows
   if (!nrow(os_temp)==0 & (!((dim(osm_temp)[1])+(dim(osm_temp)[2]))==0)) {
     #convert both files to spatial data frames
