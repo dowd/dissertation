@@ -12,14 +12,15 @@ cities=c("Bristol","Cardiff","Manchester")
 element_types=read.csv("elements.csv", header=FALSE, stringsAsFactors = FALSE)
 element_types=element_types[!element_types$V7=="",]
 
+
 #function to find distances between a point and multiple lines and returns a matrix of those distances
-min2points=function(os_point,osmpoints) {
-  print(paste("min2points",os_point))
+min2points=function(os_point,osm_points) {
+  print(paste("min2points",os_point@data$Reference.Number))
   distance_matrix=distm (osm_points,os_point)
   if (!(is.na(distance_matrix))){
     min_dist=min(distance_matrix)
     ref=which.min(distance_matrix)
-    osmid=osmpoints@data[ref,1]
+    osmid=osm_points@data[ref,1]
     result=c(min_dist,osmid)
     }else{
       result=c(NA,NA)
@@ -29,7 +30,7 @@ min2points=function(os_point,osmpoints) {
 
 #function to find distances between a point and multiple lines and returns a matrix of those distances
 min2lines=function(os_point,osmlines) {
-  print(paste("min2lines",os_point))
+  print(paste("min2lines",os_point@data$Reference.Number))
   distance_matrix=matrix()
   for (line in 1:nrow(osm_lines)) {
     tryCatch({ distance_matrix[line]=dist2Line(os_point,osmlines[line,])[1] }, error=function(e){distance_matrix[line]=NA})}
