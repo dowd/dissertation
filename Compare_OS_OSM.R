@@ -15,7 +15,14 @@ element_types=element_types[!element_types$V7=="",]
 #function to find distances between a point and multiple lines and returns a matrix of those distances
 min2points=function(os_point,osmpoints) {
   distance_matrix=distm (osm_points,os_point)
-  result=c(min(distance_matrix),which.min(distance_matrix))
+  if (!(is.na(distance_matrix))){
+    min_dist=min(distance_matrix)
+    ref=which.min(distance_matrix)
+    osmid=osmpoints@data[ref,1]
+    result=c(min_dist,osmid)
+    }else{
+      result=c(NA,NA)
+    }
   return(result)
 }
 
@@ -25,8 +32,11 @@ min2lines=function(os_point,osmlines) {
   for (line in 1:nrow(osm_lines)) {
     tryCatch({ distance_matrix[line]=dist2Line(os_point,osmlines[line,])[1] }, error=function(e){distance_matrix[line]=NA})}
   if (is.na(distance_matrix)) {result=c(NA,NA)
-  }else{
-  result=c(min(distance_matrix, na.rm=TRUE),which.min(distance_matrix))}
+    }else{
+      min_dist=min(distance_matrix,na.rm=TRUE)
+      ref=which.min(distance_matrix)
+      osmid=osmlines@data[ref,1]
+      result=c(min_dist,osmid)}
   return(result)
 }
 
@@ -63,15 +73,19 @@ for (element_type in element_types[,1]) {
       print("polygons")
       }else{result_polygons=c(NA,NA)
       print("polygons warning")}
-    
-
-    
 }
 }
 
+#put all of the results into one data frame
+result_all=data.frame(result_points,result_lines,result_polygons)
+#put the minimum distance and osmid into os_temp spatial data frame
+os_temp@data$osm_id[ents]=result_all[2,which(result_all[1,]==distance)]
+os_temp@data$osm_dist[ents]=distance=min(result_all[1,],na.rm=TRUE)
 
 
-max(result_lines[1],result_points[1])
+
+
+
 
 
 
