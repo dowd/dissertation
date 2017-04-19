@@ -19,13 +19,14 @@ min2points=function(os_point,osmpoints) {
   return(result)
 }
 
-
 #function to find distances between a point and multiple lines and returns a matrix of those distances
 min2lines=function(os_point,osmlines) {
   distance_matrix=matrix()
   for (line in 1:nrow(osm_lines)) {
     tryCatch({ distance_matrix[line]=dist2Line(os_point,osmlines[line,])[1] }, error=function(e){distance_matrix[line]=NA})}
-  result=c(min(distance_matrix, na.rm=TRUE),which.min(distance_matrix))
+  if (is.na(distance_matrix)) {result=c(NA,NA)
+  }else{
+  result=c(min(distance_matrix, na.rm=TRUE),which.min(distance_matrix))}
   return(result)
 }
 
@@ -46,36 +47,37 @@ for (element_type in element_types[,1]) {
     coordinates(os_temp) <- cbind(os_temp$X , os_temp$Y)
     proj4string(os_temp)=CRS("+init=epsg:4326")
     os_point=os_temp[ents,]
-    tryCatch({
-      osm_points=as_sp(osm_temp, 'points')
+    osm_points=as_sp(osm_temp, 'points')
+    osm_lines=as_sp(osm_temp,'lines')
+    osm_polygons=as_sp(osm_temp,'polygons')
+    if (!(is.null(osm_points))) {
       result_points=min2points(os_point,osm_points)
-      }, warning=function(e){result_points=c(NA,NA)})
-    tryCatch({
-      osm_lines=as_sp(osm_temp,'lines')
+      }else{result_points=c(NA,NA)}
+    if (!(is.null(osm_lines))){
       result_lines=min2lines(os_point,osm_lines)
       print("lines")
-      }, warning=function(e){result_lines=c(NA,NA)
-      print("lines warning")})
-    tryCatch({
-      osm_polygons=as_sp(osm_temp,'polygons')
+      }else{result_lines=c(NA,NA)
+      print("lines warning")}
+    if (!(is.null(osm_polygons))){
       result_polygons=min2lines(os_point,osm_polygons)
       print("polygons")
-      }, warning=function(e){result_polygons=c(NA,NA)
-      print("polygons warning")})
+      }else{result_polygons=c(NA,NA)
+      print("polygons warning")}
     
-    line_matrix=distance2lines(os_temp[1,],osm_lines)
-    
+
     
 }
 }
 
 
 
-osm_lines=as_sp(osm_temp,'lines')
-result_lines=min2lines(os_point,osm_lines)
-print("lines")
+max(result_lines[1],result_points[1])
+
+
+
 
 #testing variables - only used to test thing working while creating project!!
 city="Cardiff"
 element_type="underpass"
-element_type="bus_station"
+element_type="taxi_rank"
+ents=1
