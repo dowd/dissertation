@@ -51,38 +51,43 @@ for (element_type in element_types[,1]) {
   #read the OSM file for the city/element type
   osm_temp = get_osm(bbox, osmsource_osmosis(file = paste("/Users/dowd/GIS_Data/easter/OSM_metro_extract/OS/",city,"_",element_type,".osm",sep="")))
   
+
+  
   #check that the files contain rows
   if (!nrow(os_temp)==0 & (!((dim(osm_temp)[1])+(dim(osm_temp)[2]))==0)) {
     #convert both files to spatial data frames
     coordinates(os_temp) <- cbind(os_temp$X , os_temp$Y)
     proj4string(os_temp)=CRS("+init=epsg:4326")
-    os_point=os_temp[ents,]
     osm_points=as_sp(osm_temp, 'points')
     osm_lines=as_sp(osm_temp,'lines')
     osm_polygons=as_sp(osm_temp,'polygons')
-    if (!(is.null(osm_points))) {
-      result_points=min2points(os_point,osm_points)
+    
+    #for loop to go over every row in os_temp and find nearest point/line/polygon in OSM data and return osmid and distance into os_temp
+    for (ents in 1:nrow(os_temp)){
+      #points
+      os_point=os_temp[ents,]
+      if (!(is.null(osm_points))) {
+        result_points=min2points(os_point,osm_points)
       }else{result_points=c(NA,NA)}
-    if (!(is.null(osm_lines))){
-      result_lines=min2lines(os_point,osm_lines)
-      print("lines")
-      }else{result_lines=c(NA,NA)
-      print("lines warning")}
-    if (!(is.null(osm_polygons))){
-      result_polygons=min2lines(os_point,osm_polygons)
-      print("polygons")
-      }else{result_polygons=c(NA,NA)
-      print("polygons warning")}
+      #lines
+      if (!(is.null(osm_lines))){
+        result_lines=min2lines(os_point,osm_lines)
+        print("lines")
+        }else{result_lines=c(NA,NA)}
+      #polygons
+      if (!(is.null(osm_polygons))){
+        result_polygons=min2lines(os_point,osm_polygons)
+        print("polygons")
+        }else{result_polygons=c(NA,NA)}
+  
+      #put all of the results into one data frame
+      result_all=data.frame(result_points,result_lines,result_polygons)
+      #put the minimum distance and osmid into os_temp spatial data frame
+      os_temp@data$osm_id[ents]=result_all[2,which(result_all[1,]==distance)]
+      os_temp@data$osm_dist[ents]=distance=min(result_all[1,],na.rm=TRUE)
+    }
+  }
 }
-}
-
-#put all of the results into one data frame
-result_all=data.frame(result_points,result_lines,result_polygons)
-#put the minimum distance and osmid into os_temp spatial data frame
-os_temp@data$osm_id[ents]=result_all[2,which(result_all[1,]==distance)]
-os_temp@data$osm_dist[ents]=distance=min(result_all[1,],na.rm=TRUE)
-
-
 
 
 
