@@ -48,29 +48,30 @@ for (element_type in element_types[,1]) {
     #for loop to go over every row in os_temp and find nearest point/line/polygon in OSM data and return osmid and distance into os_temp
     
     for (ents in 1:nrow(os_temp)){
-      print(paste(ents,"out of",nrow(os_temp),"rows"))
+      #print(paste(ents,"out of",nrow(os_temp),"rows"))
       #set the OS point from the ents number
       os_point=os_temp[ents,]
       #find the minimum distance for the OSM point data
       pointdistance=min(distm (osm_points,os_point), na.rm=TRUE)
       #find the minimum distance for the OSM line data
+      if(is.null(osm_lines)){linedistance=NA
+      }else{
       linematrix=min2lines(os_point,osm_lines)
-      linedistance=ifelse(all(is.na(linematrix)),NA,min(linematrix,na.rm=TRUE))
+      linedistance=ifelse(all(is.na(linematrix)),NA,min(linematrix,na.rm=TRUE))}
       #find the minimum distance for the OSM polygon data
+      if(is.null(osm_polygons)){polygondistance=NA
+      }else{
       polygonmatrix=min2lines(os_point,osm_polygons)
-      polygondistance=ifelse(all(is.na(polygonmatrix)),NA,min(polygonmatrix,na.rm=TRUE))
-      this_result=c("City"=city,"Type"=element_type,"OS_reference"=os_point@data$Reference.Number,"Points Distance"=pointdistance,"Lines Distance"=linedistance,"Polygons Distance"=polygondistance)
-      os_results = rbind(this_result, if(exists("os_results")) os_results)
-      }
-    
-  
-    
+      polygondistance=ifelse(all(is.na(polygonmatrix)),NA,min(polygonmatrix,na.rm=TRUE))}
+      this_result=c("City"=city,"Type"=element_type,"OS_reference"=os_point@data$Reference,"Points Distance"=pointdistance,"Lines Distance"=linedistance,"Polygons Distance"=polygondistance)
+      os_results_df[nrow(os_results_df)+1,] = this_result
+    }
   }
 }
 }
 
 
-write.table(os_all, file = "export_all.csv", sep = ",", col.names = NA, qmethod = "double")
+write.table(os_results_df, file = "export_all.csv", sep = ",", col.names = NA, qmethod = "double")
 
 
 
