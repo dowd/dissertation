@@ -2,29 +2,30 @@
 title: "Results Section"
 author: "Dave Dowding"
 date: "21/04/2017"
-output: word_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+```
+# CHAPTER 4 - RESULTS
+## 4.1 Introduction
+The results of the methods described in the previous chapter are set out under the same themes that were used in the methods section namely completeness, thematic accuracy, temporal quality, positional accuracy and contributors. The results for each section are displayed and then discussed. The chapter finishes with a discussion about what together the results mean for OSM as a data source for visually impaired people, this is done under the title of ‘usability’.
+
+## 4.2 Completeness
+
+*OSM data compared with the Ordnance Survey dataset*
+
+```{r}
+library(plyr)
+library(knitr)
+os_results_df=read.csv("../dissertation/export_all_points.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results=ddply(os_results_df,~City+Type,summarise,'Total'=sum(!is.na(City)),'< 20m'=sum(Points.Distance<20),'% <20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'No. < 50m'=sum(Points.Distance<20),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
+kable(results,caption="Table x - showing ....")
+#os_results_df
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
