@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 
@@ -37,4 +37,45 @@ gsv_results=read.csv("../data/results/gsv_osm.csv", header=TRUE, stringsAsFactor
 
 results=ddply(gsv_results,~City+Type,summarise,'Mean Distance'=mean(Points.Distance),'Total in OS'=sum(!is.na(City)),'No. under 20m'=sum(Points.Distance<20),'Percentage in OSM under 20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'Mean distance under 20m'=mean(Points.Distance[Points.Distance<20]),'Standard Deviation distance under 20m'=sd(Points.Distance[Points.Distance<20]),'No. under 50m'=sum(Points.Distance<20),'Percentage in OSM under 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2),'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
 kable(results,caption="Table x - showing gsv_osm")
+```
+
+## 4.3 Thematic Accuracy
+
+*Inspection of tags of relevant OSM data features*
+ADD TABLE AFTER DOING ANALYSIS IN R!!!
+
+
+- {I need to add the sidewalk element attributes and possibly remove the entrance element}
+- No crossings had a ‘length’ tag added to them but this is not in the OSM wiki.
+- The majorities of crossings had a type added to them, though we see the differences in areas again with Manchester being just over 50% whereas Cardiff and Bristol have 80% and nearly 90%.
+- The wheelchair accessible element needs removing as this is more for general accessibility
+- The incline tag for steps is less than 10% for all areas this may be because it is hard to measure.
+- The number of steps is very low with only Cardiff having over 2% coverage. This is something that could easily be added.
+- The steps surface tag for all areas has about 5% coverage.
+
+*Ground survey comparison of OSM tags*
+
+ADD TABLE AFTER DOING IT!!!
+
+## 4.4 Temporal Quality
+
+*Inspection of the history of OSM elements*
+
+ADD TABLE AFTER DOING ANALYSIS IN R!!!
+
+- The mean version number is higher for the data relevant to a visually impaired person.
+- There is also a higher percentage of elements with over 5 edits.
+- These both point to potentially higher data quality
+- The number of days since the last edit is more for the relevant in Bristol and Manchester but not for Cardiff again showing the differences in data over area.
+
+## 4.5 Positional Accuracy ##
+
+*Comparison of OSM data with Ordnance Survey data*
+```{r}
+os_results=read.csv("../data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results=ddply(os_results,~City+Type,summarise,'Mean Distance'=mean(Points.Distance),'Total in OS'=sum(!is.na(City)),'Mean distance under 20m'=mean(Points.Distance[Points.Distance<20]),'Standard Deviation distance under 20m'=sd(Points.Distance[Points.Distance<20]),'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
+
+kable(results,caption="Table x - showing gsv_osm_distances")
+
 ```
