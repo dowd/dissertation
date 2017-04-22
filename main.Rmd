@@ -1,12 +1,9 @@
 ---
-title: "Results Section"
-author: "Dave Dowding"
-date: "21/04/2017"
 output:
-  html_document: default
   pdf_document: default
-  word_document: default
+  html_document: default
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -22,10 +19,22 @@ The results of the methods described in the previous chapter are set out under t
 ```{r}
 library(plyr)
 library(knitr)
-os_results_df=read.csv("../dissertation/export_all_points.csv", header=TRUE, stringsAsFactors = FALSE)
+os_results=read.csv("../data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
 
-results=ddply(os_results_df,~City+Type,summarise,'Total'=sum(!is.na(City)),'< 20m'=sum(Points.Distance<20),'% <20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'No. < 50m'=sum(Points.Distance<20),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
-kable(results,caption="Table x - showing ....")
-#os_results_df
+results=ddply(os_results,~City+Type,summarise,'Total'=sum(!is.na(City)),'< 20m'=sum(Points.Distance<20),'% <20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'No. < 50m'=sum(Points.Distance<20),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
+kable(results,caption="Table x - showing os_osm")
 ```
 
+- As per literature there are big differences between areas e.g. in Bristol and Manchester over 80% of the Bus - Stops are included in the OSM data whereas in Cardiff it is only about 14%.
+- There seems to be consistency in the number of railway stations in the OSM data at about 40% this could be down to the analysis method though as they were converted to point nodes {this might also be the issue with bus stations, may have to revisit the analysis of these!}
+- Ignoring the anomalies of the stations and bus stops in Cardiff every other city/feature combination has over 50% coverage in the OSM data.
+- Overall the figure of 64% is reasonable considering the anomalies that need looking at above.
+
+*OSM data compared with Ground Survey*
+
+```{r}
+gsv_results=read.csv("../data/results/gsv_osm.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results=ddply(gsv_results,~City+Type,summarise,'Mean Distance'=mean(Points.Distance),'Total in OS'=sum(!is.na(City)),'No. under 20m'=sum(Points.Distance<20),'Percentage in OSM under 20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'Mean distance under 20m'=mean(Points.Distance[Points.Distance<20]),'Standard Deviation distance under 20m'=sd(Points.Distance[Points.Distance<20]),'No. under 50m'=sum(Points.Distance<20),'Percentage in OSM under 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2),'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
+kable(results,caption="Table x - showing gsv_osm")
+```
