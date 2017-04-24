@@ -1,6 +1,6 @@
 ---
 output:
-  pdf_document: 
+  pdf_document:
     number_sections: yes
     toc: yes
   html_document: default
@@ -72,7 +72,21 @@ ADD TABLE AFTER DOING IT!!!
 
 *Inspection of the history of OSM elements*
 
-ADD TABLE AFTER DOING ANALYSIS IN R!!!
+```{r}
+results=read.csv("../data/results/version_all_results.csv", header=TRUE, stringsAsFactors = FALSE)
+results_relevant=read.csv("../data/results/version_relevant_results.csv", header=TRUE, stringsAsFactors = FALSE)
+row.names(results)=results$city
+results$X=NULL
+results$city=NULL
+
+row.names(results_relevant)=results_relevant$city
+results_relevant$X=NULL
+results_relevant$city=NULL
+
+
+kable(t(results),caption="Table x - showing Version all results")
+kable(t(results_relevant),caption="Table x - showing Version relevant results")
+```
 
 - The mean version number is higher for the data relevant to a visually impaired person.
 - There is also a higher percentage of elements with over 5 edits.
@@ -136,15 +150,19 @@ user_results_relevant=ddply(results_relevant,~city,summarise,
                     "Contributions by non-local mappers (<20%)"=sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.2)]),
                     "% non-local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.2)]))/(sum(Relevant.Nodes))))
 
+row.names(user_results_all)=user_results_all$city
+user_results_all$city=NULL
+
+row.names(user_results_relevant)=user_results_relevant$city
+user_results_relevant$city=NULL
+
 kable(t(user_results_all),caption="Table x - showing user stats all")
 
 kable(t(user_results_relevant),caption="Table x - showing user stats relevant")
 
 ```
 
-ADD TABLE AFTER DOING ANALYSIS IN R!!!
-- {Also need to add percentage of elements which are mapped by each user group type.}
-- {Need to change number of user to number of contributors}
+- Can't really compare local mapper data between cities as dependent on area but can compare relevant vs whole city.
 - Contributors that contribute relevant data tend to be more in the ‘Senior mappers’ group. This could be because the elements looked at are not standard features a beginner might map. This could indicate greater data quality for this data.
 - There is little difference between contributors who contribute relevant data and all contributors when it comes to ‘local mappers’. We do see the difference in areas again with Manchester having more local mappers, this could be down to the bigger area though. {I could calculate the area of each location to compensate}
 
