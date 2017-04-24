@@ -1,6 +1,8 @@
 ---
 output:
-  pdf_document: default
+  pdf_document: 
+    number_sections: yes
+    toc: yes
   html_document: default
 ---
 
@@ -88,6 +90,48 @@ kable(results,caption="Table x - showing gsv_osm_distances")
 ## 4.6 Contributors
 
 *Analysis of OSM contributors*
+```{r}
+library(scales)
+results=read.csv("../data/results/user_results.csv", header=TRUE, stringsAsFactors = FALSE)
+results_relevant=results[!(is.na(results$Relevant.Nodes)),]
+
+user_results_all=ddply(results,~city,summarise,
+           "No. of contributions"=sum(City.Nodes),
+           "No. of contributors"=sum(!is.na(City.Nodes)),
+           "Contributions by senior mappers"=sum(City.Nodes[which(total_nodes>=1000)]),
+           "Senior %"=percent((sum(City.Nodes[which(total_nodes>=1000)]))/(sum(City.Nodes))),
+           "Contribution by junior mappers"=sum(City.Nodes[which(total_nodes<1000 & total_nodes>=10)]),
+           "Junior %"=percent((sum(City.Nodes[which(total_nodes<1000 & total_nodes>=10)]))/(sum(City.Nodes))),
+           "Contributions by nonrecurring mappers"=sum(City.Nodes[which(total_nodes<10)]),
+           "% nonrecurring"=percent((sum(City.Nodes[which(total_nodes<10)]))/(sum(City.Nodes))),
+           "Contributions by local mappers (>=50%)"=sum(City.Nodes[which((City.Nodes/total_nodes)>=0.5)]),
+           "% local"=percent((sum(City.Nodes[which((City.Nodes/total_nodes)>=0.5)]))/(sum(City.Nodes))),
+           "Contributions by semi-local mappers (20-50%)"=sum(City.Nodes[which(((City.Nodes/total_nodes)<0.5) & (City.Nodes/total_nodes)>=0.2)]),
+           "% semi-local"=percent((sum(City.Nodes[which((City.Nodes/total_nodes)<0.5 & (City.Nodes/total_nodes>=0.2))]))/(sum(City.Nodes))),
+           "Contributions by non-local mappers (<20%)"=sum(City.Nodes[which((City.Nodes/total_nodes)<0.2)]),
+           "% non-local"=percent((sum(City.Nodes[which((City.Nodes/total_nodes)<0.2)]))/(sum(City.Nodes))))
+
+user_results_relevant=ddply(results_relevant,~city,summarise,
+                    "No. of contributions"=sum(Relevant.Nodes),
+                    "No. of contributors"=sum(!is.na(City.Nodes)),
+                    "Contributions by senior mappers"=sum(Relevant.Nodes[which(total_nodes>=1000)]),
+                    "Senior %"=percent((sum(Relevant.Nodes[which(total_nodes>=1000)]))/(sum(Relevant.Nodes))),
+                    "Contribution by junior mappers"=sum(Relevant.Nodes[which(total_nodes<1000 & total_nodes>=10)]),
+                    "Junior %"=percent((sum(Relevant.Nodes[which(total_nodes<1000 & total_nodes>=10)]))/(sum(Relevant.Nodes))),
+                    "Contributions by nonrecurring mappers"=sum(Relevant.Nodes[which(total_nodes<10)]),
+                    "% nonrecurring"=percent((sum(Relevant.Nodes[which(total_nodes<10)]))/(sum(Relevant.Nodes))),
+                    "Contributions by local mappers (>=50%)"=sum(Relevant.Nodes[which((City.Nodes/total_nodes)>=0.5)]),
+                    "% local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)>=0.5)]))/(sum(Relevant.Nodes))),
+                    "Contributions by semi-local mappers (20-50%)"=sum(Relevant.Nodes[which(((City.Nodes/total_nodes)<0.5) & (City.Nodes/total_nodes)>=0.2)]),
+                    "% semi-local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.5 & (City.Nodes/total_nodes>=0.2))]))/(sum(Relevant.Nodes))),
+                    "Contributions by non-local mappers (<20%)"=sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.2)]),
+                    "% non-local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.2)]))/(sum(Relevant.Nodes))))
+
+kable(t(user_results_all),caption="Table x - showing user stats all")
+
+kable(t(user_results_relevant),caption="Table x - showing user stats relevant")
+
+```
 
 ADD TABLE AFTER DOING ANALYSIS IN R!!!
 - {Also need to add percentage of elements which are mapped by each user group type.}
@@ -96,6 +140,9 @@ ADD TABLE AFTER DOING ANALYSIS IN R!!!
 - There is little difference between contributors who contribute relevant data and all contributors when it comes to ‘local mappers’. We do see the difference in areas again with Manchester having more local mappers, this could be down to the bigger area though. {I could calculate the area of each location to compensate}
 
 *Survey of OSM contributors*
+
+
+
 
 ADD TABLE AFTER DOING IT!!!
 
