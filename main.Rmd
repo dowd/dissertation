@@ -223,6 +223,25 @@ kable(t(user_results_all),caption="Table x - showing user stats all")
 
 kable(t(user_results_relevant),caption="Table x - showing user stats relevant")
 
+
+
+
+results$type="All"
+results_relevant$type="Relevant"
+all=rbind(results,results_relevant)
+
+all$Category=c( "< 1000 elements","1000-100,000 elements","> 100,000 elements")[ findInterval(all$total_nodes, c(0, 1000, 100000, Inf)) ]
+all$Category = reorder(all$Category, -(all$total_nodes))
+
+all$Category2=c( "Non-local mappers","Semi-local mappers","Local Mappers")[ findInterval((all$City.Nodes/all$total_nodes), c(0, 0.2, 0.5, Inf)) ]
+all$Category2 = reorder(all$Category2, (all$City.Nodes/all$total_nodes))
+
+
+ggplot(all, aes(x=type,y=City.Nodes, fill=Category)) + geom_bar(position="fill",stat="identity") + facet_grid( ~ city)
+
+ggplot(all, aes(x=type,y=City.Nodes, fill=Category2)) + geom_bar(position="fill",stat="identity") + facet_grid( ~ city)
+
+
 ```
 
 - Can't really compare local mapper data between cities as dependent on area but can compare relevant vs whole city.
