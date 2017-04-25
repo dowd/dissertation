@@ -115,6 +115,8 @@ kable(results,caption="Table x - showing gsv_osm_distances")
 ggplot(data=subset(results, !is.na(`Mean distance under 50m`)), aes(fill=City, y=`Mean distance under 50m`, x=Type)) + geom_bar(position="dodge", stat="identity")+coord_flip()+scale_fill_manual(values=cbPalette)
 
 ggplot(data=subset(os_results, (Points.Distance<50)), aes(Points.Distance, colour=City, fill=City)) + geom_density(alpha=0.55,bw=1)
+
+ggplot(subset(os_results, (Points.Distance<50)), aes(factor(Type), Points.Distance)) + geom_violin(aes(fill = Type),bw=1)+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Distance from OS feature",x="Type")
 ```
 
 - The high average and minimum distances for railway stations could be down to the issues stated above so needs revisiting.
