@@ -84,24 +84,6 @@ ADD TABLE AFTER DOING IT!!!
 
 *Inspection of the history of OSM elements*
 
-```{r}
-results=read.csv("../data/results/version_all_results.csv", header=TRUE, stringsAsFactors = FALSE)
-results_relevant=read.csv("../data/results/version_relevant_results.csv", header=TRUE, stringsAsFactors = FALSE)
-row.names(results)=results$city
-results$X=NULL
-results$city=NULL
-
-row.names(results_relevant)=results_relevant$city
-results_relevant$X=NULL
-results_relevant$city=NULL
-
-
-kable(t(results),caption="Table x - showing Version all results")
-kable(t(results_relevant),caption="Table x - showing Version relevant results")
-```
-
-getting results direct and caching themtahusatnuh
-
 ```{r cache=TRUE}
 city_all=read.csv("../data/results/version_city_all.csv", header=TRUE, stringsAsFactors = FALSE)
 city=read.csv("../data/results/version_city.csv", header=TRUE, stringsAsFactors = FALSE)
@@ -139,8 +121,20 @@ row.names(results_relevant)=results_relevant$city
 results_relevant$city=NULL
 
 
-kable(t(results),caption="Table x - showing Version all results")
-kable(t(results_relevant),caption="Table x - showing Version relevant results")
+kable(t(results_relevant),caption="Table x - showing Version all results")
+kable(t(results),caption="Table x - showing Version relevant results")
+
+
+
+city_all$type="All"
+city$type="Relevant"
+
+all=rbind(city,city_all)
+
+all$Category=c("Last Year", "1-4 Years", "> 4 years")[ findInterval(all$X.timestamp, c(0, 365, 1460, Inf)) ]
+
+ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid( ~ city)
+
 ```
 
 
