@@ -4,6 +4,8 @@ output:
     number_sections: yes
     toc: yes
   html_document: default
+  word_document:
+    toc: yes
 ---
 
 
@@ -12,6 +14,9 @@ knitr::opts_chunk$set(echo = FALSE)
 library(scales)
 library(plyr)
 library(knitr)
+library(ggplot2)
+
+cbPalette = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7","#999999")
 ```
 # CHAPTER 4 - RESULTS
 ## 4.1 Introduction
@@ -101,8 +106,15 @@ os_results=read.csv("../data/results/os_osm.csv", header=TRUE, stringsAsFactors 
 
 results=ddply(os_results,~City+Type,summarise,'Mean Distance'=mean(Points.Distance),'Total in OS'=sum(!is.na(City)),'Mean distance under 20m'=mean(Points.Distance[Points.Distance<20]),'Standard Deviation distance under 20m'=sd(Points.Distance[Points.Distance<20]),'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
 
+is.num = sapply(results, is.numeric)
+results[is.num] = lapply(results[is.num], round, 2)
+
 kable(results,caption="Table x - showing gsv_osm_distances")
 
+
+ggplot(data=subset(results, !is.na(`Mean distance under 50m`)), aes(fill=City, y=`Mean distance under 50m`, x=Type)) + geom_bar(position="dodge", stat="identity")+coord_flip()+scale_fill_manual(values=cbPalette)
+
+ggplot(data=subset(os_results, (Points.Distance<50)), aes(Points.Distance, colour=City, fill=City)) + geom_density(alpha=0.55,bw=1)
 ```
 
 - The high average and minimum distances for railway stations could be down to the issues stated above so needs revisiting.
