@@ -139,6 +139,25 @@ As there is not always a reference dataset to compare OSM data to Barron et al, 
 
 In 2016 Senaratne et al (2016) reviewed the quality assessment methods that had been used for VGI over a number of years. They conclude that because of the diverse data characteristics and the large amount of data comparing VGI with a reference dataset is not always viable. They suggest looking at patterns in the data itself as a way of assessing data quality.
 
+
+```{r}
+
+library(scales)
+library(plyr)
+library(knitr)
+library(ggplot2)
+library(pander)
+
+panderOptions('table.split.table', Inf)
+
+elements=read.csv("../data/results/element_table.csv", header=TRUE, stringsAsFactors = FALSE)
+
+
+pander(elements)
+
+```
+
+
 # CHAPTER 3 - DATA AND METHODS
 
 ## 3.1 Introduction
