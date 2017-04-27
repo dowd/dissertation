@@ -1,0 +1,1459 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5">
+	<bounds minlat="51.3745555" minlon="-3.343766" maxlat="51.560504" maxlon="-3.0689022"/>
+	<node id="84803684" lat="51.5096286" lon="-3.124" version="5" timestamp="2007-10-31T17:35:12Z" changeset="371841" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4b"/>
+	</node>
+	<node id="84803774" lat="51.5096579" lon="-3.1241748" version="4" timestamp="2007-10-30T15:50:26Z" changeset="361473" uid="165" user="Richard">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4b"/>
+	</node>
+	<node id="84803920" lat="51.5105621" lon="-3.1291064" version="5" timestamp="2012-11-26T20:51:13Z" changeset="14050705" uid="48918" user="msg">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="84804096" lat="51.5097967" lon="-3.1306121" version="3" timestamp="2007-10-30T15:50:56Z" changeset="361473" uid="165" user="Richard">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4b"/>
+	</node>
+	<node id="84804295" lat="51.5079542" lon="-3.1333847" version="2" timestamp="2007-10-23T21:51:31Z" changeset="297171" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4a"/>
+	</node>
+	<node id="84804336" lat="51.5079008" lon="-3.1331787" version="2" timestamp="2007-10-23T21:51:32Z" changeset="297171" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4a"/>
+	</node>
+	<node id="84804655" lat="51.5055925" lon="-3.1351955" version="3" timestamp="2007-10-30T15:51:01Z" changeset="361473" uid="165" user="Richard">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4b"/>
+	</node>
+	<node id="84804843" lat="51.5023981" lon="-3.1387233" version="2" timestamp="2007-10-23T21:52:21Z" changeset="297171" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4a"/>
+	</node>
+	<node id="84805256" lat="51.4964922" lon="-3.1425564" version="4" timestamp="2007-10-29T23:19:54Z" changeset="363714" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4b"/>
+	</node>
+	<node id="84805320" lat="51.4934109" lon="-3.1448335" version="8" timestamp="2009-11-24T11:49:42Z" changeset="3203632" uid="63023" user="Marky G">
+		<tag k="name" v="City Link"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="84805516" lat="51.4917541" lon="-3.1480296" version="3" timestamp="2009-08-20T13:44:43Z" changeset="2212114" uid="3937" user="southglos">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="84805637" lat="51.4931604" lon="-3.1459493" version="9" timestamp="2009-11-24T11:49:42Z" changeset="3203632" uid="63023" user="Marky G">
+		<tag k="name" v="City Link"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="84806096" lat="51.4986536" lon="-3.1408904" version="5" timestamp="2009-10-17T11:54:34Z" changeset="2872572" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="84806569" lat="51.4954305" lon="-3.1428089" version="2" timestamp="2007-10-23T21:53:54Z" changeset="297171" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4a"/>
+	</node>
+	<node id="84832830" lat="51.5077347" lon="-3.1306036" version="2" timestamp="2007-10-30T15:50:54Z" changeset="361473" uid="165" user="Richard">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.4b"/>
+	</node>
+	<node id="246528741" lat="51.4807226" lon="-3.1918771" version="8" timestamp="2013-06-11T03:06:32Z" changeset="16504474" uid="38588" user="mentor">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="246529067" lat="51.4788341" lon="-3.17838" version="3" timestamp="2013-07-03T09:17:33Z" changeset="16802521" uid="975208" user="BillySastard">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="246529077" lat="51.4812136" lon="-3.1810582" version="4" timestamp="2013-11-06T10:01:05Z" changeset="18744125" uid="81429" user="Bramble">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="296233023" lat="51.5131261" lon="-3.125205" version="3" timestamp="2012-12-01T17:28:31Z" changeset="14114142" uid="48918" user="msg">
+		<tag k="name" v="Highcroft Walk NE Bound"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="296233177" lat="51.5128697" lon="-3.1252479" version="3" timestamp="2012-12-01T17:28:31Z" changeset="14114142" uid="48918" user="msg">
+		<tag k="name" v="Highcroft Walk SW bound"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="296233269" lat="51.5187946" lon="-3.1166597" version="2" timestamp="2009-08-06T16:25:46Z" changeset="2056975" uid="48918" user="msg">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.10b"/>
+	</node>
+	<node id="296233298" lat="51.5196743" lon="-3.1162185" version="1" timestamp="2008-09-12T22:22:39Z" changeset="623555" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="created_by" v="Potlatch 0.10b"/>
+	</node>
+	<node id="296233566" lat="51.5293345" lon="-3.1033449" version="3" timestamp="2016-05-06T19:22:15Z" changeset="39150271" uid="3927882" user="andrewp303">
+		<tag k="bench" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="301407444" lat="51.4755004" lon="-3.2388406" version="6" timestamp="2012-10-08T19:57:19Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="17"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="301407486" lat="51.4755729" lon="-3.2373404" version="4" timestamp="2011-01-24T10:08:51Z" changeset="7071228" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="301407529" lat="51.4734265" lon="-3.2396235" version="3" timestamp="2012-10-08T19:57:19Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="route_ref" v="17"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="301409387" lat="51.4753098" lon="-3.2375752" version="3" timestamp="2011-01-24T12:31:06Z" changeset="7072463" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="301409935" lat="51.4725816" lon="-3.2411939" version="3" timestamp="2011-04-12T14:29:27Z" changeset="7843203" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="303322404" lat="51.483003" lon="-3.2187077" version="3" timestamp="2010-12-02T15:01:30Z" changeset="6515634" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="303322502" lat="51.4828154" lon="-3.2187504" version="2" timestamp="2010-02-17T13:51:20Z" changeset="3900933" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="303327215" lat="51.4839493" lon="-3.2241363" version="2" timestamp="2009-12-03T22:32:00Z" changeset="3284433" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18"/>
+	</node>
+	<node id="321207656" lat="51.4801465" lon="-3.2387189" version="2" timestamp="2008-12-23T10:11:46Z" changeset="575026" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="created_by" v="Potlatch 0.10f"/>
+	</node>
+	<node id="346338029" lat="51.5296929" lon="-3.103081" version="4" timestamp="2016-05-06T19:22:01Z" changeset="39150266" uid="3927882" user="andrewp303">
+		<tag k="bench" v="yes"/>
+		<tag k="covered" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="476030574" lat="51.5140003" lon="-3.124094" version="1" timestamp="2009-08-28T22:16:46Z" changeset="2295424" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="476030606" lat="51.5145504" lon="-3.1237164" version="1" timestamp="2009-08-28T22:16:53Z" changeset="2295424" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="476030652" lat="51.5165801" lon="-3.120781" version="1" timestamp="2009-08-28T22:17:28Z" changeset="2295424" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="476031136" lat="51.5161528" lon="-3.1212444" version="1" timestamp="2009-08-28T22:17:49Z" changeset="2295424" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="476031547" lat="51.5249382" lon="-3.1123953" version="1" timestamp="2009-08-28T22:18:20Z" changeset="2295424" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="476031548" lat="51.525814" lon="-3.111537" version="1" timestamp="2009-08-28T22:18:24Z" changeset="2295424" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="476032077" lat="51.4937718" lon="-3.2202643" version="2" timestamp="2011-03-04T09:19:20Z" changeset="7452767" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="25;33;33A;62;62A"/>
+	</node>
+	<node id="476032105" lat="51.4938155" lon="-3.2200866" version="2" timestamp="2011-01-21T21:41:35Z" changeset="7044981" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="24;33;33A;60;UWIC Rider"/>
+	</node>
+	<node id="534147008" lat="51.4835389" lon="-3.1719177" version="2" timestamp="2013-12-01T17:34:51Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HU"/>
+	</node>
+	<node id="534147093" lat="51.4836145" lon="-3.1715365" version="2" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (SE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HE"/>
+	</node>
+	<node id="534177742" lat="51.4994154" lon="-3.1615999" version="1" timestamp="2009-10-17T12:13:05Z" changeset="2872667" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="534177844" lat="51.5001367" lon="-3.1610592" version="1" timestamp="2009-10-17T12:13:11Z" changeset="2872667" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="534177983" lat="51.4996505" lon="-3.1631191" version="1" timestamp="2009-10-17T12:13:20Z" changeset="2872667" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="534178036" lat="51.4999604" lon="-3.1634024" version="1" timestamp="2009-10-17T12:13:23Z" changeset="2872667" uid="13461" user="elliott">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="544557542" lat="51.4781673" lon="-3.2424581" version="4" timestamp="2011-05-25T10:41:34Z" changeset="8243454" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="route_ref" v="13;96"/>
+	</node>
+	<node id="569957585" lat="51.4938475" lon="-3.1439349" version="5" timestamp="2013-08-23T22:55:40Z" changeset="17477231" uid="24119" user="Mauls">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="569957587" lat="51.492636" lon="-3.1399871" version="1" timestamp="2009-11-24T11:48:35Z" changeset="3203621" uid="63023" user="Marky G">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="569957589" lat="51.4914069" lon="-3.1412531" version="1" timestamp="2009-11-24T11:48:35Z" changeset="3203621" uid="63023" user="Marky G">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="569957590" lat="51.4806907" lon="-3.1557585" version="1" timestamp="2009-11-24T11:48:35Z" changeset="3203621" uid="63023" user="Marky G">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="579918422" lat="51.495657" lon="-3.2570988" version="2" timestamp="2009-12-03T18:46:10Z" changeset="3282928" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="579919573" lat="51.4965759" lon="-3.2576556" version="2" timestamp="2011-02-11T13:26:36Z" changeset="7255189" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="579924296" lat="51.4805388" lon="-3.2377439" version="1" timestamp="2009-12-03T18:53:12Z" changeset="3282928" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="579932226" lat="51.4818684" lon="-3.2358449" version="1" timestamp="2009-12-03T19:03:18Z" changeset="3283082" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="580024947" lat="51.4825663" lon="-3.2340252" version="2" timestamp="2010-02-23T10:50:29Z" changeset="3952073" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="580028234" lat="51.4831265" lon="-3.2333879" version="1" timestamp="2009-12-03T22:16:36Z" changeset="3284433" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="580028492" lat="51.4866543" lon="-3.228972" version="3" timestamp="2011-06-09T14:36:51Z" changeset="8388848" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="580031048" lat="51.4883057" lon="-3.2290159" version="2" timestamp="2010-02-18T14:21:50Z" changeset="3909249" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="580035995" lat="51.4847634" lon="-3.2273047" version="3" timestamp="2009-12-03T22:26:56Z" changeset="3284433" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="2;13;17;18;"/>
+	</node>
+	<node id="580043179" lat="51.4842556" lon="-3.2260601" version="1" timestamp="2009-12-03T22:29:13Z" changeset="3284433" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18"/>
+	</node>
+	<node id="580818106" lat="51.4837755" lon="-3.2331326" version="2" timestamp="2010-02-26T09:54:02Z" changeset="3978685" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580821933" lat="51.4841405" lon="-3.2360556" version="2" timestamp="2009-12-04T11:28:06Z" changeset="3287552" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580824946" lat="51.484234" lon="-3.240315" version="1" timestamp="2009-12-04T11:32:30Z" changeset="3287552" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580826050" lat="51.4841695" lon="-3.2405619" version="2" timestamp="2012-11-02T11:59:42Z" changeset="13721513" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580827204" lat="51.4835926" lon="-3.2438019" version="1" timestamp="2009-12-04T11:36:23Z" changeset="3287552" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580827370" lat="51.483665" lon="-3.2439996" version="2" timestamp="2010-03-01T10:57:24Z" changeset="4007516" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580828979" lat="51.4829445" lon="-3.246527" version="1" timestamp="2009-12-04T11:39:19Z" changeset="3287552" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="580836372" lat="51.4775575" lon="-3.2543376" version="2" timestamp="2011-06-10T10:36:21Z" changeset="8395880" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18"/>
+	</node>
+	<node id="580838037" lat="51.4791961" lon="-3.2502284" version="1" timestamp="2009-12-04T11:54:15Z" changeset="3287552" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18"/>
+	</node>
+	<node id="580838891" lat="51.4798962" lon="-3.2479298" version="2" timestamp="2011-06-10T10:22:36Z" changeset="8395880" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18"/>
+	</node>
+	<node id="580845834" lat="51.4800781" lon="-3.2399287" version="1" timestamp="2009-12-04T12:05:47Z" changeset="3287552" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18"/>
+	</node>
+	<node id="581049676" lat="51.4784101" lon="-3.2512294" version="1" timestamp="2009-12-04T16:32:04Z" changeset="3289475" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="18"/>
+	</node>
+	<node id="581052091" lat="51.4771338" lon="-3.2544373" version="1" timestamp="2009-12-04T16:33:56Z" changeset="3289475" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="18"/>
+	</node>
+	<node id="581057792" lat="51.4784836" lon="-3.1789412" version="4" timestamp="2013-11-06T10:01:06Z" changeset="18744125" uid="81429" user="Bramble">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="581059652" lat="51.4788963" lon="-3.1798501" version="6" timestamp="2013-11-06T10:01:06Z" changeset="18744125" uid="81429" user="Bramble">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17;18;"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="581060040" lat="51.4790432" lon="-3.1802126" version="3" timestamp="2011-04-12T10:13:21Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="581060048" lat="51.4791234" lon="-3.180352" version="3" timestamp="2011-04-12T10:13:27Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="581060477" lat="51.4796699" lon="-3.181256" version="5" timestamp="2013-11-06T10:01:06Z" changeset="18744125" uid="81429" user="Bramble">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="581061155" lat="51.4809495" lon="-3.1847257" version="3" timestamp="2016-01-31T17:57:48Z" changeset="36921841" uid="873940" user="Mike Baggaley">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="581063162" lat="51.481371" lon="-3.1900714" version="4" timestamp="2012-10-10T08:13:48Z" changeset="13437572" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="581063714" lat="51.4811012" lon="-3.1914242" version="3" timestamp="2011-04-12T10:13:37Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="581063717" lat="51.481241" lon="-3.1919866" version="4" timestamp="2011-04-12T10:13:26Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="33;33A;33B;61;62;101;102"/>
+	</node>
+	<node id="581065833" lat="51.4813634" lon="-3.1972312" version="1" timestamp="2009-12-04T17:29:11Z" changeset="3289475" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="581066387" lat="51.4815225" lon="-3.1967355" version="1" timestamp="2009-12-04T17:30:54Z" changeset="3289475" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+	</node>
+	<node id="582519087" lat="51.4754866" lon="-3.2338556" version="2" timestamp="2009-12-06T12:49:25Z" changeset="3304713" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="582526293" lat="51.4722638" lon="-3.2430314" version="4" timestamp="2012-10-08T19:57:20Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582526672" lat="51.4714467" lon="-3.2467671" version="3" timestamp="2012-10-08T19:57:20Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582527924" lat="51.4708955" lon="-3.2492944" version="1" timestamp="2009-12-06T13:10:53Z" changeset="3304713" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582529540" lat="51.4703168" lon="-3.2528597" version="2" timestamp="2011-04-25T09:29:21Z" changeset="7961054" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582529826" lat="51.4701805" lon="-3.2546047" version="4" timestamp="2013-05-14T08:11:19Z" changeset="16121750" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582529942" lat="51.4702454" lon="-3.2546229" version="2" timestamp="2010-06-17T10:26:38Z" changeset="5007645" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="18"/>
+	</node>
+	<node id="582530329" lat="51.4703853" lon="-3.2579426" version="4" timestamp="2011-04-25T09:29:21Z" changeset="7961054" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582530760" lat="51.4704588" lon="-3.2575349" version="3" timestamp="2011-04-25T09:29:19Z" changeset="7961054" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="18"/>
+	</node>
+	<node id="582532535" lat="51.4710927" lon="-3.2614019" version="1" timestamp="2009-12-06T13:21:29Z" changeset="3304713" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="17"/>
+	</node>
+	<node id="582599503" lat="51.4916803" lon="-3.1376865" version="1" timestamp="2009-12-06T16:30:33Z" changeset="3306815" uid="48155" user="JonBritton">
+		<tag k="name" v="Whitaker Road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="12"/>
+	</node>
+	<node id="583309181" lat="51.4769208" lon="-3.2400528" version="3" timestamp="2012-10-09T08:19:14Z" changeset="13423257" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="route_ref" v="17"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="643169279" lat="51.4830179" lon="-3.2188616" version="2" timestamp="2010-12-02T15:01:30Z" changeset="6515634" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="643169383" lat="51.4826297" lon="-3.2153379" version="1" timestamp="2010-02-17T13:51:15Z" changeset="3900933" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="643169386" lat="51.4827061" lon="-3.2150068" version="1" timestamp="2010-02-17T13:51:15Z" changeset="3900933" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="643202720" lat="51.4825728" lon="-3.2118694" version="1" timestamp="2010-02-17T14:05:35Z" changeset="3901035" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="643202723" lat="51.4824839" lon="-3.2122576" version="1" timestamp="2010-02-17T14:05:35Z" changeset="3901035" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="643202788" lat="51.4820473" lon="-3.2068894" version="2" timestamp="2011-01-07T20:32:02Z" changeset="6897048" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Beda Road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="1;13;17;18;60;96;101;102"/>
+	</node>
+	<node id="643202791" lat="51.4822791" lon="-3.2077841" version="2" timestamp="2011-01-07T20:32:00Z" changeset="6897048" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="643229766" lat="51.4818428" lon="-3.2033217" version="1" timestamp="2010-02-17T14:18:15Z" changeset="3901131" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="651938891" lat="51.4796277" lon="-3.2566283" version="1" timestamp="2010-02-23T19:49:58Z" changeset="3957641" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="653822255" lat="51.4817287" lon="-3.2437421" version="2" timestamp="2011-06-10T10:22:37Z" changeset="8395880" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="653959662" lat="51.4976082" lon="-3.2293922" version="2" timestamp="2013-08-02T12:05:20Z" changeset="17191241" uid="24119" user="Mauls">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="731515891" lat="51.4711888" lon="-3.1649364" version="1" timestamp="2010-05-12T22:09:39Z" changeset="4681654" uid="21354" user="Supergeek">
+		<tag k="bench" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="tactile_paving" v="no"/>
+	</node>
+	<node id="731515906" lat="51.4712746" lon="-3.16517" version="1" timestamp="2010-05-12T22:09:39Z" changeset="4681654" uid="21354" user="Supergeek">
+		<tag k="bench" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="tactile_paving" v="no"/>
+	</node>
+	<node id="731515930" lat="51.4698741" lon="-3.1645483" version="1" timestamp="2010-05-12T22:09:40Z" changeset="4681654" uid="21354" user="Supergeek">
+		<tag k="bench" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="tactile_paving" v="no"/>
+	</node>
+	<node id="731515942" lat="51.4695786" lon="-3.165066" version="2" timestamp="2011-01-11T00:39:31Z" changeset="6932834" uid="82783" user="Paul The Archivist">
+		<tag k="bench" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="towards" v="The Hayes (Cardiff City Centre)"/>
+		<tag k="route_ref" v="89"/>
+		<tag k="tactile_paving" v="yes"/>
+	</node>
+	<node id="747481351" lat="51.4675349" lon="-3.2680155" version="2" timestamp="2011-06-14T09:05:07Z" changeset="8435031" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="757454593" lat="51.4722745" lon="-3.1706861" version="1" timestamp="2010-05-29T22:46:49Z" changeset="4847228" uid="21354" user="Supergeek">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="762270664" lat="51.4655919" lon="-3.1660808" version="1" timestamp="2010-06-02T14:15:09Z" changeset="4884560" uid="21354" user="Supergeek">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="792270210" lat="51.4792073" lon="-3.1610111" version="1" timestamp="2010-06-27T07:50:05Z" changeset="5087054" uid="304458" user="Philtay">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806687806" lat="51.4772967" lon="-3.173831" version="4" timestamp="2013-12-01T17:34:51Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JJ"/>
+	</node>
+	<node id="806688184" lat="51.4775995" lon="-3.175321" version="2" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="New Central Library"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JF"/>
+	</node>
+	<node id="806688379" lat="51.477398" lon="-3.1743434" version="4" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Hayes Bridge Road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JH"/>
+	</node>
+	<node id="806689732" lat="51.4768041" lon="-3.1750784" version="4" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Custom House Street (NE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JG"/>
+	</node>
+	<node id="806689924" lat="51.4766537" lon="-3.1750998" version="4" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Custom House Street (SW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JL"/>
+	</node>
+	<node id="806690805" lat="51.477004" lon="-3.1770969" version="4" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Philharmonic"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JP"/>
+	</node>
+	<node id="806691117" lat="51.4773255" lon="-3.1770376" version="4" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Wyndham Arcade"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JE"/>
+	</node>
+	<node id="806692679" lat="51.4793301" lon="-3.1724778" version="1" timestamp="2010-07-08T15:04:57Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806693375" lat="51.4799677" lon="-3.1713033" version="2" timestamp="2013-12-01T17:34:51Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Guildford Crescent (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HG"/>
+	</node>
+	<node id="806693863" lat="51.4792032" lon="-3.1724242" version="1" timestamp="2010-07-08T15:05:40Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806694064" lat="51.4797177" lon="-3.1723276" version="1" timestamp="2010-07-08T15:05:46Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806695029" lat="51.4820832" lon="-3.1732803" version="3" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Churchill Way"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HR"/>
+	</node>
+	<node id="806695368" lat="51.4806414" lon="-3.1718582" version="3" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Churchill Way"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HL"/>
+	</node>
+	<node id="806695719" lat="51.4807782" lon="-3.1719858" version="3" timestamp="2013-12-01T17:34:51Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Churchill Way"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HM"/>
+	</node>
+	<node id="806696029" lat="51.480987" lon="-3.1721923" version="3" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Churchill Way"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HN"/>
+	</node>
+	<node id="806696323" lat="51.4812054" lon="-3.1724246" version="3" timestamp="2013-12-01T17:34:52Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Churchill Way"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HP"/>
+	</node>
+	<node id="806697623" lat="51.4814246" lon="-3.1707466" version="2" timestamp="2013-12-01T17:34:52Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HW"/>
+	</node>
+	<node id="806697854" lat="51.4817662" lon="-3.1709558" version="3" timestamp="2013-12-01T17:34:52Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Queen Street Station"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HZ"/>
+	</node>
+	<node id="806698958" lat="51.4813307" lon="-3.1705337" version="2" timestamp="2013-12-01T17:34:52Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Queen Street Station"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HF"/>
+	</node>
+	<node id="806699346" lat="51.4833376" lon="-3.1717876" version="2" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HT"/>
+	</node>
+	<node id="806699567" lat="51.4832725" lon="-3.1717487" version="2" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HS"/>
+	</node>
+	<node id="806699780" lat="51.4840316" lon="-3.1721792" version="2" timestamp="2013-12-01T17:34:50Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HX"/>
+	</node>
+	<node id="806699926" lat="51.4835663" lon="-3.1729392" version="1" timestamp="2010-07-08T15:09:16Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806700156" lat="51.4832923" lon="-3.1755785" version="1" timestamp="2010-07-08T15:09:27Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806700243" lat="51.483279" lon="-3.1759003" version="1" timestamp="2010-07-08T15:09:32Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806700780" lat="51.4830986" lon="-3.1788937" version="1" timestamp="2010-07-08T15:09:49Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806700983" lat="51.4822166" lon="-3.1791512" version="1" timestamp="2010-07-08T15:09:57Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806701136" lat="51.482397" lon="-3.1791619" version="1" timestamp="2010-07-08T15:10:02Z" changeset="5166935" uid="304879" user="thesmiffster">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806701421" lat="51.4810808" lon="-3.1814579" version="3" timestamp="2011-04-12T10:13:34Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="806701548" lat="51.4811208" lon="-3.1810716" version="3" timestamp="2011-04-12T10:13:26Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="917346316" lat="51.5125154" lon="-3.2194214" version="1" timestamp="2010-09-18T20:53:53Z" changeset="5815055" uid="348656" user="Cardiff Steve">
+		<tag k="name" v="Whitchurch Village (Northbound)"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="917346336" lat="51.5124219" lon="-3.2189815" version="1" timestamp="2010-09-18T20:53:53Z" changeset="5815055" uid="348656" user="Cardiff Steve">
+		<tag k="name" v="Whitchurch Village (Southbound)"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="924609142" lat="51.4856427" lon="-3.1655813" version="1" timestamp="2010-09-24T21:25:42Z" changeset="5866783" uid="106515" user="schindler">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="936425066" lat="51.5212232" lon="-3.137605" version="1" timestamp="2010-10-03T11:48:21Z" changeset="5943284" uid="182738" user="manor09">
+		<tag k="name" v="Park and Ride"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="984686072" lat="51.4937778" lon="-3.1666656" version="2" timestamp="2010-11-10T21:02:58Z" changeset="6339577" uid="369369" user="Rhys Hardwick">
+		<tag k="name" v="Albany Road"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="2;29;29B;41;52;52A;53;55;57;58;101;102;U1;U2"/>
+	</node>
+	<node id="1000801836" lat="51.4707365" lon="-3.1974179" version="1" timestamp="2010-11-23T12:42:45Z" changeset="6439176" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="1"/>
+	</node>
+	<node id="1000801855" lat="51.4757149" lon="-3.2019326" version="1" timestamp="2010-11-23T12:42:46Z" changeset="6439176" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="2"/>
+	</node>
+	<node id="1000852898" lat="51.4737244" lon="-3.201287" version="2" timestamp="2012-04-14T20:43:06Z" changeset="11303042" uid="427658" user="Fluclo">
+		<tag k="note" v="Bus stop for park and ride"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="501"/>
+	</node>
+	<node id="1000852916" lat="51.4691545" lon="-3.195085" version="1" timestamp="2010-11-23T14:21:51Z" changeset="6439847" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="92;93;94"/>
+	</node>
+	<node id="1033695852" lat="51.489875" lon="-3.157217" version="1" timestamp="2010-12-11T18:40:13Z" changeset="6627938" uid="82783" user="Paul The Archivist">
+		<tag k="note" v="Stop includes real time information display"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="towards" v="Cardiff City Centre"/>
+	</node>
+	<node id="1037808521" lat="51.4723215" lon="-3.2083576" version="1" timestamp="2010-12-13T22:27:07Z" changeset="6653701" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="towards" v="Llantwit Major;Barry Island;Cardiff Airport"/>
+		<tag k="route_ref" v="89;95;X5;X45;X91"/>
+	</node>
+	<node id="1038815869" lat="51.4792731" lon="-3.1994143" version="1" timestamp="2010-12-15T00:46:17Z" changeset="6664069" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="1055322714" lat="51.4776862" lon="-3.1979404" version="1" timestamp="2010-12-21T19:44:25Z" changeset="6729324" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Littleton Street"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="12;95;X45"/>
+	</node>
+	<node id="1084611948" lat="51.4655034" lon="-3.1923724" version="1" timestamp="2011-01-06T00:23:15Z" changeset="6877979" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="towards" v="Cardiff City Centre"/>
+		<tag k="route_ref" v="92;93;94"/>
+	</node>
+	<node id="1086983344" lat="51.4729263" lon="-3.2081179" version="1" timestamp="2011-01-06T22:48:18Z" changeset="6888102" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Hadfield Road (NE)"/>
+		<tag k="note" v="With real time information display panel"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="95;X5;X45;X91"/>
+	</node>
+	<node id="1086983506" lat="51.4783979" lon="-3.2012545" version="1" timestamp="2011-01-06T22:48:33Z" changeset="6888102" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="1"/>
+	</node>
+	<node id="1095697936" lat="51.4659762" lon="-3.1705261" version="1" timestamp="2011-01-10T01:13:26Z" changeset="6922558" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Dumballs Road (5)"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="11"/>
+	</node>
+	<node id="1095697983" lat="51.4681413" lon="-3.1716523" version="1" timestamp="2011-01-10T01:13:27Z" changeset="6922558" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Dumballs Road (3)"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="towards" v="Pengam Green (via City Centre)"/>
+		<tag k="route_ref" v="11"/>
+	</node>
+	<node id="1096584070" lat="51.4497481" lon="-3.1821377" version="2" timestamp="2016-12-31T14:04:28Z" changeset="44807119" uid="2304265" user="-Anarchy-">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1096700811" lat="51.4643885" lon="-3.1720407" version="1" timestamp="2011-01-10T17:58:51Z" changeset="6928891" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Pomeroy Street"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="1;8;89;X5"/>
+	</node>
+	<node id="1097214330" lat="51.4495593" lon="-3.180223" version="1" timestamp="2011-01-10T22:38:46Z" changeset="6932142" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1097279238" lat="51.4663172" lon="-3.1591078" version="1" timestamp="2011-01-10T23:39:40Z" changeset="6932563" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Scott Harbour"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="6;7;8"/>
+	</node>
+	<node id="1097318614" lat="51.4653342" lon="-3.1605289" version="1" timestamp="2011-01-11T00:04:20Z" changeset="6932694" uid="82783" user="Paul The Archivist">
+		<tag k="name" v="Britannia Quay"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="6;7;8"/>
+	</node>
+	<node id="1097318640" lat="51.4683139" lon="-3.1633571" version="1" timestamp="2011-01-11T00:04:21Z" changeset="6932694" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="6;7;8"/>
+	</node>
+	<node id="1097375443" lat="51.4762994" lon="-3.1670778" version="1" timestamp="2011-01-11T00:39:22Z" changeset="6932834" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="89"/>
+	</node>
+	<node id="1098973303" lat="51.4764247" lon="-3.1691394" version="2" timestamp="2011-11-09T16:47:26Z" changeset="9782831" uid="21354" user="Supergeek">
+		<tag k="name" v="Herbert Street"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="2;89"/>
+	</node>
+	<node id="1098973378" lat="51.4761201" lon="-3.1732678" version="2" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Callaghan Square (SE)"/>
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="local_ref" v="MA"/>
+		<tag k="route_ref" v="6 (event days only);2;1"/>
+	</node>
+	<node id="1102732404" lat="51.4825958" lon="-3.1902703" version="3" timestamp="2011-04-12T10:13:24Z" changeset="7841107" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="25;32;62;62A;320;UWIC Rider"/>
+	</node>
+	<node id="1109500465" lat="51.5149523" lon="-3.2231598" version="1" timestamp="2011-01-18T20:15:03Z" changeset="7014326" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1112484867" lat="51.4920846" lon="-3.2134415" version="1" timestamp="2011-01-21T01:51:29Z" changeset="7036523" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="24;33;60"/>
+	</node>
+	<node id="1112484892" lat="51.4887923" lon="-3.2078632" version="1" timestamp="2011-01-21T01:51:30Z" changeset="7036523" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="24;60"/>
+	</node>
+	<node id="1113904131" lat="51.492153" lon="-3.2157045" version="1" timestamp="2011-01-21T22:01:05Z" changeset="7045166" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="25;33;33A;62;62A"/>
+	</node>
+	<node id="1113925651" lat="51.4893168" lon="-3.2143832" version="1" timestamp="2011-01-21T22:15:00Z" changeset="7045278" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="25;33;33A;62;62A"/>
+	</node>
+	<node id="1113955128" lat="51.4860187" lon="-3.2137988" version="1" timestamp="2011-01-21T22:35:02Z" changeset="7045420" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="61"/>
+	</node>
+	<node id="1117687390" lat="51.4901509" lon="-3.2698" version="1" timestamp="2011-01-23T21:45:07Z" changeset="7067778" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="32;320"/>
+	</node>
+	<node id="1117687394" lat="51.4870433" lon="-3.2677154" version="1" timestamp="2011-01-23T21:45:07Z" changeset="7067778" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="towards" v="Cardiff"/>
+		<tag k="route_ref" v="32;320"/>
+	</node>
+	<node id="1117733067" lat="51.4863678" lon="-3.273641" version="1" timestamp="2011-01-23T22:15:13Z" changeset="7068061" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1117821844" lat="51.489195" lon="-3.2033039" version="1" timestamp="2011-01-23T22:56:34Z" changeset="7068393" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1123292859" lat="51.4991926" lon="-3.207273" version="1" timestamp="2011-01-27T11:20:31Z" changeset="7102551" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1132491058" lat="51.5036038" lon="-3.1975714" version="1" timestamp="2011-02-02T17:19:55Z" changeset="7166561" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1132494308" lat="51.5058409" lon="-3.185421" version="2" timestamp="2014-11-19T11:14:44Z" changeset="26884229" uid="2359431" user="Ben Armstrong">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1132494324" lat="51.5055638" lon="-3.1851179" version="2" timestamp="2014-11-19T11:14:44Z" changeset="26884229" uid="2359431" user="Ben Armstrong">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1138082918" lat="51.4754226" lon="-3.1471287" version="1" timestamp="2011-02-05T22:02:21Z" changeset="7197838" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="1;2"/>
+	</node>
+	<node id="1144663464" lat="51.4861119" lon="-3.1463053" version="1" timestamp="2011-02-09T22:41:23Z" changeset="7241263" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="3"/>
+	</node>
+	<node id="1147573439" lat="51.495797" lon="-3.2454971" version="1" timestamp="2011-02-11T17:06:56Z" changeset="7256834" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1149579146" lat="51.4864428" lon="-3.1380573" version="1" timestamp="2011-02-12T20:43:56Z" changeset="7269253" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="3;1"/>
+	</node>
+	<node id="1149579293" lat="51.4899376" lon="-3.1321068" version="1" timestamp="2011-02-12T20:43:59Z" changeset="7269253" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="11;12;13"/>
+	</node>
+	<node id="1149579541" lat="51.4888943" lon="-3.1316482" version="1" timestamp="2011-02-12T20:44:06Z" changeset="7269253" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="12;13"/>
+	</node>
+	<node id="1170686470" lat="51.4978811" lon="-3.191258" version="1" timestamp="2011-02-24T19:04:14Z" changeset="7384323" uid="82783" user="Paul The Archivist">
+		<tag k="note" v="Bus stop flag states that bus stop is for both sides of the road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="U1"/>
+	</node>
+	<node id="1170686561" lat="51.4978029" lon="-3.1911571" version="1" timestamp="2011-02-24T19:04:15Z" changeset="7384323" uid="82783" user="Paul The Archivist">
+		<tag k="note" v="No bus stop flag on this side of the road (SE side) -  bus stop flag opposite states that bus stops on both sides of the road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="U1"/>
+	</node>
+	<node id="1179414372" lat="51.4853094" lon="-3.175388" version="1" timestamp="2011-02-28T19:23:47Z" changeset="7423440" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="36"/>
+	</node>
+	<node id="1181431293" lat="51.4859906" lon="-3.1699779" version="1" timestamp="2011-03-01T21:49:03Z" changeset="7433530" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="28;29;29B;52;52A;53;55;57;58"/>
+	</node>
+	<node id="1185634938" lat="51.5002816" lon="-3.2359331" version="1" timestamp="2011-03-04T09:19:09Z" changeset="7452767" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="33A;62;101;102"/>
+	</node>
+	<node id="1188094581" lat="51.4799722" lon="-3.1973265" version="1" timestamp="2011-03-05T22:09:05Z" changeset="7468295" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="322"/>
+	</node>
+	<node id="1188904450" lat="51.479466" lon="-3.2076607" version="1" timestamp="2011-03-06T09:57:05Z" changeset="7471261" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="322"/>
+	</node>
+	<node id="1189579658" lat="51.4810541" lon="-3.2130975" version="1" timestamp="2011-03-06T17:43:00Z" changeset="7476229" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="13;322"/>
+	</node>
+	<node id="1211723425" lat="51.4886141" lon="-3.2110505" version="1" timestamp="2011-03-21T09:52:02Z" changeset="7625448" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="33B;320"/>
+	</node>
+	<node id="1215359950" lat="51.4603683" lon="-3.1835699" version="1" timestamp="2011-03-23T21:06:39Z" changeset="7650376" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="9;9A"/>
+	</node>
+	<node id="1215770184" lat="51.4676965" lon="-3.1858451" version="1" timestamp="2011-03-24T08:52:11Z" changeset="7653879" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="9A"/>
+	</node>
+	<node id="1216567751" lat="51.4724667" lon="-3.1892749" version="1" timestamp="2011-03-24T20:58:54Z" changeset="7659961" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="2;92;93;94"/>
+	</node>
+	<node id="1289025005" lat="51.4772855" lon="-3.1516081" version="1" timestamp="2011-05-17T13:23:48Z" changeset="8171650" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="1;2"/>
+	</node>
+	<node id="1291575758" lat="51.4791118" lon="-3.1574773" version="1" timestamp="2011-05-19T12:57:12Z" changeset="8189658" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey;Bing"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="1;2"/>
+	</node>
+	<node id="1291887190" lat="51.479522" lon="-3.1606046" version="1" timestamp="2011-05-19T18:08:15Z" changeset="8191938" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="route_ref" v="1"/>
+	</node>
+	<node id="1291969935" lat="51.4802109" lon="-3.1582244" version="1" timestamp="2011-05-19T18:57:12Z" changeset="8192429" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey;Bing"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="1"/>
+	</node>
+	<node id="1293262874" lat="51.4769325" lon="-3.2048643" version="1" timestamp="2011-05-20T14:09:38Z" changeset="8199075" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="route_ref" v="12"/>
+	</node>
+	<node id="1293672294" lat="51.4781465" lon="-3.2088298" version="1" timestamp="2011-05-20T18:37:18Z" changeset="8201093" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="1293740376" lat="51.4787797" lon="-3.2117466" version="1" timestamp="2011-05-20T19:23:26Z" changeset="8201460" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey;Bing"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="route_ref" v="12"/>
+	</node>
+	<node id="1297126610" lat="51.5009246" lon="-3.1876849" version="1" timestamp="2011-05-23T10:53:31Z" changeset="8225153" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="photographic_survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1299423557" lat="51.4765944" lon="-3.2466894" version="1" timestamp="2011-05-25T10:31:33Z" changeset="8243454" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1299423560" lat="51.4765234" lon="-3.2464453" version="1" timestamp="2011-05-25T10:31:33Z" changeset="8243454" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1317006773" lat="51.4752238" lon="-3.2505704" version="1" timestamp="2011-06-09T09:50:54Z" changeset="8386760" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1317605303" lat="51.4881716" lon="-3.1782509" version="1" timestamp="2011-06-09T19:27:33Z" changeset="8391409" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1317605319" lat="51.4884435" lon="-3.1788947" version="1" timestamp="2011-06-09T19:27:34Z" changeset="8391409" uid="82783" user="Paul The Archivist">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1348229555" lat="51.4814963" lon="-3.197423" version="1" timestamp="2011-07-03T17:38:04Z" changeset="8621588" uid="82783" user="Paul The Archivist">
+		<tag k="source" v="survey"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1359422667" lat="51.5394571" lon="-3.2050361" version="1" timestamp="2011-07-12T14:29:33Z" changeset="8703444" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1366502803" lat="51.5372355" lon="-3.1966327" version="1" timestamp="2011-07-19T10:45:56Z" changeset="8767028" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1366704970" lat="51.5388743" lon="-3.2007056" version="1" timestamp="2011-07-19T14:32:11Z" changeset="8769051" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1366705003" lat="51.537719" lon="-3.1991311" version="1" timestamp="2011-07-19T14:32:12Z" changeset="8769051" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1496485256" lat="51.4699651" lon="-3.1678133" version="2" timestamp="2013-12-01T17:34:52Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Glanhowny Place"/>
+		<tag k="bench" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="local_ref" v="MP"/>
+	</node>
+	<node id="1496485270" lat="51.4730482" lon="-3.1701537" version="2" timestamp="2013-12-01T17:34:51Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Vellacott Close"/>
+		<tag k="bench" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="local_ref" v="MH"/>
+	</node>
+	<node id="1496485280" lat="51.4739208" lon="-3.1653036" version="1" timestamp="2011-11-09T16:47:21Z" changeset="9782831" uid="21354" user="Supergeek">
+		<tag k="bench" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="1496485282" lat="51.4746181" lon="-3.1660385" version="1" timestamp="2011-11-09T16:47:22Z" changeset="9782831" uid="21354" user="Supergeek">
+		<tag k="bench" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="1496485288" lat="51.4758276" lon="-3.1669267" version="1" timestamp="2011-11-09T16:47:22Z" changeset="9782831" uid="21354" user="Supergeek">
+		<tag k="bench" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="1496485291" lat="51.4760916" lon="-3.1700112" version="1" timestamp="2011-11-09T16:47:22Z" changeset="9782831" uid="21354" user="Supergeek">
+		<tag k="bench" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1606555251" lat="51.5292747" lon="-3.1517729" version="1" timestamp="2012-01-26T14:56:04Z" changeset="10503917" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1606555411" lat="51.5293131" lon="-3.1520384" version="1" timestamp="2012-01-26T14:56:08Z" changeset="10503917" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1625192194" lat="51.5075831" lon="-3.1507307" version="1" timestamp="2012-02-09T12:26:36Z" changeset="10633348" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1625192204" lat="51.5073652" lon="-3.1507213" version="1" timestamp="2012-02-09T12:26:37Z" changeset="10633348" uid="48155" user="JonBritton">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="1924200083" lat="51.4575173" lon="-3.1846826" version="1" timestamp="2012-09-20T21:13:16Z" changeset="13188878" uid="901728" user="llewpart">
+		<tag k="name" v="Ferry Road (ASDA)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="naptan:Bearing" v="NW"/>
+	</node>
+	<node id="1953126506" lat="51.4756344" lon="-3.2391668" version="1" timestamp="2012-10-08T19:35:11Z" changeset="13417529" uid="48155" user="JonBritton"/>
+	<node id="1953126510" lat="51.4756415" lon="-3.2391455" version="1" timestamp="2012-10-08T19:35:11Z" changeset="13417529" uid="48155" user="JonBritton"/>
+	<node id="1953126512" lat="51.475668" lon="-3.2391957" version="1" timestamp="2012-10-08T19:35:11Z" changeset="13417529" uid="48155" user="JonBritton"/>
+	<node id="1953126514" lat="51.4756751" lon="-3.2391744" version="1" timestamp="2012-10-08T19:35:11Z" changeset="13417529" uid="48155" user="JonBritton"/>
+	<node id="1953177303" lat="51.4716643" lon="-3.2469139" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177306" lat="51.4716766" lon="-3.2468524" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177309" lat="51.4716792" lon="-3.2469216" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177310" lat="51.4716915" lon="-3.2468601" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177322" lat="51.4731322" lon="-3.2401147" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177325" lat="51.4731422" lon="-3.240064" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177327" lat="51.473144" lon="-3.2401207" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1953177330" lat="51.473154" lon="-3.24007" version="1" timestamp="2012-10-08T19:57:16Z" changeset="13417936" uid="48155" user="JonBritton"/>
+	<node id="1954470588" lat="51.4779501" lon="-3.2412362" version="1" timestamp="2012-10-09T08:19:11Z" changeset="13423257" uid="48155" user="JonBritton"/>
+	<node id="1954470590" lat="51.4779609" lon="-3.2412147" version="1" timestamp="2012-10-09T08:19:12Z" changeset="13423257" uid="48155" user="JonBritton"/>
+	<node id="1954470591" lat="51.4779841" lon="-3.2412804" version="1" timestamp="2012-10-09T08:19:12Z" changeset="13423257" uid="48155" user="JonBritton"/>
+	<node id="1954470592" lat="51.477995" lon="-3.2412589" version="1" timestamp="2012-10-09T08:19:12Z" changeset="13423257" uid="48155" user="JonBritton"/>
+	<node id="1958289401" lat="51.486875" lon="-3.1818238" version="1" timestamp="2012-10-11T11:11:52Z" changeset="13452922" uid="968446" user="Tedaxy">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2560172874" lat="51.4774154" lon="-3.1736356" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JK"/>
+	</node>
+	<node id="2560172875" lat="51.4755246" lon="-3.1731555" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Callaghan Square (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MB"/>
+	</node>
+	<node id="2560172876" lat="51.4678002" lon="-3.1665857" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Cardiff Bay Station"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MR"/>
+	</node>
+	<node id="2560172878" lat="51.4812032" lon="-3.1707038" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HY"/>
+	</node>
+	<node id="2560172879" lat="51.4770881" lon="-3.1801987" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Wood Street (NE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JB"/>
+	</node>
+	<node id="2560172880" lat="51.4658623" lon="-3.165342" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="The Flourish"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="PC"/>
+	</node>
+	<node id="2560172881" lat="51.474463" lon="-3.1715904" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Herbert Street"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="ME"/>
+	</node>
+	<node id="2560172882" lat="51.4740055" lon="-3.1717248" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="North Church Street (SE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MF"/>
+	</node>
+	<node id="2560172883" lat="51.4737904" lon="-3.1718787" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="North Church Street (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MG"/>
+	</node>
+	<node id="2560172884" lat="51.4771632" lon="-3.1799412" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Wood Street (NE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JC"/>
+	</node>
+	<node id="2560172885" lat="51.4772471" lon="-3.179676" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Wood Street (NE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JD"/>
+	</node>
+	<node id="2560172886" lat="51.4682184" lon="-3.1664928" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MV"/>
+	</node>
+	<node id="2560172887" lat="51.4836729" lon="-3.1719845" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (NW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HV"/>
+	</node>
+	<node id="2560172888" lat="51.484042" lon="-3.1717914" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (SE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HB"/>
+	</node>
+	<node id="2560172889" lat="51.4711284" lon="-3.1691123" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Magretion Place"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="ML"/>
+	</node>
+	<node id="2560172890" lat="51.4770109" lon="-3.1799783" version="2" timestamp="2015-09-12T17:34:21Z" changeset="33984558" uid="439547" user="Jay456">
+		<tag k="name" v="Wood Street (SW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JR"/>
+	</node>
+	<node id="2560172891" lat="51.4722461" lon="-3.1699626" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Letton Road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MW"/>
+	</node>
+	<node id="2560172892" lat="51.4841873" lon="-3.1718759" version="1" timestamp="2013-12-01T17:34:48Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (SE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HA"/>
+	</node>
+	<node id="2560172893" lat="51.477071" lon="-3.1797584" version="2" timestamp="2015-09-12T17:34:21Z" changeset="33984558" uid="439547" user="Jay456">
+		<tag k="name" v="Wood Street (SW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JQ"/>
+	</node>
+	<node id="2560172894" lat="51.4770062" lon="-3.1804161" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Wood Street (NE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JA"/>
+	</node>
+	<node id="2560172895" lat="51.4673027" lon="-3.1667611" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Cardiff Bay Station"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MS"/>
+	</node>
+	<node id="2560172896" lat="51.4768711" lon="-3.1804955" version="2" timestamp="2015-09-13T11:02:58Z" changeset="33997540" uid="439547" user="Jay456">
+		<tag k="name" v="Wood Street (SW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JT"/>
+	</node>
+	<node id="2560172897" lat="51.4838683" lon="-3.1716962" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (SE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HC"/>
+	</node>
+	<node id="2560172899" lat="51.4769391" lon="-3.1801929" version="2" timestamp="2015-09-12T17:34:21Z" changeset="33984558" uid="439547" user="Jay456">
+		<tag k="name" v="Wood Street (SW)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="JS"/>
+	</node>
+	<node id="2560172900" lat="51.4662934" lon="-3.1648606" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="The Flourish"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="PD"/>
+	</node>
+	<node id="2560172901" lat="51.4837539" lon="-3.1716278" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Dumfries Place (SE)"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HD"/>
+	</node>
+	<node id="2560172902" lat="51.4813411" lon="-3.1725761" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Churchill Way"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="HQ"/>
+	</node>
+	<node id="2560172903" lat="51.4651613" lon="-3.1640747" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Millennium Centre"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="PG"/>
+	</node>
+	<node id="2560172904" lat="51.467453" lon="-3.1670668" version="1" timestamp="2013-12-01T17:34:49Z" changeset="19216690" uid="8235" user="chriscf">
+		<tag k="name" v="Cardiff Bay Station"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="local_ref" v="MT"/>
+	</node>
+	<node id="2578383427" lat="51.5097934" lon="-3.1526952" version="1" timestamp="2013-12-13T16:15:17Z" changeset="19435494" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2589440500" lat="51.5155047" lon="-3.1519014" version="2" timestamp="2013-12-22T13:48:03Z" changeset="19581212" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2590280615" lat="51.5175981" lon="-3.1512794" version="1" timestamp="2013-12-22T14:08:18Z" changeset="19581212" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2602010704" lat="51.5155737" lon="-3.1520928" version="1" timestamp="2013-12-30T21:25:56Z" changeset="19722555" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2602010822" lat="51.5176968" lon="-3.1515697" version="1" timestamp="2013-12-30T21:25:57Z" changeset="19722555" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2602010890" lat="51.5133711" lon="-3.1535684" version="1" timestamp="2013-12-30T21:25:58Z" changeset="19722555" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2610817187" lat="51.5143163" lon="-3.1585317" version="1" timestamp="2014-01-05T12:25:58Z" changeset="19821639" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2610817323" lat="51.5144302" lon="-3.1583648" version="1" timestamp="2014-01-05T12:26:00Z" changeset="19821639" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2644279267" lat="51.4867951" lon="-3.1599555" version="1" timestamp="2014-01-30T19:21:19Z" changeset="20288716" uid="74349" user="Compiaffe">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="2647454697" lat="51.5196107" lon="-3.1533619" version="1" timestamp="2014-02-01T13:29:50Z" changeset="20316508" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2647479654" lat="51.5206335" lon="-3.1512114" version="1" timestamp="2014-02-01T13:46:41Z" changeset="20316508" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="2647479655" lat="51.5204825" lon="-3.1512436" version="1" timestamp="2014-02-01T13:46:41Z" changeset="20316508" uid="822681" user="m-a-p">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="3015542459" lat="51.5258974" lon="-3.2582113" version="1" timestamp="2014-08-14T01:14:45Z" changeset="24735371" uid="2008037" user="VictorIE">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+		<tag k="website" v="http://www.cardiffbus.com/"/>
+		<tag k="operator" v="Cardiff Bus - Bws Caerdydd"/>
+	</node>
+	<node id="3195385698" lat="51.5068464" lon="-3.1920216" version="1" timestamp="2014-11-19T11:12:31Z" changeset="26884194" uid="2359431" user="Ben Armstrong">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="3195387662" lat="51.5083155" lon="-3.1882557" version="1" timestamp="2014-11-19T11:11:41Z" changeset="26884177" uid="2359431" user="Ben Armstrong">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="3195387946" lat="51.5085626" lon="-3.1913081" version="1" timestamp="2014-11-19T11:12:03Z" changeset="26884185" uid="2359431" user="Ben Armstrong">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="3195387994" lat="51.5058676" lon="-3.1902879" version="2" timestamp="2015-04-11T15:10:01Z" changeset="30144530" uid="2304265" user="-Anarchy-">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="3342538546" lat="51.5388459" lon="-3.2661762" version="1" timestamp="2015-02-10T18:27:11Z" changeset="28756808" uid="2652682" user="4c6565">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="3342538547" lat="51.5390204" lon="-3.2679448" version="1" timestamp="2015-02-10T18:27:11Z" changeset="28756808" uid="2652682" user="4c6565">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="3388604986" lat="51.4839128" lon="-3.1785808" version="1" timestamp="2015-03-08T00:46:16Z" changeset="29320226" uid="463237" user="agilob">
+		<tag k="name" v="GQ megabus"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="addr:street" v="kingsway"/>
+	</node>
+	<node id="3446608431" lat="51.5162822" lon="-3.2150625" version="1" timestamp="2015-04-09T12:57:59Z" changeset="30093496" uid="2304265" user="-Anarchy-">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="3446608442" lat="51.5153747" lon="-3.2131193" version="1" timestamp="2015-04-09T12:57:59Z" changeset="30093496" uid="2304265" user="-Anarchy-">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="3446608443" lat="51.5146158" lon="-3.2115062" version="1" timestamp="2015-04-09T12:58:00Z" changeset="30093496" uid="2304265" user="-Anarchy-">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="3535868124" lat="51.472977" lon="-3.2080917" version="1" timestamp="2015-05-22T12:23:23Z" changeset="31369748" uid="2318586" user="ser22">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4170211100" lat="51.5277104" lon="-3.0967615" version="1" timestamp="2016-05-06T19:21:28Z" changeset="39150253" uid="3927882" user="andrewp303">
+		<tag k="bench" v="yes"/>
+		<tag k="covered" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="4333041983" lat="51.5253028" lon="-3.1839741" version="1" timestamp="2016-08-02T22:15:41Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333041984" lat="51.526443" lon="-3.1842111" version="1" timestamp="2016-08-02T22:15:41Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333041985" lat="51.5273867" lon="-3.1841488" version="1" timestamp="2016-08-02T22:15:41Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333041987" lat="51.5263067" lon="-3.1874528" version="1" timestamp="2016-08-02T22:15:41Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333041988" lat="51.5269997" lon="-3.1902507" version="1" timestamp="2016-08-02T22:15:41Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333047089" lat="51.5268691" lon="-3.1906794" version="1" timestamp="2016-08-02T22:15:41Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333047095" lat="51.5264503" lon="-3.1915943" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333047096" lat="51.5268249" lon="-3.1923742" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="bench" v="no"/>
+		<tag k="covered" v="no"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="no"/>
+	</node>
+	<node id="4333047097" lat="51.5258281" lon="-3.1948783" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4333047098" lat="51.525556" lon="-3.194733" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4333047099" lat="51.524214" lon="-3.1948995" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4333047100" lat="51.5239582" lon="-3.1946607" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4333047101" lat="51.5228936" lon="-3.1929631" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4333047103" lat="51.5230422" lon="-3.192154" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4333047104" lat="51.5238509" lon="-3.1915651" version="1" timestamp="2016-08-02T22:15:42Z" changeset="41203722" uid="4356911" user="Arkarian Phoenix">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4476395398" lat="51.4823904" lon="-3.1794384" version="2" timestamp="2017-02-25T16:17:56Z" changeset="46397053" uid="493595" user="Yorvik Prestigitator">
+		<tag k="highway" v="bus_stop"/>
+		<tag k="name" v="Kingsway GB"/>
+		<tag k="name:en" v="Kingsway GB"/>
+	</node>
+	<node id="4476480089" lat="51.4822004" lon="-3.1794019" version="1" timestamp="2016-11-02T09:47:28Z" changeset="43346875" uid="2296513" user="KaitoCross">
+		<tag k="name" v="Kingsway GA"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="name:en" v="Kingsway GA"/>
+	</node>
+	<node id="4519584367" lat="51.4833976" lon="-3.1779916" version="1" timestamp="2016-11-24T20:51:50Z" changeset="43931688" uid="463237" user="agilob">
+		<tag k="name" v="Greyfriars Road"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="addr:city" v="Cardiff"/>
+		<tag k="addr:street" v="Greyfriars Road"/>
+		<tag k="addr:postcode" v="CF10 3AN"/>
+	</node>
+	<node id="4519584368" lat="51.4834057" lon="-3.1777848" version="1" timestamp="2016-11-24T20:51:51Z" changeset="43931688" uid="463237" user="agilob">
+		<tag k="name" v="GE"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4519584369" lat="51.4834108" lon="-3.1773712" version="1" timestamp="2016-11-24T20:51:51Z" changeset="43931688" uid="463237" user="agilob">
+		<tag k="name" v="GG"/>
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4528947878" lat="51.4602693" lon="-3.1602111" version="1" timestamp="2016-11-29T18:51:53Z" changeset="44041477" uid="493595" user="Yorvik Prestigitator">
+		<tag k="highway" v="bus_stop"/>
+	</node>
+	<node id="4705756451" lat="51.5285588" lon="-3.0867918" version="1" timestamp="2017-02-25T21:06:08Z" changeset="46403160" uid="5017756" user="Mark Ives">
+		<tag k="bench" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="name" v="Fountain Lane Bust Stop"/>
+		<tag k="network" v="45B"/>
+		<tag k="operator" v="Cardiff Bus"/>
+		<tag k="shelter" v="yes"/>
+	</node>
+	<node id="1000000184792601" lat="51.4756547" lon="-3.2391705" version="2" timestamp="2012-10-08T19:57:19Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="area" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="1000000184795368" lat="51.4731431" lon="-3.2400923" version="1" timestamp="2012-10-08T19:57:17Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="area" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="1000000184795369" lat="51.4716779" lon="-3.246887" version="1" timestamp="2012-10-08T19:57:17Z" changeset="13417936" uid="48155" user="JonBritton">
+		<tag k="area" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+	<node id="1000000184872384" lat="51.4779725" lon="-3.2412475" version="1" timestamp="2012-10-09T08:19:12Z" changeset="13423257" uid="48155" user="JonBritton">
+		<tag k="area" v="yes"/>
+		<tag k="highway" v="bus_stop"/>
+		<tag k="shelter" v="yes"/>
+		<tag k="public_transport" v="platform"/>
+	</node>
+</osm>

@@ -1,0 +1,5 @@
+underpass,tunnel=*,,,,,line,10550750
+bus_stop,highway=bus_stop,,,,,point,10590732
+railway_station,railway=station,,building=train_station,,,polygon,10570738
+taxi_rank,amenity=taxi,,,,,point,10570758
+bus_station,amenity=bus_station,,,,,polygon,10570731

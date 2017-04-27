@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5">
+	<bounds minlat="51.3416256" minlon="-3.1178158" maxlat="51.5444327" maxlon="-2.5104191"/>
+	<node id="849105854" lat="51.4620591" lon="-2.6086062" version="1" timestamp="2010-08-07T23:14:38Z" changeset="5428734" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="849105878" lat="51.4703024" lon="-2.6149294" version="2" timestamp="2013-06-05T19:01:13Z" changeset="16436116" uid="256285" user="zkw">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="853989364" lat="51.4554265" lon="-2.6192518" version="4" timestamp="2014-12-17T19:50:35Z" changeset="27537577" uid="2160" user="Laurence">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="3"/>
+	</node>
+	<node id="957768933" lat="51.4536724" lon="-2.601745" version="1" timestamp="2010-10-20T04:24:22Z" changeset="6105039" uid="2160" user="Laurence">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="3"/>
+	</node>
+	<node id="957778007" lat="51.4535888" lon="-2.6017063" version="1" timestamp="2010-10-20T04:50:46Z" changeset="6105290" uid="2160" user="Laurence">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="3"/>
+	</node>
+	<node id="1693956304" lat="51.4563864" lon="-2.6063071" version="2" timestamp="2016-02-22T21:30:33Z" changeset="37377484" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="2"/>
+	</node>
+	<node id="1972085964" lat="51.4496278" lon="-2.5812009" version="1" timestamp="2012-10-18T12:39:29Z" changeset="13543999" uid="220669" user="Phil M">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="2007375650" lat="51.4947149" lon="-2.6181836" version="2" timestamp="2014-03-22T23:00:16Z" changeset="21254603" uid="14846" user="ndm"/>
+	<node id="2007375651" lat="51.4947353" lon="-2.6183107" version="2" timestamp="2014-03-22T23:00:16Z" changeset="21254603" uid="14846" user="ndm"/>
+	<node id="2007375652" lat="51.4947423" lon="-2.618305" version="2" timestamp="2014-03-22T23:00:16Z" changeset="21254603" uid="14846" user="ndm"/>
+	<node id="2007375653" lat="51.4947467" lon="-2.6183586" version="2" timestamp="2014-03-22T23:00:16Z" changeset="21254603" uid="14846" user="ndm"/>
+	<node id="2007375654" lat="51.4947535" lon="-2.6181543" version="3" timestamp="2017-02-20T21:36:51Z" changeset="46256757" uid="14846" user="ndm"/>
+	<node id="2007375655" lat="51.4947996" lon="-2.6183251" version="3" timestamp="2017-02-20T21:36:51Z" changeset="46256757" uid="14846" user="ndm"/>
+	<node id="2198396559" lat="51.4686571" lon="-2.5924843" version="2" timestamp="2014-03-22T00:02:24Z" changeset="21236571" uid="14846" user="ndm"/>
+	<node id="2198396574" lat="51.4687299" lon="-2.5924205" version="2" timestamp="2014-03-22T00:02:25Z" changeset="21236571" uid="14846" user="ndm"/>
+	<node id="2198396579" lat="51.4687046" lon="-2.5923902" version="2" timestamp="2014-03-22T00:02:25Z" changeset="21236571" uid="14846" user="ndm"/>
+	<node id="2198396595" lat="51.4686837" lon="-2.592518" version="2" timestamp="2014-03-22T00:02:25Z" changeset="21236571" uid="14846" user="ndm"/>
+	<node id="2296072493" lat="51.4536462" lon="-2.5922743" version="1" timestamp="2013-05-08T15:59:48Z" changeset="16032506" uid="1428763" user="Matthew Wilkes">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="2367909495" lat="51.4708892" lon="-2.6155845" version="2" timestamp="2015-04-17T13:17:53Z" changeset="30286432" uid="1783785" user="R0bst3r">
+		<tag k="note" v="notice on the wall"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="4"/>
+	</node>
+	<node id="2457271947" lat="51.4997243" lon="-2.609795" version="1" timestamp="2013-09-13T20:52:36Z" changeset="17824168" uid="14846" user="ndm"/>
+	<node id="2457271969" lat="51.4998258" lon="-2.6098843" version="1" timestamp="2013-09-13T20:52:36Z" changeset="17824168" uid="14846" user="ndm"/>
+	<node id="2457271974" lat="51.4998479" lon="-2.609435" version="1" timestamp="2013-09-13T20:52:36Z" changeset="17824168" uid="14846" user="ndm"/>
+	<node id="2457272007" lat="51.4999471" lon="-2.609525" version="1" timestamp="2013-09-13T20:52:36Z" changeset="17824168" uid="14846" user="ndm"/>
+	<node id="2700641155" lat="51.47256" lon="-2.5914516" version="1" timestamp="2014-03-03T22:45:47Z" changeset="20899405" uid="14846" user="ndm"/>
+	<node id="2700641156" lat="51.472559" lon="-2.5914303" version="2" timestamp="2014-03-20T01:01:27Z" changeset="21202838" uid="14846" user="ndm"/>
+	<node id="2700641157" lat="51.4726091" lon="-2.5914509" version="1" timestamp="2014-03-03T22:45:47Z" changeset="20899405" uid="14846" user="ndm"/>
+	<node id="2700641160" lat="51.4726382" lon="-2.5914502" version="1" timestamp="2014-03-03T22:45:47Z" changeset="20899405" uid="14846" user="ndm"/>
+	<node id="2726179666" lat="51.4893567" lon="-2.6761581" version="2" timestamp="2015-04-28T22:03:15Z" changeset="30598984" uid="14846" user="ndm"/>
+	<node id="2726179671" lat="51.4894205" lon="-2.6762065" version="2" timestamp="2016-08-01T22:14:55Z" changeset="41179037" uid="14846" user="ndm"/>
+	<node id="2726179679" lat="51.4894596" lon="-2.6762505" version="2" timestamp="2016-08-01T22:14:55Z" changeset="41179037" uid="14846" user="ndm"/>
+	<node id="2726179692" lat="51.4894449" lon="-2.6760979" version="2" timestamp="2015-04-28T22:03:15Z" changeset="30598984" uid="14846" user="ndm"/>
+	<node id="2726179697" lat="51.4894478" lon="-2.676156" version="1" timestamp="2014-03-18T23:34:48Z" changeset="21184207" uid="14846" user="ndm"/>
+	<node id="2726179698" lat="51.489454" lon="-2.6761478" version="2" timestamp="2015-04-28T22:03:15Z" changeset="30598984" uid="14846" user="ndm"/>
+	<node id="2727958648" lat="51.4726386" lon="-2.5914279" version="1" timestamp="2014-03-20T01:01:18Z" changeset="21202838" uid="14846" user="ndm"/>
+	<node id="2743760804" lat="51.4609707" lon="-2.6018786" version="1" timestamp="2014-03-26T00:02:56Z" changeset="21316171" uid="14846" user="ndm"/>
+	<node id="2743760807" lat="51.4610163" lon="-2.6019367" version="1" timestamp="2014-03-26T00:02:56Z" changeset="21316171" uid="14846" user="ndm"/>
+	<node id="2743760809" lat="51.4610193" lon="-2.6017741" version="1" timestamp="2014-03-26T00:02:56Z" changeset="21316171" uid="14846" user="ndm"/>
+	<node id="2743760811" lat="51.4610656" lon="-2.6018352" version="1" timestamp="2014-03-26T00:02:56Z" changeset="21316171" uid="14846" user="ndm"/>
+	<node id="2770910270" lat="51.4848847" lon="-2.5859021" version="1" timestamp="2014-04-05T21:35:11Z" changeset="21522277" uid="14846" user="ndm"/>
+	<node id="2770910271" lat="51.4849104" lon="-2.5858887" version="1" timestamp="2014-04-05T21:35:11Z" changeset="21522277" uid="14846" user="ndm"/>
+	<node id="2770910272" lat="51.4849135" lon="-2.5860742" version="1" timestamp="2014-04-05T21:35:11Z" changeset="21522277" uid="14846" user="ndm"/>
+	<node id="2770910273" lat="51.4849192" lon="-2.5859407" version="1" timestamp="2014-04-05T21:35:11Z" changeset="21522277" uid="14846" user="ndm"/>
+	<node id="2770910276" lat="51.4849372" lon="-2.5859333" version="1" timestamp="2014-04-05T21:35:11Z" changeset="21522277" uid="14846" user="ndm"/>
+	<node id="2770910284" lat="51.4849585" lon="-2.5860549" version="1" timestamp="2014-04-05T21:35:11Z" changeset="21522277" uid="14846" user="ndm"/>
+	<node id="2776370763" lat="51.4685818" lon="-2.613565" version="1" timestamp="2014-04-07T22:49:00Z" changeset="21562176" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="2900442284" lat="51.4578034" lon="-2.5864477" version="1" timestamp="2014-06-05T08:37:58Z" changeset="22750946" uid="1883143" user="hayfield">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="2925347079" lat="51.4407546" lon="-2.6050559" version="1" timestamp="2014-06-20T22:42:06Z" changeset="23053540" uid="14846" user="ndm"/>
+	<node id="2925347081" lat="51.4407713" lon="-2.6049721" version="1" timestamp="2014-06-20T22:42:06Z" changeset="23053540" uid="14846" user="ndm"/>
+	<node id="2925347093" lat="51.4408403" lon="-2.6050974" version="1" timestamp="2014-06-20T22:42:06Z" changeset="23053540" uid="14846" user="ndm"/>
+	<node id="2925347096" lat="51.4408585" lon="-2.6050144" version="1" timestamp="2014-06-20T22:42:06Z" changeset="23053540" uid="14846" user="ndm"/>
+	<node id="2941119342" lat="51.4543443" lon="-2.597894" version="2" timestamp="2016-03-09T20:11:34Z" changeset="37718726" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="2"/>
+	</node>
+	<node id="2946765931" lat="51.4582745" lon="-2.5730196" version="1" timestamp="2014-07-03T23:37:42Z" changeset="23910277" uid="14846" user="ndm"/>
+	<node id="2946765934" lat="51.4582812" lon="-2.5729307" version="1" timestamp="2014-07-03T23:37:42Z" changeset="23910277" uid="14846" user="ndm"/>
+	<node id="2946765952" lat="51.4583506" lon="-2.5730345" version="1" timestamp="2014-07-03T23:37:42Z" changeset="23910277" uid="14846" user="ndm"/>
+	<node id="2946765955" lat="51.4583582" lon="-2.5729468" version="1" timestamp="2014-07-03T23:37:42Z" changeset="23910277" uid="14846" user="ndm"/>
+	<node id="2980153829" lat="51.4781374" lon="-2.5341789" version="2" timestamp="2016-02-20T23:53:12Z" changeset="37337746" uid="14846" user="ndm"/>
+	<node id="2980153832" lat="51.4781474" lon="-2.5341402" version="2" timestamp="2016-02-20T23:53:12Z" changeset="37337746" uid="14846" user="ndm"/>
+	<node id="2980153835" lat="51.4781793" lon="-2.5341615" version="2" timestamp="2016-02-20T23:53:12Z" changeset="37337746" uid="14846" user="ndm"/>
+	<node id="2980153836" lat="51.478186" lon="-2.5341355" version="2" timestamp="2016-02-20T23:53:12Z" changeset="37337746" uid="14846" user="ndm"/>
+	<node id="2980153841" lat="51.4782571" lon="-2.5342592" version="2" timestamp="2016-02-20T23:53:12Z" changeset="37337746" uid="14846" user="ndm"/>
+	<node id="2980153842" lat="51.4782739" lon="-2.5341944" version="2" timestamp="2016-02-20T23:53:12Z" changeset="37337746" uid="14846" user="ndm"/>
+	<node id="2986983441" lat="51.4527622" lon="-2.6005576" version="1" timestamp="2014-07-30T00:20:23Z" changeset="24434074" uid="14846" user="ndm">
+		<tag k="note" v="taxi hailing point"/>
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="3044599195" lat="51.4509707" lon="-2.5986212" version="1" timestamp="2014-08-26T21:20:48Z" changeset="25039639" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="3044599223" lat="51.4520441" lon="-2.5982694" version="1" timestamp="2014-08-26T21:20:49Z" changeset="25039639" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="3599642840" lat="51.4649603" lon="-2.5699524" version="1" timestamp="2015-06-16T22:56:25Z" changeset="32018823" uid="14846" user="ndm"/>
+	<node id="3599642842" lat="51.4649919" lon="-2.5700863" version="1" timestamp="2015-06-16T22:56:25Z" changeset="32018823" uid="14846" user="ndm"/>
+	<node id="3599642843" lat="51.4650067" lon="-2.5699243" version="1" timestamp="2015-06-16T22:56:25Z" changeset="32018823" uid="14846" user="ndm"/>
+	<node id="3599642845" lat="51.4650383" lon="-2.5700581" version="1" timestamp="2015-06-16T22:56:25Z" changeset="32018823" uid="14846" user="ndm"/>
+	<node id="3660842720" lat="51.4977065" lon="-2.5968764" version="1" timestamp="2015-07-21T21:51:47Z" changeset="32789801" uid="14846" user="ndm"/>
+	<node id="3660932425" lat="51.4977538" lon="-2.5968047" version="1" timestamp="2015-07-21T21:51:47Z" changeset="32789801" uid="14846" user="ndm"/>
+	<node id="3660932428" lat="51.4977655" lon="-2.5969773" version="1" timestamp="2015-07-21T21:51:47Z" changeset="32789801" uid="14846" user="ndm"/>
+	<node id="3660932430" lat="51.4977856" lon="-2.596947" version="1" timestamp="2015-07-21T21:51:47Z" changeset="32789801" uid="14846" user="ndm"/>
+	<node id="3660932437" lat="51.4978248" lon="-2.597014" version="1" timestamp="2015-07-21T21:51:48Z" changeset="32789801" uid="14846" user="ndm"/>
+	<node id="3660932442" lat="51.4978511" lon="-2.5969737" version="1" timestamp="2015-07-21T21:51:48Z" changeset="32789801" uid="14846" user="ndm"/>
+	<node id="3799890084" lat="51.423798" lon="-2.5701659" version="1" timestamp="2015-10-23T20:52:17Z" changeset="34829424" uid="14846" user="ndm"/>
+	<node id="3799890088" lat="51.4238144" lon="-2.5702065" version="1" timestamp="2015-10-23T20:52:17Z" changeset="34829424" uid="14846" user="ndm"/>
+	<node id="3799890089" lat="51.4238207" lon="-2.5701931" version="1" timestamp="2015-10-23T20:52:17Z" changeset="34829424" uid="14846" user="ndm"/>
+	<node id="3799890090" lat="51.4238215" lon="-2.5701153" version="1" timestamp="2015-10-23T20:52:17Z" changeset="34829424" uid="14846" user="ndm"/>
+	<node id="3799890096" lat="51.4238773" lon="-2.5702818" version="1" timestamp="2015-10-23T20:52:17Z" changeset="34829424" uid="14846" user="ndm"/>
+	<node id="3799890101" lat="51.423907" lon="-2.570218" version="1" timestamp="2015-10-23T20:52:18Z" changeset="34829424" uid="14846" user="ndm"/>
+	<node id="3807623598" lat="51.4380213" lon="-2.6035869" version="1" timestamp="2015-10-28T23:15:40Z" changeset="34938964" uid="14846" user="ndm"/>
+	<node id="3807623600" lat="51.438049" lon="-2.6035595" version="1" timestamp="2015-10-28T23:15:40Z" changeset="34938964" uid="14846" user="ndm"/>
+	<node id="3807623601" lat="51.4380717" lon="-2.6035682" version="1" timestamp="2015-10-28T23:15:40Z" changeset="34938964" uid="14846" user="ndm"/>
+	<node id="3807623603" lat="51.4381136" lon="-2.6038229" version="1" timestamp="2015-10-28T23:15:40Z" changeset="34938964" uid="14846" user="ndm"/>
+	<node id="3807623605" lat="51.438155" lon="-2.6037812" version="1" timestamp="2015-10-28T23:15:40Z" changeset="34938964" uid="14846" user="ndm"/>
+	<node id="3954357823" lat="51.4583057" lon="-2.5935682" version="1" timestamp="2016-01-18T22:46:13Z" changeset="36669818" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="3"/>
+	</node>
+	<node id="3978080545" lat="51.4624867" lon="-2.6089453" version="1" timestamp="2016-01-30T15:36:23Z" changeset="36900082" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="3"/>
+	</node>
+	<node id="3978080546" lat="51.4626391" lon="-2.6088206" version="1" timestamp="2016-01-30T15:36:23Z" changeset="36900082" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="3978080959" lat="51.4639257" lon="-2.6095106" version="1" timestamp="2016-01-30T15:36:23Z" changeset="36900082" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="4033937314" lat="51.465467" lon="-2.5808875" version="1" timestamp="2016-02-29T23:45:09Z" changeset="37533479" uid="14846" user="ndm"/>
+	<node id="4033937316" lat="51.4654893" lon="-2.5807824" version="1" timestamp="2016-02-29T23:45:09Z" changeset="37533479" uid="14846" user="ndm"/>
+	<node id="4033937318" lat="51.465509" lon="-2.5809773" version="1" timestamp="2016-02-29T23:45:09Z" changeset="37533479" uid="14846" user="ndm"/>
+	<node id="4033937320" lat="51.4655544" lon="-2.5809226" version="1" timestamp="2016-02-29T23:45:09Z" changeset="37533479" uid="14846" user="ndm"/>
+	<node id="4053743571" lat="51.4594687" lon="-2.5526959" version="2" timestamp="2016-03-10T23:13:17Z" changeset="37748978" uid="14846" user="ndm"/>
+	<node id="4053787196" lat="51.4594067" lon="-2.5527456" version="1" timestamp="2016-03-10T23:13:10Z" changeset="37748978" uid="14846" user="ndm"/>
+	<node id="4053787197" lat="51.4594105" lon="-2.5526863" version="1" timestamp="2016-03-10T23:13:10Z" changeset="37748978" uid="14846" user="ndm"/>
+	<node id="4053787208" lat="51.4594649" lon="-2.5527551" version="1" timestamp="2016-03-10T23:13:10Z" changeset="37748978" uid="14846" user="ndm"/>
+	<node id="4106548232" lat="51.4576709" lon="-2.608231" version="1" timestamp="2016-04-07T21:38:38Z" changeset="38392974" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="6"/>
+	</node>
+	<node id="4331507969" lat="51.4893816" lon="-2.6762727" version="1" timestamp="2016-08-01T22:14:53Z" changeset="41179037" uid="14846" user="ndm"/>
+	<node id="4331507970" lat="51.4893995" lon="-2.6763498" version="1" timestamp="2016-08-01T22:14:53Z" changeset="41179037" uid="14846" user="ndm"/>
+	<node id="4661173775" lat="51.4568995" lon="-2.5801806" version="1" timestamp="2017-02-03T21:58:11Z" changeset="45791830" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="name" v="AA Taxis"/>
+	</node>
+	<node id="4696247285" lat="51.4947688" lon="-2.6182109" version="1" timestamp="2017-02-20T21:36:50Z" changeset="46256757" uid="14846" user="ndm"/>
+	<node id="4696247288" lat="51.4947859" lon="-2.6182745" version="1" timestamp="2017-02-20T21:36:50Z" changeset="46256757" uid="14846" user="ndm"/>
+	<node id="4707497603" lat="51.4540784" lon="-2.5969984" version="1" timestamp="2017-02-27T00:45:11Z" changeset="46429449" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="1000000190130971" lat="51.4947572" lon="-2.6182564" version="3" timestamp="2017-02-20T21:36:52Z" changeset="46256757" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Prestige Cars"/>
+	</node>
+	<node id="1000000209650904" lat="51.4686935" lon="-2.5924541" version="2" timestamp="2014-03-22T00:02:14Z" changeset="21236571" uid="14846" user="ndm">
+		<tag k="name" v="Bristol Taxis Ltd"/>
+		<tag k="source" v="Bing"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+		<tag k="addr:housenumber" v="204B"/>
+	</node>
+	<node id="1000000237863054" lat="51.4998357" lon="-2.6096596" version="1" timestamp="2013-09-13T20:52:37Z" changeset="17824168" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000264385429" lat="51.4725988" lon="-2.5914397" version="2" timestamp="2014-03-20T01:01:24Z" changeset="21202838" uid="14846" user="ndm">
+		<tag k="name" v="1st Bristol Cars"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000267156759" lat="51.4894081" lon="-2.6762238" version="2" timestamp="2016-08-01T22:14:54Z" changeset="41179037" uid="14846" user="ndm">
+		<tag k="name" v="Shirelink Taxis"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000269095184" lat="51.4610181" lon="-2.6018553" version="1" timestamp="2014-03-26T00:02:59Z" changeset="21316171" uid="14846" user="ndm">
+		<tag k="name" v="City Link Taxis"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+		<tag k="addr:city" v="Bristol"/>
+		<tag k="addr:street" v="Saint Michaels Hill"/>
+		<tag k="addr:country" v="GB"/>
+		<tag k="addr:postcode" v="BS2 8DA"/>
+		<tag k="addr:housename" v="Highbury Parade"/>
+		<tag k="addr:housenumber" v="148"/>
+	</node>
+	<node id="1000000272161218" lat="51.4849216" lon="-2.5859814" version="1" timestamp="2014-04-05T21:35:12Z" changeset="21522277" uid="14846" user="ndm">
+		<tag k="name" v="Brunel-Abba Taxis"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000288988243" lat="51.4408065" lon="-2.6050347" version="1" timestamp="2014-06-20T22:42:10Z" changeset="23053540" uid="14846" user="ndm">
+		<tag k="name" v="Club Cars"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000291257195" lat="51.4583163" lon="-2.5729825" version="1" timestamp="2014-07-03T23:37:45Z" changeset="23910277" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000294415670" lat="51.4782056" lon="-2.5341973" version="1" timestamp="2014-07-25T21:42:08Z" changeset="24358769" uid="14846" user="ndm">
+		<tag k="name" v="Bristol Direct Cars"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000354202711" lat="51.4649993" lon="-2.5700052" version="1" timestamp="2015-06-16T22:56:27Z" changeset="32018823" uid="14846" user="ndm">
+		<tag k="name" v="National"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000361637362" lat="51.4977788" lon="-2.5969093" version="1" timestamp="2015-07-21T21:51:48Z" changeset="32789801" uid="14846" user="ndm">
+		<tag k="name" v="Bessell &#38; Partners Ltd"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+		<tag k="addr:housenumber" v="339"/>
+	</node>
+	<node id="1000000376582481" lat="51.4238525" lon="-2.5701985" version="1" timestamp="2015-10-23T20:52:21Z" changeset="34829424" uid="14846" user="ndm">
+		<tag k="name" v="AFC Taxis"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000377388271" lat="51.4380881" lon="-2.6036911" version="1" timestamp="2015-10-28T23:15:46Z" changeset="34938964" uid="14846" user="ndm">
+		<tag k="name" v="Bristol Blue Line Taxis"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000400895421" lat="51.4655107" lon="-2.5808798" version="1" timestamp="2016-02-29T23:45:11Z" changeset="37533479" uid="14846" user="ndm">
+		<tag k="name" v="Dad&#39;s Cabs"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000402984394" lat="51.4594377" lon="-2.5527206" version="2" timestamp="2017-03-17T23:50:54Z" changeset="46944670" uid="14846" user="ndm">
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="A2B"/>
+	</node>
+</osm>

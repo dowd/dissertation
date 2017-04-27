@@ -1,0 +1,21 @@
+Category,Feature,Relevant attributes,OSM element tag,OSM attribute tag
+sidewalks,step,"Number of steps, surface",highway=steps,"step_count=*, surface=*"
+sidewalks,sidewalk,Location & surface,"footway=*, sidewalk=*","sidewalk:left, sidewalk:both, sidewalk:right, surface=*"
+crossing points,crossing,Crossing type,"highway=crossing, crossing=*","crossing_ref=*, traffic_signals=*, crossing=*"
+crossing points,underpass,,tunnel=*,
+transport links,bus stop,,highway=bus_stop,
+transport links,railway station,,"railway=station, building=train_station",
+transport links,taxi rank,,amenity=taxi,
+transport links,bus station,,amenity=bus_station,
+destinations & entrances,building,,building=replace,
+destinations & entrances,entrance,,"entrance=*, building=entrance, door=*",
+obstacles,info board,,tourism=information,
+obstacles,bollard,,barrier=bollard,
+obstacles,outdoor seating,,"outdoor_seating=*, amenity=biergarten",
+obstacles,waste basket,,amenity=waste_basket,
+obstacles,bench,,"amenity=bench, bench=*",
+obstacles,bike parking,,amenity=bicycle_parking,
+obstacles,call booth,,amenity=telephone,
+obstacles,lamp post,,highway=street_lamp,
+obstacles,mailbox,,amenity=post_box,
+obstacles,tree,,"natural=tree, natural=tree_row",

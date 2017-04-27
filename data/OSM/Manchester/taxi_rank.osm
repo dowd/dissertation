@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5">
+	<bounds minlat="53.3401044" minlon="-2.3199184" maxlat="53.5445923" maxlon="-2.1468287"/>
+	<node id="298430450" lat="53.4582877" lon="-2.1990744" version="1" timestamp="2008-09-20T15:17:40Z" changeset="668332" uid="6494" user="FranBoon">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="331415980" lat="53.477985" lon="-2.2478572" version="3" timestamp="2012-10-03T20:37:42Z" changeset="13353322" uid="81429" user="Bramble">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="334649070" lat="53.4778747" lon="-2.2470956" version="5" timestamp="2012-10-03T20:37:45Z" changeset="13353322" uid="81429" user="Bramble">
+		<tag k="amenity" v="taxi"/>
+		<tag k="capacity" v="4"/>
+	</node>
+	<node id="346976084" lat="53.477798" lon="-2.2464197" version="3" timestamp="2012-10-03T20:37:33Z" changeset="13353322" uid="81429" user="Bramble">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="533806303" lat="53.4612421" lon="-2.1713349" version="2" timestamp="2013-10-31T16:07:16Z" changeset="18635680" uid="105998" user="krispyduck">
+		<tag k="name" v="Gorton - Dorney Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Dornay St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0181"/>
+		<tag k="naptan:Landmark" v="WELLINGTON ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Dorney St - Wellington St"/>
+		<tag k="naptan:CommonName" v="Gorton - Dorney Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806305" lat="53.4811511" lon="-2.2337634" version="1" timestamp="2009-10-16T17:46:13Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Newton Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Newton St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0271"/>
+		<tag k="naptan:Landmark" v="BACK PICCADILLY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Newton St - Back Piccadilly"/>
+		<tag k="naptan:CommonName" v="City Centre - Newton Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806309" lat="53.4816529" lon="-2.2366171" version="2" timestamp="2012-10-03T20:04:51Z" changeset="13352915" uid="81429" user="Bramble">
+		<tag k="name" v="City Centre - Oldham Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Oldham St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0311"/>
+		<tag k="naptan:Landmark" v="PICCADILLY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Oldham St - Piccadilly"/>
+		<tag k="naptan:CommonName" v="City Centre - Oldham Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806312" lat="53.482703" lon="-2.2353995" version="1" timestamp="2009-10-16T17:46:13Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Oldham Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Oldham St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0321"/>
+		<tag k="naptan:Landmark" v="DALE ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Oldham St - Dale St"/>
+		<tag k="naptan:CommonName" v="City Centre - Oldham Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806313" lat="53.4833429" lon="-2.2345139" version="1" timestamp="2009-10-16T17:46:13Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Oldham Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Oldham St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0331"/>
+		<tag k="naptan:Landmark" v="THOMAS ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Oldham St - Thomas St"/>
+		<tag k="naptan:CommonName" v="City Centre - Oldham Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806315" lat="53.4767441" lon="-2.2310119" version="4" timestamp="2014-06-26T09:00:32Z" changeset="23172475" uid="51722" user="Chris Parker">
+		<tag k="name" v="Station Taxi Rank"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Piccadilly Train Station"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0371"/>
+		<tag k="naptan:Landmark" v="FAIRFIELD ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Fairfield St"/>
+		<tag k="naptan:CommonName" v="Station Taxi Rank"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806317" lat="53.4813997" lon="-2.2364849" version="2" timestamp="2012-10-03T20:04:49Z" changeset="13352915" uid="81429" user="Bramble">
+		<tag k="name" v="Taxi Rank"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Piccadilly"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0381"/>
+		<tag k="naptan:Landmark" v="OLDHAM ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Nobles Arcade"/>
+		<tag k="naptan:CommonName" v="Taxi Rank"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806319" lat="53.4695762" lon="-2.223034" version="1" timestamp="2009-10-16T17:46:14Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Ardwick - Polygon Street (Apollo)"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Polygon St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0391"/>
+		<tag k="naptan:Landmark" v="STOCKPORT RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Polygon St - Stockport Rd"/>
+		<tag k="naptan:CommonName" v="Ardwick - Polygon Street (Apollo)"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806321" lat="53.4561509" lon="-2.2005844" version="1" timestamp="2009-10-16T17:46:14Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Longsight - Rainforth Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Rainforth St"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0441"/>
+		<tag k="naptan:Landmark" v="DICKENSON RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Rainforth St - Dickenson Rd"/>
+		<tag k="naptan:CommonName" v="Longsight - Rainforth Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533806323" lat="53.4828403" lon="-2.2341193" version="1" timestamp="2009-10-16T17:46:14Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Stevenson Square"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Stevenson Sq"/>
+		<tag k="naptan:AtcoCode" v="1800EBT0531"/>
+		<tag k="naptan:Landmark" v="SPEAR ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Stevenson Sq - Spear St"/>
+		<tag k="naptan:CommonName" v="City Centre - Stevenson Square"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807811" lat="53.4792274" lon="-2.2515334" version="1" timestamp="2009-10-16T17:48:33Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Byrom Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Byrom St"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0141"/>
+		<tag k="naptan:Landmark" v="ATKINSON ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Byrom St - Atkinson St"/>
+		<tag k="naptan:CommonName" v="City Centre - Byrom Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807812" lat="53.4787599" lon="-2.2492164" version="3" timestamp="2016-07-14T11:13:19Z" changeset="40736758" uid="4015714" user="SkaBook">
+		<tag k="name" v="City Centre - Deansgate"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Deansgate"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0161"/>
+		<tag k="naptan:Landmark" v="BOOTLE ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Deansgate - Bootle St"/>
+		<tag k="naptan:CommonName" v="City Centre - Deansgate"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807813" lat="53.5191699" lon="-2.2308657" version="1" timestamp="2009-10-16T17:48:33Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Taxi Rank"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Delaunays Rd"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0171"/>
+		<tag k="naptan:Landmark" v="CRUMPSALL WAY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Delaunays Rd"/>
+		<tag k="naptan:CommonName" v="Taxi Rank"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807814" lat="53.4769772" lon="-2.2571704" version="1" timestamp="2009-10-16T17:48:33Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Liverpool Road"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Liverpool Rd"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0211"/>
+		<tag k="naptan:Landmark" v="POTATO WHARF"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Liverpool Rd - Potato Wharf"/>
+		<tag k="naptan:CommonName" v="City Centre - Liverpool Road"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807815" lat="53.4770559" lon="-2.2540217" version="1" timestamp="2009-10-16T17:48:33Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Lower Byrom Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Lower Byrom St"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0221"/>
+		<tag k="naptan:Landmark" v="LIVERPOOL RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Lower Byrom St - Liverpool Rd"/>
+		<tag k="naptan:CommonName" v="City Centre - Lower Byrom Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807816" lat="53.483213" lon="-2.2453793" version="2" timestamp="2012-10-03T19:37:18Z" changeset="13352518" uid="81429" user="Bramble">
+		<tag k="name" v="St Mary&#39;s Gate"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="St Mary&#39;S Gate"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0481"/>
+		<tag k="naptan:Landmark" v="EXCHANGE ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Exchange Street"/>
+		<tag k="naptan:CommonName" v="St Mary&#39;s Gate"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807818" lat="53.487362" lon="-2.2429307" version="1" timestamp="2009-10-16T17:48:33Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Victoria Station Approach"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Victoria St"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0551"/>
+		<tag k="naptan:Landmark" v="STATION APPROACH"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Hunts Bank"/>
+		<tag k="naptan:CommonName" v="Victoria Station Approach"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533807819" lat="53.5127832" lon="-2.2141071" version="1" timestamp="2009-10-16T17:48:34Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Harpurhey - Westbourne Grove"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Westbourne Rd"/>
+		<tag k="naptan:AtcoCode" v="1800NBT0581"/>
+		<tag k="naptan:Landmark" v="ROCHDALE RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Westbourne Grove - Rochdale Rd"/>
+		<tag k="naptan:CommonName" v="Harpurhey - Westbourne Grove"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829855" lat="53.4794906" lon="-2.2455323" version="4" timestamp="2016-10-24T16:55:33Z" changeset="43130349" uid="410313" user="newmanc">
+		<tag k="name" v="Albert Square"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Albert Sq"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0111"/>
+		<tag k="naptan:Landmark" v="BRAZENNOSE ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Town Hall"/>
+		<tag k="naptan:CommonName" v="Albert Square"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829858" lat="53.4809131" lon="-2.2423542" version="2" timestamp="2012-10-03T19:37:22Z" changeset="13352518" uid="81429" user="Bramble">
+		<tag k="name" v="City Centre - Brown Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Brown St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0121"/>
+		<tag k="naptan:Landmark" v="KING ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Brown St - King St"/>
+		<tag k="naptan:CommonName" v="City Centre - Brown Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829861" lat="53.4424486" lon="-2.2785058" version="1" timestamp="2009-10-16T18:02:15Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Chorlton - Brundretts Road"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Brundretts Rd"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0131"/>
+		<tag k="naptan:Landmark" v="WILBRHAM RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Brundretts Rd - Wilbraham Rd"/>
+		<tag k="naptan:CommonName" v="Chorlton - Brundretts Road"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829869" lat="53.4781548" lon="-2.2372955" version="2" timestamp="2012-10-03T19:37:28Z" changeset="13352518" uid="81429" user="Bramble">
+		<tag k="name" v="City Centre - Chorlton Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Chorlton St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0151"/>
+		<tag k="naptan:Landmark" v="MAJOR ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Chorlton St - Major St"/>
+		<tag k="naptan:CommonName" v="City Centre - Chorlton Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829876" lat="53.4249936" lon="-2.2361792" version="1" timestamp="2009-10-16T18:02:15Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Didsbury - Lapwing Lane"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Lapwing Lane"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0201"/>
+		<tag k="naptan:Landmark" v="PALATINE RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Lapwing Lane - Palatine Rd"/>
+		<tag k="naptan:CommonName" v="Didsbury - Lapwing Lane"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829879" lat="53.3631774" lon="-2.2737328" version="2" timestamp="2011-11-21T16:22:41Z" changeset="9898773" uid="412560" user="Meersbrook">
+		<tag k="name" v="Terminal 1"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Mcr Airport"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0231"/>
+		<tag k="naptan:Landmark" v="ARRIVAL WAY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Arrival Way"/>
+		<tag k="naptan:CommonName" v="Terminal 1"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829887" lat="53.367825" lon="-2.2793289" version="2" timestamp="2012-03-18T23:32:48Z" changeset="11025287" uid="114310" user="Joe E">
+		<tag k="name" v="Terminal 2"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Mcr Airport"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0241"/>
+		<tag k="naptan:Landmark" v="ATLANTA WAY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Atlanta Way"/>
+		<tag k="naptan:CommonName" v="Terminal 2"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829890" lat="53.3613689" lon="-2.2708392" version="1" timestamp="2009-10-16T18:02:16Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Terminal 3"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Mcr Airport"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0251"/>
+		<tag k="naptan:Landmark" v="DOMESTIC APPROACH"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Domestic Approach"/>
+		<tag k="naptan:CommonName" v="Terminal 3"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829894" lat="53.4623916" lon="-2.2291568" version="1" timestamp="2009-10-16T18:02:16Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Ardwick - Nelson Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Nelson St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0261"/>
+		<tag k="naptan:Landmark" v="OXFORD RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Nelson St - Oxford Rd"/>
+		<tag k="naptan:CommonName" v="Ardwick - Nelson Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829897" lat="53.4279207" lon="-2.2286252" version="1" timestamp="2009-10-16T18:02:16Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Withington - Oak Road"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Oak Rd"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0291"/>
+		<tag k="naptan:Landmark" v="WILMSLOW RD"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Oak Rd - Wilmslow Rd"/>
+		<tag k="naptan:CommonName" v="Withington - Oak Road"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829904" lat="53.4740482" lon="-2.2419077" version="2" timestamp="2011-11-10T22:17:19Z" changeset="9792836" uid="549376" user="Delusion23">
+		<tag k="name" v="Station Approach"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Oxford Rd Station"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0341"/>
+		<tag k="naptan:Landmark" v="STATION APPROACH"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Whitworth St"/>
+		<tag k="naptan:CommonName" v="Station Approach"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829908" lat="53.4778268" lon="-2.2464841" version="2" timestamp="2012-10-03T20:37:41Z" changeset="13353322" uid="81429" user="Bramble">
+		<tag k="name" v="City Centre - Peter Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Peter St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0351"/>
+		<tag k="naptan:Landmark" v="SOUTHMILL ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Peter St - Southmill St"/>
+		<tag k="naptan:CommonName" v="City Centre - Peter Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829914" lat="53.4776633" lon="-2.2451925" version="2" timestamp="2012-10-03T20:37:43Z" changeset="13353322" uid="81429" user="Bramble">
+		<tag k="name" v="City Centre - Peter Street (Midland Hotel)"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Peter St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0361"/>
+		<tag k="naptan:Landmark" v="MOUNT ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Peter St - Mount St"/>
+		<tag k="naptan:CommonName" v="City Centre - Peter Street (Midland Hotel)"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829927" lat="53.4806356" lon="-2.2354031" version="1" timestamp="2009-10-16T18:02:17Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Portland Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Portland St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0401"/>
+		<tag k="naptan:Landmark" v="PICCADILLY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Portland St - Piccadilly"/>
+		<tag k="naptan:CommonName" v="City Centre - Portland Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829933" lat="53.4802214" lon="-2.2357625" version="1" timestamp="2009-10-16T18:02:17Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Portland Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Portland St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0411"/>
+		<tag k="naptan:Landmark" v="AYTOUN ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Portland St - Aytoun St"/>
+		<tag k="naptan:CommonName" v="City Centre - Portland Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533829939" lat="53.477837" lon="-2.2408851" version="2" timestamp="2012-10-03T20:37:31Z" changeset="13353322" uid="81429" user="Bramble">
+		<tag k="name" v="City Centre - Princess Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Princess St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0421"/>
+		<tag k="naptan:Landmark" v="FAULKNER ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Princess St - Faulkner St"/>
+		<tag k="naptan:CommonName" v="City Centre - Princess Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832520" lat="53.4774858" lon="-2.2381623" version="3" timestamp="2013-11-27T12:02:02Z" changeset="19142906" uid="51722" user="Chris Parker">
+		<tag k="name" v="City Centre - Sackville Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Sackville St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0451"/>
+		<tag k="naptan:Landmark" v="MAJOR ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Sackville St - Major St"/>
+		<tag k="naptan:CommonName" v="City Centre - Sackville Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832526" lat="53.4376329" lon="-2.273597" version="1" timestamp="2009-10-16T18:03:36Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Chorlton - St Annes Road"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="St Annes Rd"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0461"/>
+		<tag k="naptan:Landmark" v="FAIRHAVEN AVE"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="St Annes Rd - Fairhaven Ave"/>
+		<tag k="naptan:CommonName" v="Chorlton - St Annes Road"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832530" lat="53.4818527" lon="-2.2462746" version="3" timestamp="2015-12-12T15:38:25Z" changeset="35911150" uid="500543" user="sixwheeledbeast">
+		<tag k="name" v="St Ann Square"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="St Ann St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0471"/>
+		<tag k="naptan:Landmark" v="ST ANN&#39;S SQ"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Habitat"/>
+		<tag k="naptan:CommonName" v="St Ann Square"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832535" lat="53.4820674" lon="-2.2474513" version="3" timestamp="2017-01-26T23:39:23Z" changeset="45535009" uid="12992" user="trigpoint">
+		<tag k="amenity" v="taxi"/>
+		<tag k="name" v="Deansgate"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0491"/>
+		<tag k="naptan:CommonName" v="Deansgate"/>
+		<tag k="naptan:Indicator" v="Department Store"/>
+		<tag k="naptan:Landmark" v="DEANSGATE"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+		<tag k="naptan:Street" v="St Mary&#39;S St"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="source" v="naptan_import"/>
+	</node>
+	<node id="533832544" lat="53.4821093" lon="-2.2483935" version="3" timestamp="2014-01-07T19:11:06Z" changeset="19868892" uid="51722" user="Chris Parker">
+		<tag k="name" v="City Centre - Southgate"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Southgate"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0511"/>
+		<tag k="naptan:Landmark" v="BACK SOUTH PARADE"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Southgate - Back South Parade"/>
+		<tag k="naptan:CommonName" v="City Centre - Southgate"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832548" lat="53.4809281" lon="-2.2419446" version="1" timestamp="2009-10-16T18:03:37Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="City Centre - Spring Gardens"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Spring Gardens"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0521"/>
+		<tag k="naptan:Landmark" v="KING ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Spring Gardens - King St"/>
+		<tag k="naptan:CommonName" v="City Centre - Spring Gardens"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832555" lat="53.3798025" lon="-2.2598918" version="1" timestamp="2009-10-16T18:03:37Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Peel Hall - Wavell Road"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Wavell Rd"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0571"/>
+		<tag k="naptan:Landmark" v="ROWLANDSWAY"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Wavell Rd - Rowlandsway"/>
+		<tag k="naptan:CommonName" v="Peel Hall - Wavell Road"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832566" lat="53.4745584" lon="-2.2419443" version="2" timestamp="2011-02-20T15:09:07Z" changeset="7343540" uid="37137" user="Derick Rethans">
+		<tag k="name" v="City Centre - Whitworth Street West"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Whitworth St West"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0611"/>
+		<tag k="naptan:Landmark" v="OXFORD ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Whitworth St West - Oxford St"/>
+		<tag k="naptan:CommonName" v="City Centre - Whitworth Street West"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832571" lat="53.4182611" lon="-2.2315677" version="1" timestamp="2009-10-16T18:03:38Z" changeset="2866463" uid="104459" user="NaPTAN">
+		<tag k="name" v="Didsbury - Wilmslow Road"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Wilmslow Rd"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0621"/>
+		<tag k="naptan:Landmark" v="SCHOOL LN"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Wilmslow Rd - School Lane"/>
+		<tag k="naptan:CommonName" v="Didsbury - Wilmslow Road"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832576" lat="53.476976" lon="-2.2460834" version="2" timestamp="2016-06-02T12:18:10Z" changeset="39732743" uid="51722" user="Chris Parker">
+		<tag k="name" v="City Centre - Windmill Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="Windmill St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0631"/>
+		<tag k="naptan:Landmark" v="G-MEX"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="Windmill St - G-Mex"/>
+		<tag k="naptan:CommonName" v="City Centre - Windmill Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="533832579" lat="53.4829896" lon="-2.2392566" version="3" timestamp="2016-07-11T09:50:03Z" changeset="40646530" uid="4015714" user="SkaBook">
+		<tag k="name" v="City Centre - High Street"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="naptan:Street" v="High St"/>
+		<tag k="naptan:AtcoCode" v="1800SBT0641"/>
+		<tag k="naptan:Landmark" v="CANNON ST"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="High St - Cannon St"/>
+		<tag k="naptan:CommonName" v="City Centre - High Street"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="1493485998" lat="53.4614688" lon="-2.2455156" version="1" timestamp="2011-11-06T19:06:36Z" changeset="9758588" uid="549376" user="Delusion23">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="1835828014" lat="53.3652519" lon="-2.2737817" version="1" timestamp="2012-07-23T21:02:53Z" changeset="12457092" uid="359193" user="JeffH">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="1860579970" lat="53.3611357" lon="-2.269152" version="2" timestamp="2012-11-28T18:15:24Z" changeset="14076872" uid="114310" user="Joe E">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="1908208961" lat="53.4279609" lon="-2.2407794" version="1" timestamp="2012-09-10T11:37:07Z" changeset="13055863" uid="460913" user="Visible Noise">
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="2745659219" lat="53.477041" lon="-2.237875" version="1" timestamp="2014-03-26T19:03:47Z" changeset="21330682" uid="51722" user="Chris Parker">
+		<tag k="name" v="Manchester Cars"/>
+		<tag k="amenity" v="taxi"/>
+	</node>
+	<node id="2748142128" lat="53.457573" lon="-2.2264097" version="2" timestamp="2014-03-27T22:25:36Z" changeset="21354649" uid="2005288" user="MediaCity minicabs">
+		<tag k="name" v="MediaCity minicabs"/>
+		<tag k="note" v="FREE cab booking app! Download MediaCity"/>
+		<tag k="phone" v="+441619983444"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="website" v="www.mediacitycarsmcr.com"/>
+	</node>
+	<node id="2748430621" lat="53.4069984" lon="-2.2551909" version="5" timestamp="2016-11-07T20:31:57Z" changeset="43472799" uid="7037" user="Gregory Williams">
+		<tag k="name" v="MediaCity Taxi"/>
+		<tag k="note" v="FREE cab booking app! Download MediaCity. Private Hire Taxi Service"/>
+		<tag k="phone" v="+441619983444"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="website" v="www.mediacitycarsmcr.com"/>
+		<tag k="addr:city" v="Manchester"/>
+		<tag k="addr:street" v="Royle Green Road"/>
+		<tag k="addr:postcode" v="M22 4NG"/>
+		<tag k="addr:housenumber" v="4B"/>
+	</node>
+	<node id="2748600626" lat="53.453584" lon="-2.2448368" version="1" timestamp="2014-03-27T22:25:33Z" changeset="21354649" uid="2005288" user="MediaCity minicabs">
+		<tag k="name" v="MediaCity minicabs"/>
+		<tag k="phone" v="+441619983444"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="website" v="www.mediacitycarsmcr.com"/>
+	</node>
+	<node id="4535778021" lat="53.4776437" lon="-2.2555016" version="1" timestamp="2016-12-03T15:09:51Z" changeset="44138921" uid="4445529" user="khbritish"/>
+	<node id="4535778022" lat="53.4776858" lon="-2.2554843" version="1" timestamp="2016-12-03T15:09:51Z" changeset="44138921" uid="4445529" user="khbritish"/>
+	<node id="4535778023" lat="53.4776961" lon="-2.2555549" version="1" timestamp="2016-12-03T15:09:51Z" changeset="44138921" uid="4445529" user="khbritish"/>
+	<node id="4535778024" lat="53.477654" lon="-2.2555722" version="1" timestamp="2016-12-03T15:09:51Z" changeset="44138921" uid="4445529" user="khbritish"/>
+	<node id="4535778025" lat="53.4776898" lon="-2.2555118" version="1" timestamp="2016-12-03T15:09:51Z" changeset="44138921" uid="4445529" user="khbritish"/>
+	<node id="4759974680" lat="53.4446042" lon="-2.1910255" version="1" timestamp="2017-03-28T15:51:59Z" changeset="47233412" uid="334129" user="murble"/>
+	<node id="4759974681" lat="53.4445456" lon="-2.1910484" version="1" timestamp="2017-03-28T15:51:59Z" changeset="47233412" uid="334129" user="murble"/>
+	<node id="4759974682" lat="53.4445558" lon="-2.191109" version="1" timestamp="2017-03-28T15:51:59Z" changeset="47233412" uid="334129" user="murble"/>
+	<node id="4759974683" lat="53.4446055" lon="-2.1910907" version="1" timestamp="2017-03-28T15:52:00Z" changeset="47233412" uid="334129" user="murble"/>
+	<node id="1000000457427150" lat="53.4776699" lon="-2.2555282" version="1" timestamp="2016-12-03T15:09:53Z" changeset="44138921" uid="4445529" user="khbritish">
+		<tag k="name" v="Street Cars"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000483240785" lat="53.4445755" lon="-2.1910672" version="3" timestamp="2017-03-28T17:24:42Z" changeset="47235935" uid="334129" user="murble">
+		<tag k="addr:city" v="Manchester"/>
+		<tag k="addr:housenumber" v="3a"/>
+		<tag k="addr:postcode" v="M19 3QB"/>
+		<tag k="addr:street" v="Chapel Street"/>
+		<tag k="amenity" v="taxi"/>
+		<tag k="contact:website" v="http://www.intimeprivatehire.co.uk"/>
+		<tag k="name" v="Intime Private Hire"/>
+		<tag k="office" v="taxi"/>
+		<tag k="source:addr:postcode" v="companies house open data"/>
+	</node>
+</osm>

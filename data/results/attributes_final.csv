@@ -1,0 +1,6 @@
+"","element_name","key","value","attr_key","Bristol_total_osm","Bristol_no_tag","Cardiff_total_osm","Cardiff_no_tag","Manchester_total_osm","Manchester_no_tag","Percent_Bristol","Percent_Cardiff","Percent_Manchester"
+"1","crossing","highway","crossing","crossing",537,450,303,245,352,173,"83.8%","80.9%","49.1%"
+"2","sidewalk","highway","*","sidewalk",21395,939,16558,1265,21247,106,"4.4%","7.6%","0.5%"
+"3","steps","highway","steps","step_count",606,11,146,13,273,4,"1.8%","8.9%","1.5%"
+"4","steps","highway","steps","surface",606,37,146,7,273,15,"6.1%","4.8%","5.5%"
+"5","steps","highway","steps","incline",606,44,146,3,273,28,"7.3%","2.1%","10.3%"

@@ -1,0 +1,399 @@
+---
+output:
+  pdf_document:
+    number_sections: yes
+    toc: yes
+  html_document: default
+  word_document:
+    toc: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(scales)
+library(plyr)
+library(knitr)
+library(ggplot2)
+
+cbPalette = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7","#999999")
+```
+# CHAPTER 4 - RESULTS
+## 4.1 Introduction
+The results of the methods described in the previous chapter are set out under the same themes that were used in the methods section namely completeness, thematic accuracy, temporal quality, positional accuracy and contributors. The results for each section are displayed and then discussed. The chapter finishes with a discussion about what together the results mean for OSM as a data source for visually impaired people, this is done under the title of ‘usability’.
+
+## 4.2 Completeness
+
+*OSM data compared with the Ordnance Survey dataset*
+
+```{r}
+
+os_results=read.csv("data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results=ddply(os_results,~City+Type,summarise,'Total'=sum(!is.na(City)),'< 20m'=sum(Points.Distance<20),'% <20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'No. < 50m'=sum(Points.Distance<20),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
+kable(results,caption="Table x - showing os_osm")
+
+ggplot(os_results, aes(fill=(Points.Distance<20),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+ggtitle("under 20m")+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
+
+ggplot(os_results, aes(fill=(Points.Distance<50),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+ggtitle("under 50m")+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
+
+```
+
+- As per literature there are big differences between areas e.g. in Bristol and Manchester over 80% of the Bus - Stops are included in the OSM data whereas in Cardiff it is only about 14%.
+- There seems to be consistency in the number of railway stations in the OSM data at about 40% this could be down to the analysis method though as they were converted to point nodes {this might also be the issue with bus stations, may have to revisit the analysis of these!}
+- Ignoring the anomalies of the stations and bus stops in Cardiff every other city/feature combination has over 50% coverage in the OSM data.
+- Overall the figure of 64% is reasonable considering the anomalies that need looking at above.
+
+*OSM data compared with Ground Survey*
+
+```{r}
+gsv_results=read.csv("data/results/gsv_osm.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results=ddply(gsv_results,~City+Type,summarise,
+              'Total features'=sum(!is.na(City)),
+              'No. < 20m'=sum(Points.Distance<20),
+              '% in OSM < 20m'=percent((sum(Points.Distance<20,na.rm=TRUE))/(sum(!is.na(City),na.rm=TRUE))),
+              'No. < 50m'=sum(Points.Distance<20),
+              '% in OSM < 50m'=percent((sum(Points.Distance<50,na.rm=TRUE))/(sum(!is.na(City),na.rm=TRUE)))
+              )
+
+kable(results,caption="Table x - showing gsv_osm")
+gsv_results$Points.Distance[is.na(gsv_results$Points.Distance)]=999
+ggplot(gsv_results, aes(fill=(Points.Distance<20),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
+```
+
+## 4.3 Thematic Accuracy
+
+*Inspection of tags of relevant OSM data features*
+``` {r}
+results=read.csv(file="data/results/attributes_final.csv",header=TRUE,sep=",",stringsAsFactors = FALSE)
+
+row.names(results)=results$attr_key
+results=results[c(12,13,14)]
+
+kable(results,caption="Table x - showing attribute counts")
+
+```
+
+
+- {I need to add the sidewalk element attributes and possibly remove the entrance element}
+- No crossings had a ‘length’ tag added to them but this is not in the OSM wiki.
+- The majorities of crossings had a type added to them, though we see the differences in areas again with Manchester being just over 50% whereas Cardiff and Bristol have 80% and nearly 90%.
+- The wheelchair accessible element needs removing as this is more for general accessibility
+- The incline tag for steps is less than 10% for all areas this may be because it is hard to measure.
+- The number of steps is very low with only Cardiff having over 2% coverage. This is something that could easily be added.
+- The steps surface tag for all areas has about 5% coverage.
+
+*Ground survey comparison of OSM tags*
+
+ADD TABLE AFTER DOING IT!!!
+
+## 4.4 Temporal Quality
+
+*Inspection of the history of OSM elements*
+
+```{r cache=TRUE}
+city_all=read.csv("data/results/version_city_all.csv", header=TRUE, stringsAsFactors = FALSE)
+city=read.csv("data/results/version_city.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results_relevant=ddply(city_all,~city,summarise,
+               "No. of elements"=sum(!is.na(X.version)),
+               "Max version No."=max(X.version),
+               "Mean version No."=round(mean(X.version),digits=2),
+               "SD version No."=round(sd(X.version),digits=2),
+               "Percentage with over 5 edits"=percent((sum(X.version>=5)/(sum(!is.na(X.version))))),
+               "Mean days since last edit"=round(mean(X.timestamp),digits=2),
+               "SD days since last edit"=round(sd(X.timestamp),digits=2),
+               "% of elements edited within the last year"=percent((sum(X.timestamp<=365))/sum(!is.na(X.version))),
+               "% of elements last edited 1-4 years ago"=percent((sum(X.timestamp<=1460&X.timestamp>365))/sum(!is.na(X.version))),
+               "% of elements last edited over 4 yr ago"=percent((sum(X.timestamp>1460))/sum(!is.na(X.version)))
+               )
+
+results=ddply(city,~city,summarise,
+               "No. of elements"=sum(!is.na(X.version)),
+               "Max version No."=max(X.version),
+               "Mean version No."=round(mean(X.version),digits=2),
+               "SD version No."=round(sd(X.version),digits=2),
+               "Percentage with over 5 edits"=percent((sum(X.version>=5)/(sum(!is.na(X.version))))),
+               "Mean days since last edit"=round(mean(X.timestamp),digits=2),
+               "SD days since last edit"=round(sd(X.timestamp),digits=2),
+               "% of elements edited within the last year"=percent((sum(X.timestamp<=365))/sum(!is.na(X.version))),
+               "% of elements last edited 1-4 years ago"=percent((sum(X.timestamp<=1460&X.timestamp>365))/sum(!is.na(X.version))),
+               "% of elements last edited over 4 yr ago"=percent((sum(X.timestamp>1460))/sum(!is.na(X.version)))
+)
+
+row.names(results)=results$city
+results$city=NULL
+
+row.names(results_relevant)=results_relevant$city
+results_relevant$city=NULL
+
+
+kable(t(results_relevant),caption="Table x - showing Version all results")
+kable(t(results),caption="Table x - showing Version relevant results")
+
+
+
+city_all$type="All"
+city$type="Relevant"
+
+all=rbind(city,city_all)
+
+all$Category=c("Last Year", "1-4 Years", "> 4 years")[ findInterval(all$X.timestamp, c(0, 365, 1460, Inf)) ]
+
+ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid( ~ city)
+
+```
+
+
+
+
+
+
+- The mean version number is higher for the data relevant to a visually impaired person.
+- There is also a higher percentage of elements with over 5 edits.
+- These both point to potentially higher data quality
+- The number of days since the last edit is more for the relevant in Bristol and Manchester but not for Cardiff again showing the differences in data over area.
+
+## 4.5 Positional Accuracy ##
+
+*Comparison of OSM data with Ordnance Survey data*
+```{r}
+os_results=read.csv("data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
+
+results=ddply(os_results,~City+Type,summarise,'Mean Distance'=mean(Points.Distance),'Total in OS'=sum(!is.na(City)),'Mean distance under 20m'=mean(Points.Distance[Points.Distance<20]),'Standard Deviation distance under 20m'=sd(Points.Distance[Points.Distance<20]),'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
+
+is.num = sapply(results, is.numeric)
+results[is.num] = lapply(results[is.num], round, 2)
+
+kable(results,caption="Table x - showing gsv_osm_distances")
+
+
+ggplot(data=subset(results, !is.na(`Mean distance under 50m`)), aes(fill=City, y=`Mean distance under 50m`, x=Type)) + geom_bar(position="dodge", stat="identity")+coord_flip()+scale_fill_manual(values=cbPalette)
+
+ggplot(data=subset(os_results, (Points.Distance<50)), aes(Points.Distance, colour=City, fill=City)) + geom_density(alpha=0.55,bw=1)
+
+ggplot(subset(os_results, (Points.Distance<50)), aes(factor(Type), Points.Distance)) + geom_violin(aes(fill = Type),bw=1)+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Distance from OS feature",x="Type")
+```
+
+- The high average and minimum distances for railway stations could be down to the issues stated above so needs revisiting.
+- Again we see differences between areas with bus stops in cardiff being 9m away but only 3.8 in Manchester.
+- Any city/element type combination with over 30 element has a max distance of 19-20m as 20m was the max distance used in the analysis. Further research could be done to do a ground survey with a high accuracy gps unit to check this data.
+- The overall mean distance of 5.4m is not bad considering the source of the data but is not good for a visually impaired person trying to find something. The recommendation is for something to be within about 0.7m accuracy to be in the length of a cane (reference!). But the accuracy of a handheld gps is not going to better than that. For route planning this level of accuracy would be ok.
+
+## 4.6 Contributors
+
+*Analysis of OSM contributors*
+```{r}
+
+results=read.csv("data/results/user_results.csv", header=TRUE, stringsAsFactors = FALSE)
+results_relevant=results[!(is.na(results$Relevant.Nodes)),]
+
+user_results_all=ddply(results,~city,summarise,
+           "No. of contributions"=sum(City.Nodes),
+           "No. of contributors"=sum(!is.na(City.Nodes)),
+           "Contributions by senior mappers"=sum(City.Nodes[which(total_nodes>=1000)]),
+           "Senior %"=percent((sum(City.Nodes[which(total_nodes>=1000)]))/(sum(City.Nodes))),
+           "Contribution by junior mappers"=sum(City.Nodes[which(total_nodes<1000 & total_nodes>=10)]),
+           "Junior %"=percent((sum(City.Nodes[which(total_nodes<1000 & total_nodes>=10)]))/(sum(City.Nodes))),
+           "Contributions by nonrecurring mappers"=sum(City.Nodes[which(total_nodes<10)]),
+           "% nonrecurring"=percent((sum(City.Nodes[which(total_nodes<10)]))/(sum(City.Nodes))),
+           "Contributions by local mappers (>=50%)"=sum(City.Nodes[which((City.Nodes/total_nodes)>=0.5)]),
+           "% local"=percent((sum(City.Nodes[which((City.Nodes/total_nodes)>=0.5)]))/(sum(City.Nodes))),
+           "Contributions by semi-local mappers (20-50%)"=sum(City.Nodes[which(((City.Nodes/total_nodes)<0.5) & (City.Nodes/total_nodes)>=0.2)]),
+           "% semi-local"=percent((sum(City.Nodes[which((City.Nodes/total_nodes)<0.5 & (City.Nodes/total_nodes>=0.2))]))/(sum(City.Nodes))),
+           "Contributions by non-local mappers (<20%)"=sum(City.Nodes[which((City.Nodes/total_nodes)<0.2)]),
+           "% non-local"=percent((sum(City.Nodes[which((City.Nodes/total_nodes)<0.2)]))/(sum(City.Nodes))))
+
+user_results_relevant=ddply(results_relevant,~city,summarise,
+                    "No. of contributions"=sum(Relevant.Nodes),
+                    "No. of contributors"=sum(!is.na(City.Nodes)),
+                    "Contributions by senior mappers"=sum(Relevant.Nodes[which(total_nodes>=1000)]),
+                    "Senior %"=percent((sum(Relevant.Nodes[which(total_nodes>=1000)]))/(sum(Relevant.Nodes))),
+                    "Contribution by junior mappers"=sum(Relevant.Nodes[which(total_nodes<1000 & total_nodes>=10)]),
+                    "Junior %"=percent((sum(Relevant.Nodes[which(total_nodes<1000 & total_nodes>=10)]))/(sum(Relevant.Nodes))),
+                    "Contributions by nonrecurring mappers"=sum(Relevant.Nodes[which(total_nodes<10)]),
+                    "% nonrecurring"=percent((sum(Relevant.Nodes[which(total_nodes<10)]))/(sum(Relevant.Nodes))),
+                    "Contributions by local mappers (>=50%)"=sum(Relevant.Nodes[which((City.Nodes/total_nodes)>=0.5)]),
+                    "% local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)>=0.5)]))/(sum(Relevant.Nodes))),
+                    "Contributions by semi-local mappers (20-50%)"=sum(Relevant.Nodes[which(((City.Nodes/total_nodes)<0.5) & (City.Nodes/total_nodes)>=0.2)]),
+                    "% semi-local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.5 & (City.Nodes/total_nodes>=0.2))]))/(sum(Relevant.Nodes))),
+                    "Contributions by non-local mappers (<20%)"=sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.2)]),
+                    "% non-local"=percent((sum(Relevant.Nodes[which((City.Nodes/total_nodes)<0.2)]))/(sum(Relevant.Nodes))))
+
+row.names(user_results_all)=user_results_all$city
+user_results_all$city=NULL
+
+row.names(user_results_relevant)=user_results_relevant$city
+user_results_relevant$city=NULL
+
+kable(t(user_results_all),caption="Table x - showing user stats all")
+
+kable(t(user_results_relevant),caption="Table x - showing user stats relevant")
+
+
+
+
+results$type="All"
+results_relevant$type="Relevant"
+all=rbind(results,results_relevant)
+
+all$Category=c( "< 1000 elements","1000-100,000 elements","> 100,000 elements")[ findInterval(all$total_nodes, c(0, 1000, 100000, Inf)) ]
+all$Category = reorder(all$Category, -(all$total_nodes))
+
+all$Category2=c( "Non-local mappers","Semi-local mappers","Local Mappers")[ findInterval((all$City.Nodes/all$total_nodes), c(0, 0.2, 0.5, Inf)) ]
+all$Category2 = reorder(all$Category2, (all$City.Nodes/all$total_nodes))
+
+
+ggplot(all, aes(x=type,y=City.Nodes, fill=Category)) + geom_bar(position="fill",stat="identity") + facet_grid( ~ city)
+
+ggplot(all, aes(x=type,y=City.Nodes, fill=Category2)) + geom_bar(position="fill",stat="identity") + facet_grid( ~ city)
+
+ggplot(all, aes(factor(type), (City.Nodes/total_nodes))) + geom_violin(aes(fill = type))+ facet_grid( ~ city)
+
+
+sauce=read.csv(file="data/results/elements_source.csv",header=TRUE,sep=",",stringsAsFactors = FALSE)
+row.names(sauce)=sauce$element_name
+sauce$X=NULL
+sauce$element_name=NULL
+sauce2=sauce[c(7,8,9)]
+sauce3=sauce[c(1,3,5)]
+
+kable(sauce2,caption="Table x - showing whether they have source tag")
+kable(sauce3,caption="Table x - showing number of elements in OSM")
+
+
+
+```
+
+- Can't really compare local mapper data between cities as dependent on area but can compare relevant vs whole city.
+- Contributors that contribute relevant data tend to be more in the ‘Senior mappers’ group. This could be because the elements looked at are not standard features a beginner might map. This could indicate greater data quality for this data.
+- There is little difference between contributors who contribute relevant data and all contributors when it comes to ‘local mappers’. We do see the difference in areas again with Manchester having more local mappers, this could be down to the bigger area though. {I could calculate the area of each location to compensate}
+
+*Survey of OSM contributors*
+
+- 21 responses
+- What are your reasons for contributing data to OpenStreetMap?
+    - building a better world
+    - Originally to correct the maps that I was seeing on the Geocaching website (which uses OSM), and later to improve the map generally and as a hobby.
+    - highly detailed, fast growing, open and non-commercial
+    - To help improve the quality and accuracy of the data. Starred with my area and now I do it across North Americans. 
+    - It's more useful than other forms of procrastination I guess
+    - I like open data and mapping
+    - That I can address deficiencies in a map rather than waiting on a separate body to do so and that I can provide this - and user others' - information freely for nearly any use
+    - Improve transport knowledge, improve general knowledge, it's theraputic
+    - It's free and open high quality data. The proliferation of propietary data sources by companies that are more concerned with protecting their intellectual property than promoting usage has severly limited innovation in the market.
+    - Entertainment
+    - Hobby
+    - Support for specialized communities
+    - Provides underlying data to many map providers, so data reaches more users
+    - Improving the map for everyone
+    - an interest in mapping and a willingness to contribute
+    - Helped with Lexington, KY building footprint and address point import. This effort was in support of Nearby Explorer, an application powered by OSM and developed by the American Printing House for the Blind. 
+    - started with a bachelor thesis, continued since then as it rises (my own) awareness of my local environment.
+    - furthering the idea of open data, communal spirit
+    
+- Have you ever contributed data to OSM specifically because you knew it would be useful to a visually impaired person?
+    - Yes - 4
+    - No - 16
+    
+- If you have contributed data specifically for a visually impaired person, what were your reasons?
+    - I am aware that some people need the tactile paving and audio cues at crossings
+    - I answered no to the above but thought I'd add that I've contributed knowing it would be useful to visually impaired people but never (that I know of) specifically only for that reason.
+    - I have several visually-impaired friends
+    - Imported building footprints and associated addresses for application created for people with visual impairment. The application, via mobile device, announces addresses and vibrates to notify the user of their physical environment.
+    - My bachelor thesis about navigation for blind people
+    
+- What would encourage you contribute more data relevant to someone with a visual impairment to OpenStreetMap?
+    - knowing what makes a difference. A 'visually impaired' OSM render (like wheelmap)
+    - Awareness of exactly what sort of data is required.
+    - An easy way do do so using the iD editor, clear instructions/rules on what was needed and how to map it, without being overly complex
+    - to know that they use it and value it.
+    - Being asked, simple as that. I enjoy helping out and if there is something I can do,  I'll do it. Just give me a list of what to survey / observe and add that will help the impaired. 
+    - Notes about what would be useful, e.g. on the wiki together with the descriptions of what tags mean
+    - That local visual impaired people were using the data
+    - I have had frustrations in the past with some contributors mapping to appease a third-party utility showing where traffic islands didn't connect to highways rather than appease the idea of accurate directions and physical features on a map. This has resulted in footways drawn to connect both highways and the traffic island in positions that I have deemed dangerous and quite arbitrary from my local knowledge. My concerns were met with little reaction when I voiced them but I think this style of mapping would be of particular concern to maps generated to place emphasis on traffic crossings, such as those for the visually impaired. Overall, I felt that the heavily active contributors (that I attempted to voice this to) are dominated more by interests in functional aspects of OSM and less by the form. I'm finding little evidence of contributions prioritising form of map design, and increasing the balance of contributions from this perspective would be welcomed and encourage me to contribute more - both in the general sense and as a result of this, data relevant to visual impairment which I think is something that is a natural subset of subjects I tended to map in Ireland.
+    - Knowledge of what this user group needs
+"    - Two things: 1. Specific information about the type of geodata that would be useful for the visually impaired 2. An advocacy group that can coordinate and promote OpenStreetMap for those ends to make sure the contributions were actually used."
+    - I want to read a news story in a community where OSM with a piece of software allows blind person to be more independent.  If it works somewhere, it can work in other communities with dedicated volunteers.
+    - Some sort of rendering or progress report.
+    - Yes
+    - Actually, no. 
+    - OSM should propose accessibility standards to all mappers and map companies. That would drive greater utility and participation.
+    - A map which makes use of it.
+    - If there are any features that I'm not currently mapping but would be useful to visually impaired people I would be happy to hear of them.
+    - ABSOLUTELY. Much of my work supports creating data for folks with physical disabilities but this technology must be leveraged for us all. 
+    - more spare time to spend on OSM
+    - The existence of well-maintained applications that make OSM data usable for persons with visual impairments.
+    
+    
+- Any other comments 
+    - As you have identified there are current best practices for OSM that will need to change.  For example, sidewalks are tagged for their existence on one side or both sides of the street,  which is easy input.  However, you'd like to know the path and if there are any obstacles.  The position of those obstacles is of particular importance, and I'm not so sure digitized Bing imagery can give you that level of precision.  3 meters off on OSM is fairly close and generally good enough for mapping, but may not close enough for this application.
+    - Best of luck! Please reach out if you have any questions! - Anna Bard - annaleebard@gmail.com
+    - Good luck with your degree from a Physical Geography undergrad! :D
+    - Good luck with your research
+    - Knowledges is needed on what colour schemes are appropriate, e.g. the standard OSM view emphasises land cover more than many maps, especially in rural areas, making it harder to read - too much information.
+    - None at this time 
+"    - ODBL prohibits federated database scenarios for round trip GIS data interchange with NGOs, commercial, and government agencies. No revision controls. Lack of and Incommensurate data modeling, no . Interface issues. Rendering. Basically, no provisions for https://en.wikipedia.org/wiki/Information_architecture or https://en.wikipedia.org/wiki/Data_governance which are needed in any safety / life critical scenario. The conventional data quality issues which are progressively aggravated at finer levels of granularity. Community model. Lots more.
+Feel free to contact me - Michael Patrick, 206-914-0209 Geodesy99@gmail.com"
+    - Please check out GeoGO at  http://geogo.capmac.org
+    - wheelmap.org and road crossings helped my awareness of other peoples needs.
+    - would be good to propose a OSM UK Quarterly project based on this
+    
+    
+    
+    
+
+```{r}
+questionnaire=read.csv("data/results/questionnaire.csv", header=TRUE, stringsAsFactors = FALSE)
+
+names(questionnaire)[5]="Aware"
+names(questionnaire)[3]="When"
+names(questionnaire)[4]="Edits"
+names(questionnaire)[6]="Aware_elements"
+names(questionnaire)[7]="Contributed"
+names(questionnaire)[8]="Reasons"
+names(questionnaire)[9]="Specifically_contributed"
+names(questionnaire)[10]="Reasons_specific_contribution"
+names(questionnaire)[11]="Encourage"
+names(questionnaire)[12]="Comments"
+
+aware1=ddply(questionnaire,~Aware+Aware_elements,summarise,sum(!is.na(Questionnaire)))
+
+kable(aware1,caption="Table x - showing answer to aware questionns")
+
+types=matrix(c('Pedestrian crossings', 'Steps','Paths/pavements', 'Landmarks e.g. hospital', 'toilet', 'ATM', 'Roads', 'Hazards e.g. Lamp post, tree, barrier', 'Transport hubs e.g. bus station'))
+
+for (type in types) {
+  num=length(grep(type, questionnaire$Contributed))
+  print(paste(num,type))
+}
+
+```
+
+
+ADD TABLE AFTER DOING IT!!!
+
+## 4.7 Usability
+
+- {Summary of all the above themes, bringing the discussion together.}
+
+## 4.8 Discussion of results
+
+# CHAPTER 5 - CONCLUSIONS
+
+## 5.1 Conclusions
+
+## 5.2 Recommendations
+
+# 6 APPENDICES
+
+## 6.1 References
+
+## 6.2 R Scripts used
+
+{All the R scripts used will be added here}
+
+## 6.3 Bash scripts used
+
+{All the bash scripts used will be added here}
