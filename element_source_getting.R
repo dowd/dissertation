@@ -1,5 +1,6 @@
-library(sp)
 library(osmar)
+library(plyr)
+library(scales)
 
 elements=read.csv("../data/results/element2_table.csv", header=TRUE, stringsAsFactors = FALSE)
 
@@ -48,5 +49,10 @@ names(elements)[names(elements)=="No_Source"] = paste(city,"no_source",sep="_")
 
 }
 
+elements2=ddply(elements,~element_name,summarize,Bristol_total_osm=sum(Bristol_total_osm),Bristol_no_source=sum(Bristol_no_source),Cardiff_total_osm=sum(Cardiff_total_osm),Cardiff_no_source=sum(Cardiff_no_source),Manchester_total_osm=sum(Manchester_total_osm),Manchester_no_source=sum(Manchester_no_source))
 
-write.table(elements, file="../data/results/elements_source.csv",sep=",",col.names = NA,qmethod="double")
+elements2$Percent_Bristol=percent(elements2$Bristol_no_source/elements2$Bristol_total_osm)
+elements2$Percent_Cardiff=percent(elements2$Cardiff_no_source/elements2$Cardiff_total_osm)
+elements2$Percent_Manchester=percent(elements2$Manchester_no_source/elements2$Manchester_total_osm)
+
+write.table(elements2, file="../data/results/elements_source.csv",sep=",",col.names = NA,qmethod="double")
