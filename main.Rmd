@@ -30,10 +30,8 @@ The results of the methods described in the previous chapter are set out under t
 
 os_results=read.csv("data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
 
-results=ddply(os_results,~City+Type,summarise,'Total'=sum(!is.na(City)),'< 20m'=sum(Points.Distance<20),'% <20m'=round((sum(Points.Distance<20))/(sum(!is.na(City)))*100,digits=2),'No. < 50m'=sum(Points.Distance<20),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
+results=ddply(os_results,~City+Type,summarise,'Total'=sum(!is.na(City)),'No. < 50m'=sum(Points.Distance<50),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
 kable(results,caption="Table x - showing os_osm")
-
-ggplot(os_results, aes(fill=(Points.Distance<20),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+ggtitle("under 20m")+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
 
 ggplot(os_results, aes(fill=(Points.Distance<50),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+ggtitle("under 50m")+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
 
@@ -51,15 +49,13 @@ gsv_results=read.csv("data/results/gsv_osm.csv", header=TRUE, stringsAsFactors =
 
 results=ddply(gsv_results,~City+Type,summarise,
               'Total features'=sum(!is.na(City)),
-              'No. < 20m'=sum(Points.Distance<20),
-              '% in OSM < 20m'=percent((sum(Points.Distance<20,na.rm=TRUE))/(sum(!is.na(City),na.rm=TRUE))),
-              'No. < 50m'=sum(Points.Distance<20),
+              'No. < 50m'=sum(Points.Distance<50),
               '% in OSM < 50m'=percent((sum(Points.Distance<50,na.rm=TRUE))/(sum(!is.na(City),na.rm=TRUE)))
               )
 
 kable(results,caption="Table x - showing gsv_osm")
 gsv_results$Points.Distance[is.na(gsv_results$Points.Distance)]=999
-ggplot(gsv_results, aes(fill=(Points.Distance<20),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
+ggplot(gsv_results, aes(fill=(Points.Distance<50),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
 ```
 
 ## 4.3 Thematic Accuracy
@@ -161,7 +157,11 @@ ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid
 ```{r}
 os_results=read.csv("data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
 
-results=ddply(os_results,~City+Type,summarise,'Mean Distance'=mean(Points.Distance),'Total in OS'=sum(!is.na(City)),'Mean distance under 20m'=mean(Points.Distance[Points.Distance<20]),'Standard Deviation distance under 20m'=sd(Points.Distance[Points.Distance<20]),'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
+results=ddply(os_results,~City+Type,summarise,
+              'Mean Distance'=mean(Points.Distance),
+              'Total in OS'=sum(!is.na(City)),
+              'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),
+              'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
 
 is.num = sapply(results, is.numeric)
 results[is.num] = lapply(results[is.num], round, 2)
