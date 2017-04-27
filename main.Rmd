@@ -31,7 +31,7 @@ The results of the methods described in the previous chapter are set out under t
 os_results=read.csv("data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
 
 results=ddply(os_results,~City+Type,summarise,'Total'=sum(!is.na(City)),'No. < 50m'=sum(Points.Distance<50),'% < 50m'=round((sum(Points.Distance<50))/(sum(!is.na(City)))*100,digits=2))
-kable(results,caption="Table x - showing os_osm")
+kable(results,caption="showing os_osm")
 
 ggplot(os_results, aes(fill=(Points.Distance<50),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+ggtitle("under 50m")+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
 
@@ -53,7 +53,7 @@ results=ddply(gsv_results,~City+Type,summarise,
               '% in OSM < 50m'=percent((sum(Points.Distance<50,na.rm=TRUE))/(sum(!is.na(City),na.rm=TRUE)))
               )
 
-kable(results,caption="Table x - showing gsv_osm")
+kable(results,caption="showing gsv_osm")
 gsv_results$Points.Distance[is.na(gsv_results$Points.Distance)]=999
 ggplot(gsv_results, aes(fill=(Points.Distance<50),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
 ```
@@ -67,7 +67,7 @@ results=read.csv(file="data/results/attributes_final.csv",header=TRUE,sep=",",st
 row.names(results)=results$attr_key
 results=results[c(12,13,14)]
 
-kable(results,caption="Table x - showing attribute counts")
+kable(results,caption="showing attribute counts")
 
 ```
 
@@ -125,8 +125,8 @@ row.names(results_relevant)=results_relevant$city
 results_relevant$city=NULL
 
 
-kable(t(results_relevant),caption="Table x - showing Version all results")
-kable(t(results),caption="Table x - showing Version relevant results")
+kable(t(results_relevant),caption="showing Version all results")
+kable(t(results),caption="showing Version relevant results")
 
 
 
@@ -141,11 +141,6 @@ ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid
 
 ```
 
-
-
-
-
-
 - The mean version number is higher for the data relevant to a visually impaired person.
 - There is also a higher percentage of elements with over 5 edits.
 - These both point to potentially higher data quality
@@ -158,15 +153,14 @@ ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid
 os_results=read.csv("data/results/os_osm.csv", header=TRUE, stringsAsFactors = FALSE)
 
 results=ddply(os_results,~City+Type,summarise,
-              'Mean Distance'=mean(Points.Distance),
               'Total in OS'=sum(!is.na(City)),
-              'Mean distance under 50m'=mean(Points.Distance[Points.Distance<50]),
-              'Standard Deviation under 50m'=sd(Points.Distance[Points.Distance<50]))
+              'Mean dist under 50m'=mean(Points.Distance[Points.Distance<50]),
+              'SD under 50m'=sd(Points.Distance[Points.Distance<50]))
 
 is.num = sapply(results, is.numeric)
 results[is.num] = lapply(results[is.num], round, 2)
 
-kable(results,caption="Table x - showing gsv_osm_distances")
+kable(results,caption="Showing gsv_osm_distances")
 
 
 ggplot(data=subset(results, !is.na(`Mean distance under 50m`)), aes(fill=City, y=`Mean distance under 50m`, x=Type)) + geom_bar(position="dodge", stat="identity")+coord_flip()+scale_fill_manual(values=cbPalette)
@@ -227,9 +221,9 @@ user_results_all$city=NULL
 row.names(user_results_relevant)=user_results_relevant$city
 user_results_relevant$city=NULL
 
-kable(t(user_results_all),caption="Table x - showing user stats all")
+kable(t(user_results_all),caption="showing user stats all")
 
-kable(t(user_results_relevant),caption="Table x - showing user stats relevant")
+kable(t(user_results_relevant),caption="showing user stats relevant")
 
 
 
@@ -259,8 +253,8 @@ sauce$element_name=NULL
 sauce2=sauce[c(7,8,9)]
 sauce3=sauce[c(1,3,5)]
 
-kable(sauce2,caption="Table x - showing whether they have source tag")
-kable(sauce3,caption="Table x - showing number of elements in OSM")
+kable(sauce2,caption="showing whether they have source tag")
+kable(sauce3,caption="showing number of elements in OSM")
 
 
 
@@ -360,19 +354,20 @@ names(questionnaire)[12]="Comments"
 
 aware1=ddply(questionnaire,~Aware+Aware_elements,summarise,sum(!is.na(Questionnaire)))
 
-kable(aware1,caption="Table x - showing answer to aware questionns")
+kable(aware1,caption="showing answer to aware questionns")
 
 types=matrix(c('Pedestrian crossings', 'Steps','Paths/pavements', 'Landmarks e.g. hospital', 'toilet', 'ATM', 'Roads', 'Hazards e.g. Lamp post, tree, barrier', 'Transport hubs e.g. bus station'))
 
-for (type in types) {
-  num=length(grep(type, questionnaire$Contributed))
-  print(paste(num,type))
-}
+contrib=data.frame("Type"=character(),"Number"=numeric(),stringsAsFactors = FALSE)
+for (type in types) {contrib[nrow(contrib)+1,] <- c(type,length(grep(type, questionnaire$Contributed)))}
+
+row.names(contrib)=contrib$Type
+contrib$Type=NULL
+kable(contrib,caption="Types they have contributed")
 
 ```
 
 
-ADD TABLE AFTER DOING IT!!!
 
 ## 4.7 Usability
 
