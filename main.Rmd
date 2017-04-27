@@ -19,10 +19,10 @@ library(ggplot2)
 cbPalette = c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7","#999999")
 ```
 # CHAPTER 4 - RESULTS
-## 4.1 Introduction
+## Introduction
 The results of the methods described in the previous chapter are set out under the same themes that were used in the methods section namely completeness, thematic accuracy, temporal quality, positional accuracy and contributors. The results for each section are displayed and then discussed. The chapter finishes with a discussion about what together the results mean for OSM as a data source for visually impaired people, this is done under the title of ‘usability’.
 
-## 4.2 Completeness
+## Completeness
 
 *OSM data compared with the Ordnance Survey dataset*
 
@@ -58,7 +58,7 @@ gsv_results$Points.Distance[is.na(gsv_results$Points.Distance)]=999
 ggplot(gsv_results, aes(fill=(Points.Distance<50),  x=Type)) + geom_bar(position="fill")+scale_fill_manual(values=cbPalette)+coord_flip()+theme(legend.position="bottom",legend.title = element_blank())+labs(y="Percentage")
 ```
 
-## 4.3 Thematic Accuracy
+## Thematic Accuracy
 
 *Inspection of tags of relevant OSM data features*
 ``` {r}
@@ -84,7 +84,7 @@ kable(results,caption="showing attribute counts")
 
 ADD TABLE AFTER DOING IT!!!
 
-## 4.4 Temporal Quality
+## Temporal Quality
 
 *Inspection of the history of OSM elements*
 
@@ -146,7 +146,7 @@ ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid
 - These both point to potentially higher data quality
 - The number of days since the last edit is more for the relevant in Bristol and Manchester but not for Cardiff again showing the differences in data over area.
 
-## 4.5 Positional Accuracy ##
+## Positional Accuracy ##
 
 *Comparison of OSM data with Ordnance Survey data*
 ```{r}
@@ -163,7 +163,7 @@ results[is.num] = lapply(results[is.num], round, 2)
 kable(results,caption="Showing gsv_osm_distances")
 
 
-ggplot(data=subset(results, !is.na(`Mean distance under 50m`)), aes(fill=City, y=`Mean distance under 50m`, x=Type)) + geom_bar(position="dodge", stat="identity")+coord_flip()+scale_fill_manual(values=cbPalette)
+ggplot(data=subset(results, !is.na(`Mean dist under 50m`)), aes(fill=City, y=`Mean dist under 50m`, x=Type)) + geom_bar(position="dodge", stat="identity")+coord_flip()+scale_fill_manual(values=cbPalette)
 
 ggplot(data=subset(os_results, (Points.Distance<50)), aes(Points.Distance, colour=City, fill=City)) + geom_density(alpha=0.55,bw=1)
 
@@ -175,7 +175,7 @@ ggplot(subset(os_results, (Points.Distance<50)), aes(factor(Type), Points.Distan
 - Any city/element type combination with over 30 element has a max distance of 19-20m as 20m was the max distance used in the analysis. Further research could be done to do a ground survey with a high accuracy gps unit to check this data.
 - The overall mean distance of 5.4m is not bad considering the source of the data but is not good for a visually impaired person trying to find something. The recommendation is for something to be within about 0.7m accuracy to be in the length of a cane (reference!). But the accuracy of a handheld gps is not going to better than that. For route planning this level of accuracy would be ok.
 
-## 4.6 Contributors
+## Contributors
 
 *Analysis of OSM contributors*
 ```{r}
@@ -369,26 +369,26 @@ kable(contrib,caption="Types they have contributed")
 
 
 
-## 4.7 Usability
+## Usability
 
 - {Summary of all the above themes, bringing the discussion together.}
 
-## 4.8 Discussion of results
+## Discussion of results
 
 # CHAPTER 5 - CONCLUSIONS
 
-## 5.1 Conclusions
+## Conclusions
 
-## 5.2 Recommendations
+## Recommendations
 
 # 6 APPENDICES
 
-## 6.1 References
+## References
 
-## 6.2 R Scripts used
+## R Scripts used
 
 {All the R scripts used will be added here}
 
-## 6.3 Bash scripts used
+## Bash scripts used
 
 {All the bash scripts used will be added here}

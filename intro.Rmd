@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## CHAPTER 1 - INTRODUCTION
-# 1.1 Study Background
+# Study Background
 
 According to the World Health Organisation there is an estimated 285 million people worldwide who are visually impaired (World Health Organisation, 2014). One of the biggest obstacles facing visually impaired people  wanting to live independently concerns their ability to travel by themselves (Brock, et al, 2015). Travelling is important for someone to participate in society (Paajala & Keranen, 2015) and nearly half of visually impaired people feel like they are cut off from the society around them (RNIB, 2015). Problems with wayfinding can restrict people to travelling routes that they know or can even mean they do not travel at all (Brock et al, 2015). The impact can depend on the type and severity of the visual impairment for example reading a road sign may be difficult for someone with a loss of central vision (Bradley and Dunlop, 2005) but they may be able to see the buildings they are passing. For this research the term ‘visually impaired person’ is going to refer to a person who has problems navigating independently due to loss of vision.
 
@@ -44,10 +44,10 @@ The aim of this study is to evaluate OpenStreetMap (OSM) as a geographic data so
 
 # CHAPTER 2 - LITERATURE REVIEW
 
-## 2.1 Introduction
+## Introduction
 To understand previous research into this area a literature review was undertaken. This literature review starts by looking at the problems a visually impaired person has travelling independently and the solutions that have been found to help them. It then looks at what data is needed for these solutions, the data sources that exist and explores why VGI might be useful for this purpose. It ends by looking at different elements of data quality and how they can be used to look at volunteered geographic information (VGI).
 
-## 2.2 Independent travel for a visually impaired person
+## Independent travel for a visually impaired person
 For someone to travel by themselves they need to be able to navigate around their environment which Montello & Sas (2006) divide into wayfinding and locomotion. Wayfinding is where a person is trying to reach a destination that is further away than their local surroundings, for this they need to know what their destination is and the method they are going to use to get there. Locomotion is about moving in the intended direction; successfully moving around our immediate surroundings without bumping into obstructions (Montello & Sas, 2006). 
 
 Both of these parts of navigation are going to be more difficult for someone with a visual impairment (Paajala and Keranen, 2015). This project focuses on the wayfinding element of navigation (from here on the term navigation is referring to the wayfinding element only). For visually impaired people the majority of information for wayfinding is not going to be accessible (Arrasvuori and Liang, 2015; Bradley and Dunlop, 2005; Montello and Sas, 2006). Obviously visual media may not be accessible for someone with a visual impairment so other modalities need to be used; generally devices designed for visually impaired people have haptic or audio feedback (Ye et al, 2014)
@@ -58,7 +58,7 @@ Once someone has a cognitive map of the area that they are going to be travellin
 
 When a visually impaired person has a route to follow, they may need assistance to follow the route (Gaunet & Briffault, 2005). Navigational aids have been used for many years to help someone follow a route; in 1989 Brusnighan et al (1989) pioneered research into using Global Positioning Systems (GPS) to create navigational aids for visually impaired people. At this point the ideas were fairly basic with coordinates being input by the user. Today mobile phones have GPS capabilities and can be used for both vehicle and pedestrian navigation (Brock et al, 2015). Apps have been designed to help visually impaired users utilise mobile phones for navigation by using audio and haptic feedback (Williams et al, 2014) for example the Adriane GPS app has been designed for iOS devices with visually impaired people in mind. It allows the user to navigate around an area using audio and vibration and also allows the user to ‘explore’ an area using the screen of the device (Brock et al, 2015). Custom built GPS navigational aid devices have also been made for example Trekker Breeze by Humanware (Humanware, 2017) which has a simple interface that has been found to be easier to use (Roentgen et al, 2011).
 
-## 2.3 Information requirements for visually impaired wayfinding
+## Information requirements for visually impaired wayfinding
 The above section looked at the problems that a visually impaired person might have navigating independently and some of the tools that exist to help them. For these tools to help visually impaired people they require geographic data that is relevant to someone with a visual impairment (Laakso et al, 2012). Various researchers have looked at the data requirements for visually impaired people for creating cognitive maps, route planning and for navigation.
 
 The HaptiMap project aims to make electronic geographic information available to more people through the use of different senses like touch and hearing (Laakso et al, 2012). As part of this project research into the information needed by visually impaired people to navigate was completed and an information model was developed for content for accessible maps and location based services (Laakso et al, 2012). The data required was broken down into the following classes (with some having subclasses) footpaths, pedestrian zones, entrances, modality linkages, landmarks and obstacles. Relevant attributes for the classes was also included in the guidelines. The content guidelines can be seen in Appendix 2.
@@ -94,7 +94,7 @@ The research also pointed to the need for data to have good positional accuracy 
 ADD IMAGE OF CARDIFF
 *Figure 1 - Aerial imagery of an area of Cardiff City Centre with an overlay showing the different elements that would be of use to a visually impaired person navigating. Imagery & Map Data ©2016 Google*
 
-## 2.4 Geographic data sources for visually impaired people
+## Geographic data sources for visually impaired people
 Despite all this research into what data is required for a visually impaired person to wayfind there seems to be little research into what data meets these specifications (Chandler and Worsfold, 2013). There is a general consensus, though, that more data relevant to a visually impaired person is needed (Bradley and Dunlop, 2005; Laakso et al, 2012). In fact when Laakso et al (2012) looked at research by Roentgen et al. (2011) they commented that many of the critiques of the travel aids were actually critiques of the underlying data.
 
 Google Maps and Apple Maps are used by many people to navigate as they are the default mapping apps on Android and Apple smartphone platforms (Samet & Fruin, 2012).] Apple Maps is one of the most used apps for navigation by visually impaired people (Chen et al, 2015) and on Android phones an app name ‘Intersection Explorer’ allows the user to build a cognitive map of the area that they are about to navigate by verbally giving information about the road layout from Google Map data (Peraković et al, 2015).  Yet Chen et al (2015) found that both Google Maps and Apple Maps failed to provide some relevant information useful to a person with a visual impairment for example about when to cross the road.
@@ -109,7 +109,7 @@ There has been some research that has used OSM data for visually impaired people
 
 This research shows that OSM data has great potential for use in pedestrian navigation (Laakso et al, 2012) something that could mean it would be useful for a visually impaired person. It is also often updated which could mean transitory objects are mapped which could be a barrier to navigation (Rice et al, 2013). The ability to create ‘tags’ means that all of the elements and attributes required for navigation could be included. Though there are concerns about the inconsistency of the tagging (Mooney and Corcoran, 2012) and the completeness of the data (Haklay, 2010). Therefore more research is required to find out whether it meets this potential to be a good data source for visually impaired people.
 
-## 2.5 Data Quality
+## Data Quality
 Devillers et al (2007:264) define quality as the “closeness of the agreement between data characteristics and the explicit and/or implicit needs of a user for a given application in a given area”. Data quality in terms of geographic information is covered by the International Organization for Standardization (ISO) in ISO 19157 (ISO 19157:2013) which outlines six data quality elements: Completeness, Thematic Accuracy, Logical Consistency, Temporal Quality, Positional Accuracy, and Usability Element.
 
 Completeness looks at whether features are present or not. This covers errors of omission, where there is data that is missing and errors of commission, where there is extra data that is present (Docan, 2013).
@@ -124,7 +124,7 @@ Positional Accuracy is about the distance between the data and the location of t
 
 The Usability Element looks at how the data meets a set of requirements for a particular application (Jakobsson et al, 2013).
 
-## 2.6 Quality assessment of OSM data
+## Quality assessment of OSM data
 As the biggest example of VGI (Mooney & Corcoran, 2012) the quality of the OSM dataset has interested researchers looking at geographic data quality. This research has used various methods and has looked at different aspects of data quality.
 
 Haklay (2010) compared OSM with Ordnance Survey MasterMap and Meridian datasets. He primarily looked at streets and roads as being the ‘core feature’ collected, he also focussed on positional accuracy and completeness of the dataset. He found that while positional accuracy is good the completeness of the data is not consistent and it tends to be better in urban areas
@@ -160,12 +160,12 @@ pander(elements)
 
 # CHAPTER 3 - DATA AND METHODS
 
-## 3.1 Introduction
+## Introduction
 This chapter will describe the data needed and the techniques that will be used to answer the aims and objectives of this research project. First it will look at the data that is going to be used and how it is going to be accessed and manipulated. 
 
 Within this research all of the six data quality elements, looked at above, will be assessed with the exception of Logical Consistency, due to it not being as relevant for this topic and usability as this will depend on all of the other elements so will be looked at in the discussion of the results. Each of the five data quality elements will be looked at in turn and the methods explained that will be used to assess whether OSM data meets that data quality element for visually impaired people. An important element that is not covered under the six data quality elements but has been looked at in previous research about data quality of VGI is that of the OSM contributors (for example Neis & Zipf (2012)) so this will also be looked at.
 
-## 3.2 Data Used
+## Data Used
 OSM data  is freely available under the Open Data Commons Open Database License, which means that the data can be downloaded and used freely as long as attribution is given (OpenStreetMap, 2017a). OSM data can be downloaded from a number of sources in various formats and there are a number of different tools that can be used to query or process the data (Barron et al, 2014). 
 
 There are various Application Programming Interfaces (API’s) that can be used to extract OSM data. The OSM API is mainly for editing OSM data (OpenStreetMap, 2017b), it only allows downloading data for small areas so not appropriate for this project. The Overpass API is a read-only API for OSM data, large amounts of OSM data can be downloaded and queries to the API can select which elements to download by their tags, location or type of object (OpenStreetMap, 2017c). Unfortunately when trialling this method of retrieving data, queries were found to take a long time to execute and would sometime timeout.
@@ -188,9 +188,9 @@ Table (?) - Showing the features that will be studied along with the relevant OS
 
 ADD TABLE
 
-## 3.3 Methods and techniques
+## Methods and techniques
 
-### 3.3.1 Completeness
+### Completeness
 
 *OSM data compared with the Ordnance Survey dataset*
 
@@ -227,7 +227,7 @@ OSM data was downloaded for the study areas from the OSM Metro Extracts website 
 
 A similar process to that used in the comparison with OS data was used to find any OSM element of the appropriate type within 20 metres of each feature and to record the OSM id and the distance to the nearest element. The R script used for this analysis can be found in appendix 7.2.
 
-### 3.3.2 Thematic Accuracy
+### Thematic Accuracy
 
 *Inspection of tags of relevant OSM data features*
 
@@ -241,7 +241,7 @@ From the above analysis a subset of the OSM dataset was created that only includ
 
 Each element in this subset was then viewed in GSV to see if the attribute could be confirmed by viewing the imagery. For elements that could not be confirmed this way an in-person ground survey was completed. For each element it was recorded whether the attribute was accurate.
 
-### 3.3.3 Temporal Quality
+### Temporal Quality
 
 *Inspection of the history of OSM elements*
 
@@ -252,7 +252,7 @@ The version number starts at one when an object is created and is increased ever
 The timestamp for an element represents when the element was last edited (OpenStreetMap, 2017f). Neis (2014) used this information to look at the temporal quality of OSM data the assumption being that the more recent the last edit the more ‘up to date’ the data is.
 To get the version number and timestamp information the osmconvert tool was used to export this information into csv files from the Mapzen data that had previously been downloaded. This was done for the entire dataset for the study areas and for the subset of data that would be relevant to a visually impaired person. This data was imported into R software environment to be able to compare them. 
 
-### 3.3.4 Positional Accuracy
+### Positional Accuracy
 
 *Comparison of OSM data with Ordnance Survey data*
 
@@ -262,7 +262,7 @@ OS data was used by Haklay (2010) to compare with the location of OSM elements. 
 
 In the previous comparison of OSM data with OS data (see section 3.3.1) OSM data had been matched up with OS data and the distance between the feature in the OS data and the element in the OSM data recorded. R was then used to summarise information about the distance between OSM elements and features in real life for different feature types.
 
-### 3.3.5 Contributors
+### Contributors
 
 *Analysis of OSM contributors*
 
