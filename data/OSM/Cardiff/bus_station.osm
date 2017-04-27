@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5">
+	<bounds minlat="51.3745555" minlon="-3.343766" maxlat="51.560504" maxlon="-3.0689022"/>
+	<node id="1097821917" lat="51.4544953" lon="-3.187908" version="2" timestamp="2011-01-17T08:43:30Z" changeset="6996995" uid="48155" user="JonBritton">
+		<tag k="amenity" v="bus_station"/>
+	</node>
+	<node id="4418588291" lat="51.4835196" lon="-3.1887751" version="1" timestamp="2016-09-26T08:26:54Z" changeset="42439206" uid="4618382" user="Terry Johns">
+		<tag k="amenity" v="bus_station"/>
+	</node>
+</osm>

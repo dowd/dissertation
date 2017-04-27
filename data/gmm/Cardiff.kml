@@ -1,0 +1,3822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cardiff</name>
+    <Style id="icon-1899-006064-normal">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-006064-highlight">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-006064">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-006064-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-006064-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-558B2F-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-558B2F-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-558B2F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-558B2F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-558B2F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>bench</name>
+      <description><![CDATA[X: -3.1725447<br>Y: 51.4828811]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725447</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4828811</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725447,51.4828811,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1723885<br>Y: 51.4812251]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1723885</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4812251</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1723885,51.4812251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1731422<br>Y: 51.4818991]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1731422</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4818991</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1731422,51.4818991,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1758366<br>Y: 51.4845592]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1758366</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4845592</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1758366,51.4845592,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.17779<br>Y: 51.483369]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.17779</value>
+        </Data>
+        <Data name="Y">
+          <value>51.483369</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.17779,51.483369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1652642<br>Y: 51.4657018]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1652642</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4657018</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1652642,51.4657018,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>call_booth</name>
+      <description><![CDATA[X: -3.1725866<br>Y: 51.4818142]]></description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725866</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4818142</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725866,51.4818142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>call_booth</name>
+      <description><![CDATA[X: -3.1714936<br>Y: 51.4806456]]></description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1714936</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4806456</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1714936,51.4806456,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>call_booth</name>
+      <description><![CDATA[X: -3.1758047<br>Y: 51.4844816]]></description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1758047</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4844816</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1758047,51.4844816,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.172479<br>Y: 51.4816476]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.172479</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4816476</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.172479,51.4816476,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1715479<br>Y: 51.4805022]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1715479</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4805022</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1715479,51.4805022,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.171365<br>Y: 51.480479]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.171365</value>
+        </Data>
+        <Data name="Y">
+          <value>51.480479</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.171365,51.480479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1713629<br>Y: 51.4802812]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1713629</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4802812</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1713629,51.4802812,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1782265<br>Y: 51.4833368]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1782265</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4833368</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1782265,51.4833368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1785086<br>Y: 51.4882749]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1785086</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4882749</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1785086,51.4882749,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1776672<br>Y: 51.4851596]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1776672</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4851596</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1776672,51.4851596,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1777807<br>Y: 51.4849785]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1777807</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4849785</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1777807,51.4849785,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1758533<br>Y: 51.4841649]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1758533</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4841649</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1758533,51.4841649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1757508<br>Y: 51.4842488]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1757508</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4842488</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1757508,51.4842488,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1751568<br>Y: 51.483382]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1751568</value>
+        </Data>
+        <Data name="Y">
+          <value>51.483382</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1751568,51.483382,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1715125<br>Y: 51.4829838]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1715125</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4829838</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1715125,51.4829838,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1710268<br>Y: 51.4821142]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1710268</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4821142</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1710268,51.4821142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1709698<br>Y: 51.4819975]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1709698</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4819975</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1709698,51.4819975,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1726524<br>Y: 51.4790225]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1726524</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4790225</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1726524,51.4790225,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1729346<br>Y: 51.4790122]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1729346</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4790122</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1729346,51.4790122,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1808585<br>Y: 51.4812072]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1808585</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4812072</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1808585,51.4812072,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.178505<br>Y: 51.479215]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.178505</value>
+        </Data>
+        <Data name="Y">
+          <value>51.479215</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.178505,51.479215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1775593<br>Y: 51.4777315]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1775593</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4777315</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1775593,51.4777315,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1767182<br>Y: 51.4767247]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1767182</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4767247</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1767182,51.4767247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.176718<br>Y: 51.4764607]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.176718</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4764607</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.176718,51.4764607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.177392<br>Y: 51.476295]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177392</value>
+        </Data>
+        <Data name="Y">
+          <value>51.476295</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177392,51.476295,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1811932<br>Y: 51.4766413]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1811932</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4766413</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1811932,51.4766413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1647673<br>Y: 51.4648809]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1647673</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4648809</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1647673,51.4648809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1659578<br>Y: 51.4668816]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1659578</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4668816</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1659578,51.4668816,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1658815<br>Y: 51.4670076]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1658815</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4670076</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1658815,51.4670076,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.166576<br>Y: 51.467254]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.166576</value>
+        </Data>
+        <Data name="Y">
+          <value>51.467254</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.166576,51.467254,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1783437<br>Y: 51.4849141]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1783437</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4849141</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1783437,51.4849141,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1789858<br>Y: 51.4877009]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1789858</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4877009</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1789858,51.4877009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1771293<br>Y: 51.4855652]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1771293</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4855652</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1771293,51.4855652,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1708187<br>Y: 51.4818494]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1708187</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4818494</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1708187,51.4818494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1724839<br>Y: 51.4789092]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1724839</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4789092</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1724839,51.4789092,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1729051<br>Y: 51.4788574]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1729051</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4788574</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1729051,51.4788574,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.180843<br>Y: 51.481481]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.180843</value>
+        </Data>
+        <Data name="Y">
+          <value>51.481481</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.180843,51.481481,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1811396<br>Y: 51.4800406]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1811396</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4800406</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1811396,51.4800406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1825699<br>Y: 51.477213]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1825699</value>
+        </Data>
+        <Data name="Y">
+          <value>51.477213</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1825699,51.477213,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1791237<br>Y: 51.4759986]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1791237</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4759986</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1791237,51.4759986,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1639252<br>Y: 51.4648385]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1639252</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4648385</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1639252,51.4648385,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.180181<br>Y: 51.480103]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.180181</value>
+        </Data>
+        <Data name="Y">
+          <value>51.480103</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.180181,51.480103,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.177463<br>Y: 51.477756]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177463</value>
+        </Data>
+        <Data name="Y">
+          <value>51.477756</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177463,51.477756,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.1768409<br>Y: 51.4765231]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1768409</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4765231</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1768409,51.4765231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.1770839<br>Y: 51.4763792]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1770839</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4763792</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1770839,51.4763792,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.1648818<br>Y: 51.4651021]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1648818</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4651021</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1648818,51.4651021,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>mailbox</name>
+      <description><![CDATA[X: -3.172553<br>Y: 51.481757]]></description>
+      <styleUrl>#icon-1899-1A237E</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.172553</value>
+        </Data>
+        <Data name="Y">
+          <value>51.481757</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.172553,51.481757,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bike_parking</name>
+      <description><![CDATA[X: -3.174352<br>Y: 51.48258]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.174352</value>
+        </Data>
+        <Data name="Y">
+          <value>51.48258</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.174352,51.48258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1728775<br>Y: 51.4821214]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1728775</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4821214</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1728775,51.4821214,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1779412<br>Y: 51.4832222]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1779412</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4832222</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1779412,51.4832222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1746506<br>Y: 51.4828691]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1746506</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4828691</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1746506,51.4828691,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1731223<br>Y: 51.4794398]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1731223</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4794398</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1731223,51.4794398,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1799446<br>Y: 51.4804919]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1799446</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4804919</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1799446,51.4804919,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1798337<br>Y: 51.4801643]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1798337</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4801643</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1798337,51.4801643,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1781633<br>Y: 51.4786948]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1781633</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4786948</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1781633,51.4786948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1780789<br>Y: 51.4785515]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1780789</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4785515</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1780789,51.4785515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.177629<br>Y: 51.478051]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177629</value>
+        </Data>
+        <Data name="Y">
+          <value>51.478051</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177629,51.478051,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1779178<br>Y: 51.4783236]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1779178</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4783236</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1779178,51.4783236,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1770106<br>Y: 51.4773053]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1770106</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4773053</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1770106,51.4773053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1769006<br>Y: 51.4764959]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1769006</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4764959</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1769006,51.4764959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.173259<br>Y: 51.482427]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.173259</value>
+        </Data>
+        <Data name="Y">
+          <value>51.482427</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.173259,51.482427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.17781<br>Y: 51.4823784]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.17781</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4823784</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.17781,51.4823784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1779783<br>Y: 51.4825282]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1779783</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4825282</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1779783,51.4825282,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1777649<br>Y: 51.4849399]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1777649</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4849399</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1777649,51.4849399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1746927<br>Y: 51.4830417]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1746927</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4830417</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1746927,51.4830417,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.174341<br>Y: 51.482566]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.174341</value>
+        </Data>
+        <Data name="Y">
+          <value>51.482566</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.174341,51.482566,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1718007<br>Y: 51.4829595]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1718007</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4829595</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1718007,51.4829595,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1807767<br>Y: 51.4813959]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1807767</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4813959</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1807767,51.4813959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1804174<br>Y: 51.481038]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1804174</value>
+        </Data>
+        <Data name="Y">
+          <value>51.481038</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1804174,51.481038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1799597<br>Y: 51.4801678]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1799597</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4801678</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1799597,51.4801678,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1798919<br>Y: 51.4802448]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1798919</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4802448</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1798919,51.4802448,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.177426<br>Y: 51.476291]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177426</value>
+        </Data>
+        <Data name="Y">
+          <value>51.476291</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177426,51.476291,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.17784<br>Y: 51.47616]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.17784</value>
+        </Data>
+        <Data name="Y">
+          <value>51.47616</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.17784,51.47616,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1812975<br>Y: 51.4765098]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1812975</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4765098</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1812975,51.4765098,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1816542<br>Y: 51.4766426]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1816542</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4766426</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1816542,51.4766426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1644667<br>Y: 51.4648379]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1644667</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4648379</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1644667,51.4648379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1642132<br>Y: 51.4649641]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1642132</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4649641</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1642132,51.4649641,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>railway_station</name>
+      <description><![CDATA[X: -3.1787231<br>Y: 51.4888964]]></description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1787231</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4888964</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1787231,51.4888964,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>railway_station</name>
+      <description><![CDATA[X: -3.1707772<br>Y: 51.4818388]]></description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1707772</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4818388</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1707772,51.4818388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>railway_station</name>
+      <description><![CDATA[X: -3.1664344<br>Y: 51.4671098]]></description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1664344</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4671098</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1664344,51.4671098,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>waste_basket</name>
+      <description><![CDATA[X: -3.176433<br>Y: 51.4854592]]></description>
+      <styleUrl>#icon-1899-006064</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.176433</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4854592</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.176433,51.4854592,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>waste_basket</name>
+      <description><![CDATA[X: -3.1772294<br>Y: 51.4775824]]></description>
+      <styleUrl>#icon-1899-006064</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1772294</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4775824</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1772294,51.4775824,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description><![CDATA[X: -3.1789054<br>Y: 51.487718]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1789054</value>
+        </Data>
+        <Data name="Y">
+          <value>51.487718</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1789054,51.487718,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description><![CDATA[X: -3.177255<br>Y: 51.486477]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177255</value>
+        </Data>
+        <Data name="Y">
+          <value>51.486477</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177255,51.486477,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description><![CDATA[X: -3.177097<br>Y: 51.486445]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177097</value>
+        </Data>
+        <Data name="Y">
+          <value>51.486445</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177097,51.486445,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description><![CDATA[X: -3.178446<br>Y: 51.484468]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.178446</value>
+        </Data>
+        <Data name="Y">
+          <value>51.484468</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.178446,51.484468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>taxi_rank</name>
+      <description><![CDATA[X: -3.17313<br>Y: 51.482264]]></description>
+      <styleUrl>#icon-1899-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.17313</value>
+        </Data>
+        <Data name="Y">
+          <value>51.482264</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.17313,51.482264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>taxi_rank</name>
+      <description><![CDATA[X: -3.1778548<br>Y: 51.4832721]]></description>
+      <styleUrl>#icon-1899-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1778548</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4832721</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1778548,51.4832721,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1710051<br>Y: 51.4823218]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1710051</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4823218</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1710051,51.4823218,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1709209<br>Y: 51.4817571]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1709209</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4817571</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1709209,51.4817571,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1707412<br>Y: 51.481438]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1707412</value>
+        </Data>
+        <Data name="Y">
+          <value>51.481438</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1707412,51.481438,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.1705548<br>Y: 51.481053]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1705548</value>
+        </Data>
+        <Data name="Y">
+          <value>51.481053</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1705548,51.481053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>info_board</name>
+      <description><![CDATA[X: -3.1708123<br>Y: 51.4808066]]></description>
+      <styleUrl>#icon-1899-FFEA00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1708123</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4808066</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1708123,51.4808066,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1711905<br>Y: 51.480445]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1711905</value>
+        </Data>
+        <Data name="Y">
+          <value>51.480445</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1711905,51.480445,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1727153<br>Y: 51.4799689]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1727153</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4799689</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1727153,51.4799689,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1725128<br>Y: 51.4799296]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725128</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4799296</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725128,51.4799296,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1727837<br>Y: 51.4798469]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1727837</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4798469</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1727837,51.4798469,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1725731<br>Y: 51.4798144]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725731</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4798144</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725731,51.4798144,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1727649<br>Y: 51.4797835]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1727649</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4797835</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1727649,51.4797835,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1732263<br>Y: 51.4797008]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1732263</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4797008</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1732263,51.4797008,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bike_parking</name>
+      <description><![CDATA[X: -3.1731351<br>Y: 51.4796573]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1731351</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4796573</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1731351,51.4796573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1735267<br>Y: 51.4796289]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1735267</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4796289</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1735267,51.4796289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1735522<br>Y: 51.4795262]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1735522</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4795262</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1735522,51.4795262,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bench</name>
+      <description><![CDATA[X: -3.1726255<br>Y: 51.4797359]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1726255</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4797359</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1726255,51.4797359,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bench</name>
+      <description><![CDATA[X: -3.1726147<br>Y: 51.4796949]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1726147</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4796949</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1726147,51.4796949,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1725839<br>Y: 51.4796732]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725839</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4796732</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725839,51.4796732,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.1724431<br>Y: 51.4797643]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1724431</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4797643</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1724431,51.4797643,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1723613<br>Y: 51.4796849]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1723613</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4796849</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1723613,51.4796849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1725222<br>Y: 51.4795521]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725222</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4795521</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725222,51.4795521,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1725611<br>Y: 51.4792305]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1725611</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4792305</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1725611,51.4792305,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bench</name>
+      <description><![CDATA[X: -3.1724646<br>Y: 51.479487]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1724646</value>
+        </Data>
+        <Data name="Y">
+          <value>51.479487</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1724646,51.479487,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1724913<br>Y: 51.4795329]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1724913</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4795329</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1724913,51.4795329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1724444<br>Y: 51.4794611]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1724444</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4794611</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1724444,51.4794611,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1723331<br>Y: 51.4792038]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1723331</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4792038</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1723331,51.4792038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1722446<br>Y: 51.4792648]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1722446</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4792648</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1722446,51.4792648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1670102<br>Y: 51.467468]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1670102</value>
+        </Data>
+        <Data name="Y">
+          <value>51.467468</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1670102,51.467468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>tree</name>
+      <description><![CDATA[X: -3.1667487<br>Y: 51.467311]]></description>
+      <styleUrl>#icon-1899-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1667487</value>
+        </Data>
+        <Data name="Y">
+          <value>51.467311</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1667487,51.467311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1664859<br>Y: 51.4668665]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1664859</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4668665</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1664859,51.4668665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1665328<br>Y: 51.4667571]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1665328</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4667571</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1665328,51.4667571,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1664202<br>Y: 51.4666309]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1664202</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4666309</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1664202,51.4666309,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1661211<br>Y: 51.4655732]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1661211</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4655732</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1661211,51.4655732,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.165877<br>Y: 51.4648789]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.165877</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4648789</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.165877,51.4648789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1660581<br>Y: 51.4647319]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1660581</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4647319</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1660581,51.4647319,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1656758<br>Y: 51.4647369]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1656758</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4647369</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1656758,51.4647369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1658126<br>Y: 51.4646166]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1658126</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4646166</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1658126,51.4646166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>taxi_rank</name>
+      <description><![CDATA[X: -3.165928<br>Y: 51.4640451]]></description>
+      <styleUrl>#icon-1899-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.165928</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4640451</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.165928,51.4640451,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1659494<br>Y: 51.4642147]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1659494</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4642147</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1659494,51.4642147,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1663531<br>Y: 51.463939]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1663531</value>
+        </Data>
+        <Data name="Y">
+          <value>51.463939</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1663531,51.463939,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1662069<br>Y: 51.4632839]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1662069</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4632839</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1662069,51.4632839,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1665583<br>Y: 51.4631201]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1665583</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4631201</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1665583,51.4631201,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1676419<br>Y: 51.4630282]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1676419</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4630282</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1676419,51.4630282,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1675574<br>Y: 51.4629739]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1675574</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4629739</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1675574,51.4629739,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>lamp_post</name>
+      <description><![CDATA[X: -3.1678578<br>Y: 51.4629188]]></description>
+      <styleUrl>#icon-1899-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1678578</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4629188</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1678578,51.4629188,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1684144<br>Y: 51.4626731]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1684144</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4626731</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1684144,51.4626731,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1659481<br>Y: 51.4667947]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1659481</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4667947</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1659481,51.4667947,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1656785<br>Y: 51.4670253]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1656785</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4670253</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1656785,51.4670253,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1651595<br>Y: 51.4665064]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1651595</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4665064</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1651595,51.4665064,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1648672<br>Y: 51.4661839]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1648672</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4661839</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1648672,51.4661839,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1639163<br>Y: 51.4655665]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1639163</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4655665</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1639163,51.4655665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1638332<br>Y: 51.4654537]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1638332</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4654537</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1638332,51.4654537,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1641738<br>Y: 51.4650468]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1641738</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4650468</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1641738,51.4650468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1645654<br>Y: 51.4648597]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1645654</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4648597</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1645654,51.4648597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>entrance</name>
+      <description><![CDATA[X: -3.1787315<br>Y: 51.4886945]]></description>
+      <styleUrl>#icon-1899-01579B</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1787315</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4886945</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1787315,51.4886945,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>outdoor_seating</name>
+      <description><![CDATA[X: -3.1786135<br>Y: 51.488459]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1786135</value>
+        </Data>
+        <Data name="Y">
+          <value>51.488459</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1786135,51.488459,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1761834<br>Y: 51.485375]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1761834</value>
+        </Data>
+        <Data name="Y">
+          <value>51.485375</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1761834,51.485375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1757569<br>Y: 51.4843285]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1757569</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4843285</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1757569,51.4843285,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>taxi_rank</name>
+      <description><![CDATA[X: -3.1748906<br>Y: 51.4832621]]></description>
+      <styleUrl>#icon-1899-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1748906</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4832621</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1748906,51.4832621,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bench</name>
+      <description><![CDATA[X: -3.1720823<br>Y: 51.4829948]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1720823</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4829948</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1720823,51.4829948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1713501<br>Y: 51.4829514]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1713501</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4829514</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1713501,51.4829514,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1717457<br>Y: 51.4832904]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1717457</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4832904</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1717457,51.4832904,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1715713<br>Y: 51.4832437]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1715713</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4832437</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1715713,51.4832437,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1715204<br>Y: 51.4833673]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1715204</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4833673</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1715204,51.4833673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1711623<br>Y: 51.4820536]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1711623</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4820536</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1711623,51.4820536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1721896<br>Y: 51.481048]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1721896</value>
+        </Data>
+        <Data name="Y">
+          <value>51.481048</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1721896,51.481048,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1720112<br>Y: 51.4808467]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1720112</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4808467</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1720112,51.4808467,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1718597<br>Y: 51.4806997]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1718597</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4806997</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1718597,51.4806997,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1716196<br>Y: 51.4803147]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1716196</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4803147</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1716196,51.4803147,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>call_booth</name>
+      <description><![CDATA[X: -3.1795603<br>Y: 51.4799288]]></description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1795603</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4799288</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1795603,51.4799288,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>taxi_rank</name>
+      <description><![CDATA[X: -3.1786752<br>Y: 51.4792957]]></description>
+      <styleUrl>#icon-1899-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1786752</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4792957</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1786752,51.4792957,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bollard</name>
+      <description><![CDATA[X: -3.1786631<br>Y: 51.4790986]]></description>
+      <styleUrl>#icon-1899-FFD600</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1786631</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4790986</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1786631,51.4790986,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bike_parking</name>
+      <description><![CDATA[X: -3.1786604<br>Y: 51.4790543]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1786604</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4790543</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1786604,51.4790543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>call_booth</name>
+      <description><![CDATA[X: -3.1781897<br>Y: 51.4783569]]></description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1781897</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4783569</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1781897,51.4783569,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bench</name>
+      <description><![CDATA[X: -3.177774<br>Y: 51.4779259]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.177774</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4779259</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.177774,51.4779259,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1771235<br>Y: 51.4770622]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1771235</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4770622</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1771235,51.4770622,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1768003<br>Y: 51.4770288]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1768003</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4770288</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1768003,51.4770288,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1765495<br>Y: 51.4764466]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1765495</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4764466</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1765495,51.4764466,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1763564<br>Y: 51.4764591]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1763564</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4764591</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1763564,51.4764591,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1811817<br>Y: 51.4767323]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1811817</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4767323</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1811817,51.4767323,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1807137<br>Y: 51.4768985]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1807137</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4768985</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1807137,51.4768985,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1807284<br>Y: 51.4768275]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1807284</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4768275</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1807284,51.4768275,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bike_parking</name>
+      <description><![CDATA[X: -3.1782769<br>Y: 51.4882369]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1782769</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4882369</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1782769,51.4882369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>call_booth</name>
+      <description><![CDATA[X: -3.1781481<br>Y: 51.4881784]]></description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1781481</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4881784</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1781481,51.4881784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>bus_stop</name>
+      <description><![CDATA[X: -3.1780623<br>Y: 51.4880598]]></description>
+      <styleUrl>#icon-1899-880E4F</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1780623</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4880598</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1780623,51.4880598,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>crossing</name>
+      <description><![CDATA[X: -3.1767078<br>Y: 51.4863658]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
+      <ExtendedData>
+        <Data name="X">
+          <value>-3.1767078</value>
+        </Data>
+        <Data name="Y">
+          <value>51.4863658</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -3.1767078,51.4863658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

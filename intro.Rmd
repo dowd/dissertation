@@ -150,7 +150,7 @@ library(pander)
 
 panderOptions('table.split.table', Inf)
 
-elements=read.csv("../data/results/element_table.csv", header=TRUE, stringsAsFactors = FALSE)
+elements=read.csv("data/results/element_table.csv", header=TRUE, stringsAsFactors = FALSE)
 
 
 pander(elements)

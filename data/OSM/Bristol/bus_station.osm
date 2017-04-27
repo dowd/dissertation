@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5">
+	<bounds minlat="51.3416256" minlon="-3.1178158" maxlat="51.5444327" maxlon="-2.5104191"/>
+	<node id="1281294938" lat="51.4593982" lon="-2.5920585" version="2" timestamp="2011-07-31T23:14:50Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053157" lat="51.4591854" lon="-2.5923792" version="1" timestamp="2011-07-31T23:14:30Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053158" lat="51.4592502" lon="-2.5926407" version="2" timestamp="2015-05-25T10:24:49Z" changeset="31441038" uid="770155" user="Toffer12"/>
+	<node id="1381053160" lat="51.4595013" lon="-2.5920198" version="1" timestamp="2011-07-31T23:14:30Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053162" lat="51.4591119" lon="-2.5925361" version="1" timestamp="2011-07-31T23:14:30Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053168" lat="51.4596073" lon="-2.5920577" version="1" timestamp="2011-07-31T23:14:30Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053175" lat="51.4587849" lon="-2.5933865" version="1" timestamp="2011-07-31T23:14:31Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053178" lat="51.4588211" lon="-2.5931503" version="1" timestamp="2011-07-31T23:14:31Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053220" lat="51.4589423" lon="-2.5928942" version="1" timestamp="2011-07-31T23:14:32Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053231" lat="51.4588463" lon="-2.5932629" version="1" timestamp="2011-07-31T23:14:32Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053256" lat="51.4593643" lon="-2.5921727" version="1" timestamp="2011-07-31T23:14:33Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053262" lat="51.4593918" lon="-2.5921458" version="1" timestamp="2011-07-31T23:14:33Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053292" lat="51.4592364" lon="-2.5923738" version="1" timestamp="2011-07-31T23:14:34Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053297" lat="51.4593816" lon="-2.5923621" version="1" timestamp="2011-07-31T23:14:34Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053308" lat="51.4588662" lon="-2.5931879" version="1" timestamp="2011-07-31T23:14:35Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053309" lat="51.4595765" lon="-2.5920386" version="1" timestamp="2011-07-31T23:14:35Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053326" lat="51.4588136" lon="-2.5933059" version="1" timestamp="2011-07-31T23:14:35Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053343" lat="51.4594328" lon="-2.5920345" version="1" timestamp="2011-07-31T23:14:36Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053377" lat="51.4595931" lon="-2.5921153" version="1" timestamp="2011-07-31T23:14:37Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053379" lat="51.4592172" lon="-2.5924181" version="1" timestamp="2011-07-31T23:14:37Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053384" lat="51.4588301" lon="-2.5933196" version="1" timestamp="2011-07-31T23:14:37Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053413" lat="51.4588494" lon="-2.5935023" version="2" timestamp="2016-01-18T22:46:25Z" changeset="36669818" uid="14846" user="ndm"/>
+	<node id="1381053426" lat="51.4588479" lon="-2.5930591" version="1" timestamp="2011-07-31T23:14:38Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053428" lat="51.4588387" lon="-2.5930497" version="1" timestamp="2011-07-31T23:14:38Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053440" lat="51.4593099" lon="-2.5921324" version="1" timestamp="2011-07-31T23:14:38Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053445" lat="51.4588208" lon="-2.5934665" version="2" timestamp="2016-01-18T22:46:25Z" changeset="36669818" uid="14846" user="ndm"/>
+	<node id="1381053462" lat="51.4593709" lon="-2.5920734" version="1" timestamp="2011-07-31T23:14:39Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053473" lat="51.4589715" lon="-2.5928405" version="1" timestamp="2011-07-31T23:14:40Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053475" lat="51.4590309" lon="-2.5929425" version="1" timestamp="2011-07-31T23:14:40Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053490" lat="51.4595755" lon="-2.5924332" version="1" timestamp="2011-07-31T23:14:40Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053511" lat="51.458776" lon="-2.5934142" version="2" timestamp="2016-01-18T22:46:25Z" changeset="36669818" uid="14846" user="ndm"/>
+	<node id="1381053514" lat="51.4593359" lon="-2.5921029" version="1" timestamp="2011-07-31T23:14:41Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053516" lat="51.4588445" lon="-2.5932697" version="1" timestamp="2011-07-31T23:14:41Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053517" lat="51.4596123" lon="-2.5924157" version="1" timestamp="2011-07-31T23:14:41Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053519" lat="51.4592055" lon="-2.5923376" version="1" timestamp="2011-07-31T23:14:41Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053531" lat="51.4592749" lon="-2.5921955" version="1" timestamp="2011-07-31T23:14:41Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="1381053533" lat="51.4592009" lon="-2.5925878" version="2" timestamp="2015-05-25T10:24:49Z" changeset="31441038" uid="770155" user="Toffer12"/>
+	<node id="1381053540" lat="51.458893" lon="-2.592866" version="1" timestamp="2011-07-31T23:14:41Z" changeset="8885504" uid="189782" user="Norfolkadam"/>
+	<node id="3242297083" lat="51.4593294" lon="-2.5924689" version="2" timestamp="2015-05-25T10:24:50Z" changeset="31441038" uid="770155" user="Toffer12"/>
+	<node id="3606095744" lat="51.4619479" lon="-2.5655078" version="1" timestamp="2015-06-19T22:44:56Z" changeset="32086031" uid="14846" user="ndm">
+		<tag k="name" v="Bristol Community Transport"/>
+		<tag k="amenity" v="bus_station"/>
+	</node>
+	<node id="1000000123981298" lat="51.4591941" lon="-2.592761" version="5" timestamp="2014-12-19T09:07:54Z" changeset="27565071" uid="2148276" user="Rick Wiles">
+		<tag k="name" v="Bristol Bus &#38; Coach Station"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="building" v="yes"/>
+		<tag k="wikipedia" v="en:Bristol Bus Station"/>
+	</node>
+</osm>

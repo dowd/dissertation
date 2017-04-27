@@ -1,0 +1,6 @@
+element_name,key,value,attr_key
+crossing,highway,crossing,crossing
+sidewalk,highway,*,sidewalk
+steps,highway,steps,step_count
+steps,highway,steps,surface
+steps,highway,steps,incline

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5">
+	<bounds minlat="53.3401044" minlon="-2.3199184" maxlat="53.5445923" maxlon="-2.1468287"/>
+	<node id="32202240" lat="53.4782055" lon="-2.2373677" version="7" timestamp="2014-01-28T15:30:20Z" changeset="20248790" uid="51722" user="Chris Parker"/>
+	<node id="32846263" lat="53.4798058" lon="-2.2368048" version="6" timestamp="2010-08-30T20:17:53Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="32846264" lat="53.4808434" lon="-2.2386812" version="3" timestamp="2010-08-30T20:17:38Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="32846265" lat="53.4807924" lon="-2.2384137" version="5" timestamp="2010-08-30T20:18:13Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="32846266" lat="53.4799094" lon="-2.2367124" version="3" timestamp="2010-08-30T20:18:41Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="60166209" lat="53.3651295" lon="-2.2735141" version="3" timestamp="2012-03-18T19:40:41Z" changeset="11023129" uid="114310" user="Joe E"/>
+	<node id="249444275" lat="53.4100202" lon="-2.2193352" version="3" timestamp="2014-07-11T10:12:21Z" changeset="24079186" uid="1862816" user="SpaceMunkeyUk">
+		<tag k="amenity" v="bus_station"/>
+	</node>
+	<node id="270732680" lat="53.3653831" lon="-2.2735611" version="5" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="280711045" lat="53.3656876" lon="-2.2735599" version="4" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="280711046" lat="53.3657179" lon="-2.2731233" version="4" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="280711047" lat="53.365609" lon="-2.2731314" version="4" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="280711049" lat="53.3655169" lon="-2.2716799" version="4" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="280711057" lat="53.3656869" lon="-2.2716994" version="4" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="280711334" lat="53.3651771" lon="-2.2728926" version="4" timestamp="2012-11-29T22:32:17Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="313350112" lat="53.4265892" lon="-2.2354745" version="3" timestamp="2008-11-20T17:51:40Z" changeset="772150" uid="80845" user="mattioats">
+		<tag k="amenity" v="bus_station"/>
+		<tag k="created_by" v="Potlatch 0.10f"/>
+	</node>
+	<node id="889324336" lat="53.4799702" lon="-2.2367957" version="1" timestamp="2010-08-30T20:14:07Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889324427" lat="53.4808795" lon="-2.2386715" version="1" timestamp="2010-08-30T20:14:09Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889324491" lat="53.4798264" lon="-2.2368378" version="1" timestamp="2010-08-30T20:14:11Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889324548" lat="53.4802799" lon="-2.2376759" version="1" timestamp="2010-08-30T20:14:12Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889324599" lat="53.4803884" lon="-2.2376412" version="1" timestamp="2010-08-30T20:14:14Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889324751" lat="53.4798069" lon="-2.2368262" version="1" timestamp="2010-08-30T20:14:18Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889324891" lat="53.4806718" lon="-2.2381624" version="1" timestamp="2010-08-30T20:14:22Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325056" lat="53.4805719" lon="-2.238199" version="1" timestamp="2010-08-30T20:14:26Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325331" lat="53.4804237" lon="-2.2379112" version="1" timestamp="2010-08-30T20:14:36Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325366" lat="53.4802287" lon="-2.2373315" version="1" timestamp="2010-08-30T20:14:37Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325436" lat="53.4808882" lon="-2.2386305" version="1" timestamp="2010-08-30T20:14:39Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325477" lat="53.4799062" lon="-2.236864" version="1" timestamp="2010-08-30T20:14:40Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325516" lat="53.4802665" lon="-2.2376284" version="1" timestamp="2010-08-30T20:14:42Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325548" lat="53.4799385" lon="-2.2367451" version="1" timestamp="2010-08-30T20:14:43Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325617" lat="53.480879" lon="-2.2385949" version="1" timestamp="2010-08-30T20:14:46Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325662" lat="53.4798763" lon="-2.2366945" version="1" timestamp="2010-08-30T20:14:47Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325823" lat="53.480361" lon="-2.2376095" version="1" timestamp="2010-08-30T20:14:55Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889325976" lat="53.4806078" lon="-2.2382246" version="1" timestamp="2010-08-30T20:15:03Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326072" lat="53.4808687" lon="-2.2386829" version="1" timestamp="2010-08-30T20:15:09Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326111" lat="53.4798946" lon="-2.2368469" version="1" timestamp="2010-08-30T20:15:11Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326160" lat="53.4803604" lon="-2.2378789" version="1" timestamp="2010-08-30T20:15:13Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326203" lat="53.48062" lon="-2.238088" version="1" timestamp="2010-08-30T20:15:15Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326268" lat="53.4808551" lon="-2.2386857" version="1" timestamp="2010-08-30T20:15:17Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326319" lat="53.4798544" lon="-2.2368433" version="1" timestamp="2010-08-30T20:15:19Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326417" lat="53.480475" lon="-2.2377991" version="1" timestamp="2010-08-30T20:15:22Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326588" lat="53.4801708" lon="-2.2372669" version="1" timestamp="2010-08-30T20:15:27Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889326876" lat="53.4803165" lon="-2.2377966" version="1" timestamp="2010-08-30T20:15:36Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889327041" lat="53.4808547" lon="-2.2385653" version="1" timestamp="2010-08-30T20:15:41Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="889327178" lat="53.4801214" lon="-2.2373236" version="1" timestamp="2010-08-30T20:15:44Z" changeset="5639988" uid="47487" user="IJMacD"/>
+	<node id="1296096606" lat="53.4778943" lon="-2.2368124" version="3" timestamp="2014-01-28T15:30:20Z" changeset="20248790" uid="51722" user="Chris Parker"/>
+	<node id="1296096607" lat="53.4776947" lon="-2.2381777" version="3" timestamp="2014-01-28T15:30:20Z" changeset="20248790" uid="51722" user="Chris Parker"/>
+	<node id="1296096608" lat="53.4773898" lon="-2.2376305" version="3" timestamp="2014-01-28T15:30:20Z" changeset="20248790" uid="51722" user="Chris Parker"/>
+	<node id="1502908209" lat="53.4857195" lon="-2.239417" version="2" timestamp="2015-06-12T21:54:49Z" changeset="31932992" uid="24119" user="Mauls"/>
+	<node id="1502908224" lat="53.4861145" lon="-2.2391993" version="1" timestamp="2011-11-14T15:33:31Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908226" lat="53.4857028" lon="-2.2394059" version="1" timestamp="2011-11-14T15:33:31Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908227" lat="53.4857443" lon="-2.2394135" version="2" timestamp="2015-06-12T21:54:49Z" changeset="31932992" uid="24119" user="Mauls"/>
+	<node id="1502908241" lat="53.4853501" lon="-2.2379135" version="2" timestamp="2015-06-12T21:54:49Z" changeset="31932992" uid="24119" user="Mauls"/>
+	<node id="1502908242" lat="53.4861402" lon="-2.2391612" version="1" timestamp="2011-11-14T15:33:32Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908255" lat="53.4857141" lon="-2.2376914" version="1" timestamp="2011-11-14T15:33:32Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908257" lat="53.4860028" lon="-2.2386119" version="1" timestamp="2011-11-14T15:33:32Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908267" lat="53.485339" lon="-2.239011" version="1" timestamp="2011-11-14T15:33:32Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908276" lat="53.4855848" lon="-2.2374661" version="1" timestamp="2011-11-14T15:33:32Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908280" lat="53.4852894" lon="-2.2390196" version="1" timestamp="2011-11-14T15:33:32Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908288" lat="53.4861496" lon="-2.2390303" version="1" timestamp="2011-11-14T15:33:33Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908302" lat="53.4861514" lon="-2.2391103" version="1" timestamp="2011-11-14T15:33:33Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908305" lat="53.4856278" lon="-2.2374747" version="1" timestamp="2011-11-14T15:33:33Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908316" lat="53.4849991" lon="-2.2387214" version="1" timestamp="2011-11-14T15:33:33Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1502908319" lat="53.4854729" lon="-2.2391591" version="1" timestamp="2011-11-14T15:33:33Z" changeset="9825716" uid="549376" user="Delusion23"/>
+	<node id="1511352810" lat="53.3654122" lon="-2.2724535" version="3" timestamp="2012-11-29T22:32:16Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="1511352817" lat="53.3653796" lon="-2.2729085" version="3" timestamp="2012-11-29T22:32:16Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="1511352836" lat="53.3654498" lon="-2.2722931" version="3" timestamp="2012-11-29T22:32:16Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="1511352857" lat="53.3654887" lon="-2.2721611" version="3" timestamp="2012-11-29T22:32:16Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="1511352888" lat="53.3653876" lon="-2.272747" version="3" timestamp="2012-11-29T22:32:16Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="1511352979" lat="53.3653987" lon="-2.2725869" version="3" timestamp="2012-11-29T22:32:16Z" changeset="14092806" uid="114310" user="Joe E"/>
+	<node id="1588976041" lat="53.4252249" lon="-2.2540909" version="1" timestamp="2012-01-13T23:57:42Z" changeset="10384063" uid="4559" user="RichardB">
+		<tag k="name" v="Southern Cemetery Bus Station"/>
+		<tag k="amenity" v="bus_station"/>
+	</node>
+	<node id="2088416988" lat="53.4830178" lon="-2.2333004" version="1" timestamp="2012-12-30T13:51:38Z" changeset="14463951" uid="238584" user="mcld"/>
+	<node id="2088416990" lat="53.4832212" lon="-2.233713" version="1" timestamp="2012-12-30T13:51:38Z" changeset="14463951" uid="238584" user="mcld"/>
+	<node id="2088416994" lat="53.4835526" lon="-2.2332518" version="1" timestamp="2012-12-30T13:51:38Z" changeset="14463951" uid="238584" user="mcld"/>
+	<node id="2088417000" lat="53.4833492" lon="-2.2328391" version="1" timestamp="2012-12-30T13:51:38Z" changeset="14463951" uid="238584" user="mcld"/>
+	<node id="2542369483" lat="53.4777448" lon="-2.2380982" version="2" timestamp="2014-02-04T10:36:57Z" changeset="20369243" uid="51722" user="Chris Parker"/>
+	<node id="2557797889" lat="53.4804591" lon="-2.2377701" version="1" timestamp="2013-11-29T21:38:37Z" changeset="19185919" uid="17292" user="jpennycook"/>
+	<node id="2557866073" lat="53.4799293" lon="-2.2367347" version="1" timestamp="2013-11-29T22:26:51Z" changeset="19185919" uid="17292" user="jpennycook"/>
+	<node id="3590723627" lat="53.484993" lon="-2.2386606" version="1" timestamp="2015-06-12T21:54:46Z" changeset="31932992" uid="24119" user="Mauls"/>
+	<node id="3590723640" lat="53.4851698" lon="-2.2382947" version="1" timestamp="2015-06-12T21:54:47Z" changeset="31932992" uid="24119" user="Mauls"/>
+	<node id="4123231124" lat="53.3802636" lon="-2.2641727" version="1" timestamp="2016-04-15T09:07:06Z" changeset="38581872" uid="3828331" user="Mike McNiven">
+		<tag k="name" v="Wythenshawe Interchange"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="operator" v="Transport for Greater Manchester"/>
+	</node>
+	<node id="4124432185" lat="53.3808064" lon="-2.2652064" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432186" lat="53.38072" lon="-2.2643829" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432187" lat="53.38104" lon="-2.2646056" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432188" lat="53.3810208" lon="-2.2639645" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432189" lat="53.3806272" lon="-2.2638009" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432190" lat="53.380496" lon="-2.2637419" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432191" lat="53.3801312" lon="-2.2639162" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432192" lat="53.3797696" lon="-2.2640557" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432193" lat="53.3797472" lon="-2.2643078" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432194" lat="53.3797936" lon="-2.2645144" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432195" lat="53.3799136" lon="-2.2645841" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432196" lat="53.3805744" lon="-2.264391" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432197" lat="53.3807024" lon="-2.2652359" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432199" lat="53.3809505" lon="-2.2645433" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432200" lat="53.3807844" lon="-2.2644278" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4124432201" lat="53.380727" lon="-2.2644498" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven"/>
+	<node id="4549210385" lat="53.4777141" lon="-2.2381469" version="1" timestamp="2016-12-11T13:40:38Z" changeset="44321929" uid="105998" user="krispyduck"/>
+	<node id="1000000004960946" lat="53.480347" lon="-2.23769" version="9" timestamp="2014-05-18T18:32:07Z" changeset="22411866" uid="599469" user="daganzdaanda">
+		<tag k="name" v="Piccadilly Gardens"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="1000000025740614" lat="53.3654237" lon="-2.2726204" version="10" timestamp="2012-11-29T22:32:13Z" changeset="14092806" uid="114310" user="Joe E">
+		<tag k="name" v="Manchester Airport The Station"/>
+		<tag k="source" v="naptan_import"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="building" v="yes"/>
+		<tag k="naptan:Notes" v="INDICATOR AMENDED"/>
+		<tag k="naptan:Street" v="MALAGA AVENUE"/>
+		<tag k="naptan:AtcoCode" v="1800MABS001"/>
+		<tag k="naptan:Landmark" v="Manchester Airport The Station"/>
+		<tag k="naptan:verified" v="no"/>
+		<tag k="naptan:Indicator" v="The Station"/>
+		<tag k="naptan:CommonName" v="Manchester Airport The Station"/>
+		<tag k="naptan:NaptanCode" v="mantmpgt"/>
+		<tag k="naptan:PlusbusZoneRef" v="MNCRPIC"/>
+	</node>
+	<node id="1000000114412249" lat="53.4777976" lon="-2.237495" version="7" timestamp="2016-12-11T13:40:39Z" changeset="44321929" uid="105998" user="krispyduck">
+		<tag k="name" v="Manchester Central Coach Station"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="alt_name" v="Chorlton Street Bus Station"/>
+		<tag k="building" v="yes"/>
+		<tag k="public_transport" v="station"/>
+	</node>
+	<node id="1000000137000986" lat="53.4855722" lon="-2.2384415" version="3" timestamp="2015-06-12T21:54:50Z" changeset="31932992" uid="24119" user="Mauls">
+		<tag k="name" v="Shudehill Interchange"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="1000000198741321" lat="53.4832852" lon="-2.233276" version="2" timestamp="2012-12-30T14:40:18Z" changeset="14464415" uid="238584" user="mcld">
+		<tag k="source" v="bing"/>
+		<tag k="amenity" v="bus_station"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="1000000410634864" lat="53.3803936" lon="-2.2644888" version="1" timestamp="2016-04-15T18:51:17Z" changeset="38599157" uid="3828331" user="Mike McNiven">
+		<tag k="amenity" v="bus_station"/>
+		<tag k="building" v="yes"/>
+	</node>
+	<node id="2000000000239521" lat="53.480347" lon="-2.23769" version="1" timestamp="2009-09-11T08:41:53Z" changeset="2443738" uid="515" user="Frankie Roberto">
+		<tag k="name" v="Piccadilly Gardens"/>
+		<tag k="site" v="bus_station"/>
+		<tag k="type" v="site"/>
+		<tag k="amenity" v="bus_station"/>
+	</node>
+</osm>

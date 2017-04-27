@@ -1,0 +1,4 @@
+"","city","No. of elements","Max version No.","Mean version No.","SD version No.","Percentage with over 5 edits","Mean days since last edit","SD days since last edit","% of elements edited within the last year","% of elements last edited 1-4 years ago","% of elements last edited over 4 yr ago"
+"1","Bristol",403935,1070,1.62,3.61,"3.03%",969.62,762.03,"25.7%","46.6%","27.7%"
+"2","Cardiff",364294,1365,1.41,3.6,"2.24%",1507.24,746.25,"6.76%","43.2%","50.1%"
+"3","Manchester",1830029,1637,1.41,2.72,"2.16%",1441.51,909.8,"14.3%","36.1%","49.6%"
