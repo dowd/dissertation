@@ -201,6 +201,13 @@ To look at the completeness of OSM data for people with visual impairments, OSM 
 OS Points of Interest (POI) data was downloaded from Edina. The POI classification scheme  (Ordnance Survey, 2013) was used to choose relevant PointX classification codes. The following element types/classification codes were found public telephones (06340460), bus stops (10590732), bus and coach stations (10570731), railway stations (10570738), taxi ranks (10570758), and subways (10550750). When studying the downloaded data it was found that the classification code for public telephones was not included in any of the data, no reason could be found for their omission. The relevant elements were extracted from the data using QGIS and filtering by the classification codes then exported as a CSV file.
 
 Haklay (2010) found that some elements in OSM may be as far as 20 metres from the true feature location due to the way that OSM data is collected. So to compare whether a feature in the OS data was included in the OSM data the distance between the feature and OSM elements of that type were calculated. If there were any features within 20 metres then the nearest element was selected as matching the OS feature. The OSM id and the distance between the elements was then recorded for further analysis. If no elements were in 20 metres then it was recorded that no elements existed in the OSM data to match that OS feature. An R script was used to automate the process loading up the relevant OSM and OS data as spatial data frames and then looping over each OS feature (see appendix 7.2 for the script used).
+- As some objects are represented as ways in OSM but the analysis looked at OS point data and the analysis converted everything into points 50m was used.
+- 298 OS objects had distance of 20-50m (3760 under 20m and 5745 in total)
+    - 267 bus stops
+    - 17 railway stations
+    - 1 taxi rank
+    - 13 underpasses
+
 
 *OSM data compared with Ground Survey*
 
