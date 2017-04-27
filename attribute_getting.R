@@ -1,9 +1,8 @@
 library(sp)
 library(osmar)
 
-elements=read.csv("../data/results/element_attr_table.csv", header=TRUE, stringsAsFactors = FALSE)
+elements=read.csv("../data/results/element2_table.csv", header=TRUE, stringsAsFactors = FALSE)
 
-results = data.frame("City"=character(),"Element"=character(),"Type"=character(),"Key"=character(),"Value"=character(),"Total_OSM_elements"=numeric(),"No_source_tag"=numeric(), stringsAsFactors=FALSE)
 
 bbox = corner_bbox(-8, 50, 2, 60)
 src = osmsource_osmosis(file = "/Users/dowd/GIS_Data/easter/OSM_metro_extract/Manchester.osm")
@@ -16,41 +15,34 @@ src3=osmsource_osmosis(file = "/Users/dowd/GIS_Data/easter/OSM_metro_extract/Bri
 
 
 number_elements=function(x) {
-  if (x[4]=="*") {
-  subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==x[3]))))
-  subset2=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==x[3]))))
+  if (x[3]=="*") {
+  subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==x[2]))))
+  subset2=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==x[2]))))
 } else {
-  subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==x[3] & v==x[4]))))
-  subset2=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==x[3] & v==x[4]))))
+  subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==x[2] & v==x[3]))))
+  subset2=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==x[2] & v==x[3]))))
 }
   return(nrow(subset$ways$attrs)+nrow(subset2$nodes$attrs))
 }
 
-
-
-
-get_attribute_count = function(x) {
-  element_name = x[1]
-  type=x[2]
-  key = x[3]
-  value = x[4]
-  if (type=="way") {
-    if (value=="*") {
-      subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==key))))
-    } else {
-  subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==key & v==value))))
-  }
-  total=nrow(subset$ways$attrs)
-  sauce=sum(subset$ways$tags$k=="source")
+number_source=function(x) {
+  if (x[3]=="*") {
+    subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==x[2]))))
+    subset2=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==x[2]))))
   } else {
-    if (value=="*") {
-      subset=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==key))))
-    } else {
-      subset=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==key & v==value))))
-    }
-    total=nrow(subset$nodes$attrs)
-    sauce=sum(subset$nodes$tags$k=="source")
+    subset=subset(osm_temp, way_ids = find(osm_temp, way(tags(k==x[2] & v==x[3]))))
+    subset2=subset(osm_temp, node_ids = find(osm_temp, node(tags(k==x[2] & v==x[3]))))
   }
+  return(sum(subset$ways$tags$k=="source")+sum(subset2$nodes$tags$k=="source"))
+}
+
+
+
+
+
+
+
+
   
   if (!(x[5]=="")) {
     a=sum(subset$nodes$tags$k==x[5])
@@ -79,7 +71,8 @@ get_attribute_count = function(x) {
     
 }
 
-apply(elements, 1, get_attribute_count)
+elements$Total_OSM=apply(elements, 1, number_elements)
+elements$No_Source=apply(elements, 1, number_source)
 
 
 
