@@ -1,7 +1,8 @@
 ---
+bibliography: ../bib/library.bib
+csl: ../bib/mmu.csl
 output:
   pdf_document: default
-  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -11,9 +12,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ## CHAPTER 1 - INTRODUCTION
 # Study Background
 
-According to the World Health Organisation there is an estimated 285 million people worldwide who are visually impaired (World Health Organisation, 2014). One of the biggest obstacles facing visually impaired people  wanting to live independently concerns their ability to travel by themselves (Brock, et al, 2015). Travelling is important for someone to participate in society (Paajala & Keranen, 2015) and nearly half of visually impaired people feel like they are cut off from the society around them (RNIB, 2015). Problems with wayfinding can restrict people to travelling routes that they know or can even mean they do not travel at all (Brock et al, 2015). The impact can depend on the type and severity of the visual impairment for example reading a road sign may be difficult for someone with a loss of central vision (Bradley and Dunlop, 2005) but they may be able to see the buildings they are passing. For this research the term ‘visually impaired person’ is going to refer to a person who has problems navigating independently due to loss of vision.
+According to the World Health Organisation there is an estimated 285 million people worldwide who are visually impaired (World Health Organisation, 2014). One of the biggest obstacles facing visually impaired people  wanting to live independently concerns their ability to travel by themselves [@Brock2015]. Travelling is important for someone to participate in society [@Paajala2015] and nearly half of visually impaired people feel like they are cut off from the society around them (RNIB, 2015). Problems with wayfinding can restrict people to travelling routes that they know or can even mean they do not travel at all [@Brock2015]. The impact can depend on the type and severity of the visual impairment for example reading a road sign may be difficult for someone with a loss of central vision [@Bradley2005] but they may be able to see the buildings they are passing. For this research the term ‘visually impaired person’ is going to refer to a person who has problems navigating independently due to loss of vision.
 
-With the invention of technologies like Global Positioning System (GPS) there has been new tools created to help visually impaired people travel independently (Brusnighan et al, 1989). These tools require geographic data that is relevant to somebody with a visually impairment. Despite research into these data requirements, for example Chandler & Worsfold (2013), there has been little research into whether different data sources meet these requirements. This research is going to look at whether OpenStreetMap (OSM) data could meet these requirements by looking at the data quality of the OSM dataset.
+With the invention of technologies like Global Positioning System (GPS) there has been new tools created to help visually impaired people travel independently [@Brusnighan1989]. These tools require geographic data that is relevant to somebody with a visually impairment. Despite research into these data requirements, for example @Chandler2013, there has been little research into whether different data sources meet these requirements. This research is going to look at whether OpenStreetMap (OSM) data could meet these requirements by looking at the data quality of the OSM dataset.
 
 ##1.2 Study area
 
@@ -43,7 +44,6 @@ The aim of this study is to evaluate OpenStreetMap (OSM) as a geographic data so
 
 
 # CHAPTER 2 - LITERATURE REVIEW
-
 ## Introduction
 To understand previous research into this area a literature review was undertaken. This literature review starts by looking at the problems a visually impaired person has travelling independently and the solutions that have been found to help them. It then looks at what data is needed for these solutions, the data sources that exist and explores why VGI might be useful for this purpose. It ends by looking at different elements of data quality and how they can be used to look at volunteered geographic information (VGI).
 
@@ -281,3 +281,4 @@ It was also considered that the motivations of the user could give information a
 Budhathoki and Haythornthwaite (2012) looked at the motivations of people contributing to OSM by using an online survey. To look at the motivations of people contributing data relevant for visually impaired people and to find out what knowledge contributors had about data relevant to visually impaired people a survey was completed. The survey was distributed through several OSM mailing lists both mailing lists specifically about disability and more general mailing lists. This was done to get information and comments from both people who have some awareness of the needs of visually impaired people and those who don’t. The survey was conducted online using Google Forms (Google ,no date a)
 
 The survey asked questions about the person’s knowledge of OSM data elements that are relevant to a person with a visual impairment, the reasons that they contribute data in general, the reasons that they contribute data that is relevant to a person with a visual impairment (if relevant) and about ways that could encourage more people to contribute relevant data.
+
