@@ -1,4 +1,6 @@
 ---
+bibliography: ../bib/library.bib
+csl: ../bib/mmu.csl
 output:
   pdf_document:
     number_sections: yes
@@ -70,11 +72,6 @@ results=results[c(12,13,14)]
 kable(results,caption="showing attribute counts")
 
 ```
-
-
-- The incline tag for steps is less than 10% for all areas this may be because it is hard to measure.
-- The number of steps is very low with only Cardiff having over 2% coverage. This is something that could easily be added.
-- The steps surface tag for all areas has about 5% coverage.
 
 Again we see that the three areas are not consistent, neither is there consistency in an area across different tags, ever for the same type of element.
 
@@ -152,6 +149,11 @@ ggplot(all, aes(x=type, fill=Category)) + geom_bar(position="fill") + facet_grid
 - There is also a higher percentage of elements with over 5 edits.
 - These both point to potentially higher data quality
 - The number of days since the last edit is more for the relevant in Bristol and Manchester but not for Cardiff again showing the differences in data over area.
+
+
+@Kesler2013 use a higher version number to indicate higher trust, though they do state that this is not always the case, for example an object can be mapped perfectly the first time and so have a low version number but be correct and there can be objects that are under 'mapping wars' (ref???) that have a high version number but may not be correct. The mean version number across all three areas is higher for objects relevant to a visually impaired person than all objects in an area indicating higher trustworthiness. There is also a higher percentage of objects with over five edits.
+
+Looking at the number of days since the last edit, like @Neis2014a there is a mixed picture. In Cardiff the mean number of days since the last eidt was less for the elements relevant to a visually impaired person indicating the information is 'up to date' but for Bristol and Manchester the opposite is true. The same is true when dividing the element into those edited within the last year, those last edited between one and four years ago and those last edited over four years ago with Cardiff having a higher percentage of elements edited within the last year for relevant elements than overall.
 
 ## Positional Accuracy ##
 
