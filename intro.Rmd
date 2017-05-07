@@ -18,6 +18,8 @@ With the invention of technologies like Global Positioning System (GPS) there ha
 
 ##1.2 Study area
 
+
+
 Though it is hoped that this research will be useful in other places, the ground survey and national analysis focuses on the United Kingdom (UK). The UK has large urban areas and in 2015 there was over two million people in the UK who had sight loss (RNIB, 2015). There is legislation that protects the rights of people who have sight loss, such as the Equality Act 2010 which can be applied to them being able to access urban spaces for independent travel (Norgate, 2012).
 
 The UK has also been home to research into the quality of Openstreetmap (OSM) data. This includes research by Haklay (2010) into data quality in London and England and Mooney et al (2010) who looked at different areas of the UK along with other regions while attempting to develop some quality metrics.
