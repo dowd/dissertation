@@ -1,6 +1,6 @@
 Category,Feature,Relevant attributes,OSM element tag,OSM attribute tag
 sidewalks,step,"Number of steps, surface",highway=steps,"step_count=*, surface=*"
-sidewalks,sidewalk,Location & surface,"footway=*, sidewalk=*","sidewalk:left, sidewalk:both, sidewalk:right, surface=*"
+sidewalks,sidewalk,Location,"footway=*, sidewalk=*","sidewalk:left, sidewalk:both, sidewalk:right, surface=*"
 crossing points,crossing,Crossing type,"highway=crossing, crossing=*","crossing_ref=*, traffic_signals=*, crossing=*"
 crossing points,underpass,,tunnel=*,
 transport links,bus stop,,highway=bus_stop,
@@ -9,7 +9,6 @@ transport links,taxi rank,,amenity=taxi,
 transport links,bus station,,amenity=bus_station,
 destinations & entrances,building,,building=replace,
 destinations & entrances,entrance,,"entrance=*, building=entrance, door=*",
-obstacles,info board,,tourism=information,
 obstacles,bollard,,barrier=bollard,
 obstacles,outdoor seating,,"outdoor_seating=*, amenity=biergarten",
 obstacles,waste basket,,amenity=waste_basket,

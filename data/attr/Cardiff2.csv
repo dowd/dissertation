@@ -1,0 +1,1005 @@
+@id,@lon,@lat,crossing,step_count,surface,incline,highway,step,sidewalk,any,name
+30972881,-3.2247296,51.5159764,zebra,,,,crossing,,,crossing,0
+30972885,-3.2297834,51.5188729,uncontrolled,,,,crossing,,,crossing,0
+30994938,-3.2563093,51.473286,traffic_signals,,,,crossing,,,crossing,0
+31571327,-3.2645328,51.5233328,zebra,,,,crossing,,,crossing,0
+31591782,-3.2280858,51.484905,traffic_signals,,,,crossing,,,crossing,0
+31591810,-3.218745,51.4825438,zebra,,,,crossing,,,crossing,0
+33117989,-3.1665253,51.4631379,uncontrolled,,,,crossing,,,crossing,0
+33117995,-3.1663165,51.4639411,uncontrolled,,,,crossing,,,crossing,0
+33189973,-3.1314335,51.5091311,traffic_signals,,,,traffic_signals,,,crossing,0
+79890564,-3.1978075,51.4815305,traffic_signals,,,,crossing,,,crossing,0
+207052985,-3.2191589,51.4829827,zebra,,,,crossing,,,crossing,0
+207065350,-3.2100325,51.4883912,uncontrolled,,,,crossing,,,crossing,0
+207109093,-3.1947261,51.4690599,uncontrolled,,,,crossing,,,crossing,0
+243216502,-3.2518415,51.4705217,unmarked,,,,crossing,,,crossing,0
+243216504,-3.2541147,51.4702652,zebra,,,,crossing,,,crossing,0
+243216507,-3.2591084,51.4706638,pelican,,,,crossing,,,crossing,0
+244026562,-3.2465918,51.4798965,unmarked,,,,,,,crossing,0
+252451139,-3.187864,51.4620963,zebra,,,,crossing,,,crossing,0
+256889010,-3.1808108,51.490264,traffic_signals,,,,crossing,,,crossing,0
+259519723,-3.1502914,51.4910632,traffic_signals,,,,crossing,,,crossing,0
+260314167,-3.1868494,51.4565413,zebra,,,,crossing,,,crossing,0
+263212428,-3.2149795,51.5084249,zebra,,,,crossing,,,crossing,0
+263213586,-3.2241933,51.5156741,zebra,,,,crossing,,,crossing,0
+263217434,-3.1908423,51.4980303,zebra,,,,crossing,,,crossing,0
+263233606,-3.1657799,51.4674616,traffic_signals,,,,crossing,,,crossing,0
+263233798,-3.1666234,51.4686037,traffic_signals,,,,crossing,,,crossing,0
+263233799,-3.1678881,51.4702733,traffic_signals,,,,crossing,,,crossing,0
+263233800,-3.1683136,51.4709685,traffic_signals,,,,crossing,,,crossing,0
+263233801,-3.1692396,51.4720692,traffic_signals,,,,crossing,,,crossing,0
+266770199,-3.1301799,51.5356663,zebra,,,,crossing,,,crossing,0
+286574892,-3.1926994,51.5380456,uncontrolled,,,,crossing,,,crossing,0
+287150563,-3.1925425,51.541241,zebra,,,,crossing,,,crossing,0
+287941796,-3.2277755,51.5086276,zebra,,,,crossing,,,crossing,0
+289668211,-3.1665566,51.4843457,traffic_signals,,,,crossing,,,crossing,0
+325689064,-3.1865003,51.4810928,traffic_signals,,,,crossing,,,crossing,0
+338430533,-3.1758221,51.4841833,traffic_signals,,,,crossing,,,crossing,0
+345635387,-3.1748932,51.4776941,zebra,,,,crossing,,,crossing,0
+457491061,-3.1162086,51.5195317,traffic_signals,,,,traffic_signals,,,crossing,0
+457491261,-3.1166712,51.518968,traffic_signals,,,,traffic_signals,,,crossing,0
+534161303,-3.139019,51.5016216,traffic_signals,,,,crossing,,,crossing,0
+534163429,-3.1331073,51.5082857,traffic_signals,,,,crossing,,,crossing,0
+534165775,-3.1209571,51.5164977,traffic_signals,,,,crossing,,,crossing,0
+544946984,-3.1121678,51.5253075,traffic_signals,,,,traffic_signals,,,crossing,0
+559956265,-3.1437465,51.486073,uncontrolled,,,,crossing,,,crossing,0
+579923294,-3.2391945,51.4797888,traffic_signals,,,,crossing,,,crossing,0
+579924875,-3.236641,51.4811718,traffic_signals,,,,crossing,,,crossing,0
+579931282,-3.2363484,51.481531,pelican,,,,crossing,,,crossing,0
+580026305,-3.2326493,51.4835215,pelican,,,,crossing,,,crossing,0
+580029666,-3.2283072,51.4881047,pelican,,,,crossing,,,crossing,0
+580826069,-3.2417185,51.4840047,zebra,,,,crossing,,,crossing,0
+580841188,-3.2466475,51.4800378,unmarked,,,,,,,crossing,0
+580842632,-3.2442155,51.4815959,zebra,,,,crossing,,,crossing,0
+580843447,-3.2432417,51.4816745,unmarked,,,,crossing,,,crossing,0
+580843466,-3.243307,51.4815996,unmarked,,,,crossing,,,crossing,0
+581059457,-3.1793098,51.4786298,traffic_signals,,,,crossing,,,crossing,0
+581063732,-3.1922763,51.4811185,traffic_signals,,,,crossing,,,crossing,0
+582527132,-3.2485949,51.4711732,zebra,,,,crossing,,,crossing,0
+582527194,-3.248649,51.4712692,unmarked,,,,crossing,,,crossing,0
+582527318,-3.2485425,51.4710857,unmarked,,,,crossing,,,crossing,0
+582530020,-3.2562982,51.470284,zebra,,,,crossing,,,crossing,0
+582530210,-3.2562805,51.4703849,unmarked,,,,crossing,,,crossing,0
+582531468,-3.260015,51.4708144,pelican,,,,crossing,,,crossing,0
+620865277,-3.1877668,51.4589912,zebra,,,,crossing,,,crossing,0
+642113904,-3.2229652,51.4836401,traffic_signals,,,,crossing,,,crossing,0
+643202717,-3.214126,51.482673,traffic_signals,,,,crossing,,,crossing,0
+643202726,-3.2112538,51.4825761,traffic_signals,,,,crossing,,,crossing,0
+643202729,-3.2110098,51.4824599,pelican,,,,crossing,,,crossing,0
+643202732,-3.2110742,51.4826521,pelican,,,,crossing,,,crossing,0
+643202734,-3.2107691,51.4825456,traffic_signals,,,,crossing,,,crossing,0
+643202736,-3.2081723,51.4822798,traffic_signals,,,,crossing,,,crossing,0
+643202738,-3.2053355,51.4819434,traffic_signals,,,,crossing,,,crossing,0
+643229773,-3.2022421,51.4817453,traffic_signals,,,,crossing,,,crossing,0
+643229778,-3.2009282,51.4815264,traffic_signals,,,,crossing,,,crossing,0
+643646984,-3.2252867,51.488283,pelican,,,,crossing,,,crossing,0
+643646989,-3.2247913,51.4886755,pelican,,,,crossing,,,crossing,0
+651486685,-3.2551834,51.4769945,pelican,,,,crossing,,,crossing,0
+651486689,-3.2553322,51.4771194,pelican,,,,crossing,,,crossing,0
+651486691,-3.2549308,51.4771088,pelican,,,,crossing,,,crossing,0
+651486701,-3.2550709,51.4772232,pelican,,,,crossing,,,crossing,0
+651495844,-3.2553184,51.4778321,zebra,,,,crossing,,,crossing,0
+653822261,-3.2435592,51.4817495,unmarked,,,,crossing,,,crossing,0
+668725313,-3.1864734,51.4810087,traffic_signals,,,,crossing,,,crossing,0
+668725316,-3.1850609,51.4809924,traffic_signals,,,,crossing,,,crossing,0
+742398360,-3.1757118,51.484259,traffic_signals,,,,crossing,,,crossing,0
+761373120,-3.2698831,51.4653933,pelican,,,,crossing,,,crossing,0
+762270658,-3.1716208,51.4749436,traffic_signals,,,,traffic_signals,,,crossing,0
+765091711,-3.1629482,51.4670915,uncontrolled,,,,crossing,,,crossing,0
+765091734,-3.1619942,51.4675405,uncontrolled,,,,crossing,,,crossing,0
+822651637,-3.1834509,51.4809946,pelican,,,,crossing,,,crossing,0
+823314903,-3.2701718,51.4764234,traffic_signals,,,,crossing,,,crossing,0
+823314913,-3.2699934,51.4764097,traffic_signals,,,,crossing,,,crossing,0
+823314915,-3.2701791,51.4762029,traffic_signals,,,,crossing,,,crossing,0
+823314924,-3.2699219,51.4761428,traffic_signals,,,,crossing,,,crossing,0
+1000801834,-3.1998781,51.4730441,uncontrolled,,,,crossing,,,crossing,0
+1016000877,-3.2183307,51.4828888,uncontrolled,,,,crossing,,,crossing,0
+1036629393,-3.1581143,51.4888922,traffic_signals,,,,crossing,,,crossing,0
+1037781625,-3.206999,51.4730965,traffic_signals,,,,crossing,,,crossing,0
+1037781719,-3.2071076,51.4730207,traffic_signals,,,,crossing,,,crossing,0
+1039922666,-3.1679391,51.483525,traffic_signals,,,,crossing,,,crossing,0
+1039922900,-3.1694492,51.4830271,uncontrolled,,,,crossing,,,crossing,0
+1039923168,-3.1680356,51.4834828,traffic_signals,,,,crossing,,,crossing,0
+1039923184,-3.1696686,51.4829807,uncontrolled,,,,crossing,,,crossing,0
+1043561347,-3.2075124,51.4733384,traffic_signals,,,,crossing,,,crossing,0
+1043865066,-3.2034118,51.4742642,uncontrolled,,,,crossing,,,crossing,0
+1043865097,-3.203195,51.4738593,uncontrolled,,,,crossing,,,crossing,0
+1043865423,-3.2033408,51.4741299,uncontrolled,,,,crossing,,,crossing,0
+1043865915,-3.2034729,51.4744059,uncontrolled,,,,crossing,,,crossing,0
+1043865940,-3.2032867,51.4739978,uncontrolled,,,,crossing,,,crossing,0
+1043985205,-3.2114529,51.4787573,uncontrolled,,,,crossing,,,crossing,0
+1055323151,-3.1912193,51.4770427,traffic_signals,,,,crossing,,,crossing,0
+1096934825,-3.1695895,51.4627183,uncontrolled,,,,crossing,,,crossing,0
+1097110296,-3.1675697,51.4630102,uncontrolled,,,,crossing,,,crossing,0
+1099557795,-3.1855159,51.4558236,zebra,,,,crossing,,,crossing,0
+1099557799,-3.1855993,51.4566894,zebra,,,,crossing,,,crossing,0
+1099557808,-3.1862339,51.4556344,zebra,,,,crossing,,,crossing,0
+1099557820,-3.1855135,51.4565549,zebra,,,,crossing,,,crossing,0
+1099557835,-3.186974,51.4589916,zebra,,,,crossing,,,crossing,0
+1099557836,-3.1870571,51.4591211,zebra,,,,crossing,,,crossing,0
+1099557844,-3.1854304,51.4564203,zebra,,,,crossing,,,crossing,0
+1103759814,-3.2069246,51.4884511,traffic_signals,,,,crossing,,,crossing,0
+1108141273,-3.1858769,51.4563101,zebra,,,,crossing,,,crossing,0
+1108141281,-3.1857047,51.456031,zebra,,,,crossing,,,crossing,0
+1108141311,-3.1856223,51.4558992,zebra,,,,crossing,,,crossing,0
+1108141346,-3.1860459,51.4565807,zebra,,,,crossing,,,crossing,0
+1108141355,-3.1857857,51.456158,zebra,,,,crossing,,,crossing,0
+1108141365,-3.1849805,51.4554721,zebra,,,,crossing,,,crossing,0
+1108141372,-3.1859628,51.4564471,zebra,,,,crossing,,,crossing,0
+1108187038,-3.1869432,51.4577924,zebra,,,,crossing,,,crossing,0
+1108187354,-3.1868964,51.4599879,zebra,,,,crossing,,,crossing,0
+1108187767,-3.1866065,51.4566008,zebra,,,,crossing,,,crossing,0
+1108187936,-3.1872822,51.4592563,zebra,,,,crossing,,,crossing,0
+1108188100,-3.187504,51.4595234,zebra,,,,crossing,,,crossing,0
+1108188291,-3.1873219,51.4602042,zebra,,,,crossing,,,crossing,0
+1108188396,-3.187925,51.4597379,zebra,,,,crossing,,,crossing,0
+1108188771,-3.1860359,51.4566764,zebra,,,,crossing,,,crossing,0
+1108440907,-3.1884981,51.4784011,uncontrolled,,,,crossing,,,crossing,0
+1110303863,-3.1872729,51.4623242,zebra,,,,crossing,,,crossing,0
+1110303877,-3.1876881,51.4624244,zebra,,,,crossing,,,crossing,0
+1113926018,-3.2134814,51.488965,uncontrolled,,,,crossing,,,crossing,0
+1117732807,-3.2191173,51.4892079,uncontrolled,,,,crossing,,,crossing,0
+1123292809,-3.205999,51.4991292,zebra,,,,crossing,,,crossing,0
+1123292862,-3.2060736,51.49899,zebra,,,,crossing,,,crossing,0
+1123292942,-3.2075574,51.4983046,zebra,,,,crossing,,,crossing,0
+1123293032,-3.2059272,51.49927,zebra,,,,crossing,,,crossing,0
+1132658067,-3.1674259,51.4794732,traffic_signals,,,,crossing,,,crossing,0
+1132658075,-3.1673951,51.479586,traffic_signals,,,,crossing,,,crossing,0
+1141936913,-3.1292394,51.5347017,zebra,,,,crossing,,,crossing,0
+1141937108,-3.1284823,51.535927,zebra,,,,crossing,,,crossing,0
+1141937215,-3.128874,51.5360796,zebra,,,,crossing,,,crossing,0
+1141937270,-3.1284805,51.5354317,zebra,,,,crossing,,,crossing,0
+1147573502,-3.2469452,51.4964495,zebra,,,,crossing,,,crossing,0
+1151949617,-3.1765738,51.5171105,traffic_signals,,,,crossing,,,crossing,0
+1170686659,-3.1901078,51.4939296,traffic_signals,,,,crossing,,,crossing,0
+1170752648,-3.1884983,51.492581,traffic_signals,,,,crossing,,,crossing,0
+1185634888,-3.2375036,51.503365,uncontrolled,,,,crossing,,,crossing,0
+1188903339,-3.2119993,51.4792738,uncontrolled,,,,crossing,,,crossing,0
+1205951889,-3.168364,51.4703121,pelican,,,,crossing,,,crossing,0
+1206401877,-3.1681723,51.4703079,pelican,,,,crossing,,,crossing,0
+1206401909,-3.1688799,51.4709918,pelican,,,,crossing,,,crossing,0
+1206401937,-3.1684852,51.4707397,pelican,,,,crossing,,,crossing,0
+1206401954,-3.1686931,51.4707489,pelican,,,,crossing,,,crossing,0
+1206401958,-3.1686831,51.470987,pelican,,,,crossing,,,crossing,0
+1206442529,-3.1701962,51.4734414,traffic_signals,,,,crossing,,,crossing,0
+1233711014,-3.1737785,51.4845219,traffic_signals,,,,crossing,,,crossing,0
+1233711069,-3.1738385,51.4846198,traffic_signals,,,,crossing,,,crossing,0
+1233811732,-3.1643576,51.4850367,traffic_signals,,,,crossing,,,crossing,0
+1233811761,-3.1645488,51.4850715,traffic_signals,,,,crossing,,,crossing,0
+1235796821,-3.1733949,51.4757845,traffic_signals,,,,crossing,,,crossing,0
+1242996406,-3.2058955,51.5094856,uncontrolled,,,,crossing,,,crossing,0
+1291575705,-3.1560049,51.4795148,traffic_signals,,,,crossing,,,crossing,0
+1297126608,-3.187517,51.5007629,traffic_signals,,,,crossing,,,crossing,0
+1297250321,-3.1890422,51.5016972,traffic_signals,,,,crossing,,,crossing,0
+1318719406,-3.2693699,51.4741679,zebra,,,,crossing,,,crossing,0
+1366762423,-3.1943528,51.5380762,uncontrolled,,,,crossing,,,crossing,0
+1394718094,-3.1631097,51.5102434,zebra,,,,crossing,,,crossing,0
+1430327728,-3.178232,51.483319,traffic_signals,,,,crossing,,,crossing,0
+1496364568,-3.1696201,51.4627514,uncontrolled,,,,crossing,,,crossing,0
+1496485293,-3.1698088,51.4761997,uncontrolled,,,,crossing,,,crossing,0
+1500187251,-3.1620156,51.4676579,uncontrolled,,,,crossing,,,crossing,0
+1559367734,-3.1953975,51.4803735,traffic_signals,,,,crossing,,,crossing,0
+1671794397,-3.1937907,51.5385088,uncontrolled,,,,crossing,,,crossing,0
+1855627697,-3.2166528,51.506663,zebra,,,,crossing,,,crossing,0
+1863193344,-3.2246022,51.515673,zebra,,,,crossing,,,crossing,0
+1863193347,-3.2248151,51.5158081,zebra,,,,crossing,,,crossing,0
+1863193349,-3.2242076,51.5158549,zebra,,,,crossing,,,crossing,0
+1893886212,-3.1850626,51.4810625,traffic_signals,,,,crossing,,,crossing,0
+1956207846,-3.1808295,51.4795248,traffic_signals,,,,crossing,,,crossing,0
+1956207861,-3.1833334,51.4808932,pelican,,,,crossing,,,crossing,0
+1973897002,-3.2342649,51.4762255,traffic_signals,,,,crossing,,,crossing,0
+1998891340,-3.2545366,51.4782006,zebra,,,,crossing,,,crossing,0
+2022293256,-3.2069856,51.4727248,uncontrolled,,,,crossing,,,crossing,0
+2274253354,-3.2137232,51.4919893,traffic_signals,,,,crossing,,,crossing,0
+2274253358,-3.2138255,51.492101,traffic_signals,,,,crossing,,,crossing,0
+2331802787,-3.21694,51.5267742,traffic_signals,,,,crossing,,,crossing,0
+2364902387,-3.1506669,51.4910315,traffic_signals,,,,crossing,,,crossing,0
+2364902390,-3.1504859,51.491049,traffic_signals,,,,crossing,,,crossing,0
+2364902391,-3.1504363,51.4911651,traffic_signals,,,,crossing,,,crossing,0
+2448076648,-3.24175,51.4783483,traffic_signals,,,,crossing,,,crossing,0
+2906971237,-3.1742588,51.4768722,traffic_signals,,,,crossing,,,crossing,0
+3061548760,-3.1871547,51.4592859,zebra,,,,crossing,,,crossing,0
+3097969046,-3.1729173,51.4751837,traffic_signals,,,,crossing,,,crossing,0
+3333027826,-3.2038053,51.5100851,traffic_signals,,,,crossing,,,crossing,0
+3450642766,-3.1871765,51.50585,traffic_signals,,,,crossing,,,crossing,0
+3450642779,-3.1889488,51.5060625,zebra,,,,crossing,,,crossing,0
+3454244893,-3.1913326,51.5060182,zebra,,,,crossing,,,crossing,0
+3454244897,-3.1888633,51.5062548,zebra,,,,crossing,,,crossing,0
+3454244898,-3.1895358,51.5058376,zebra,,,,crossing,,,crossing,0
+3454244911,-3.1901224,51.506004,zebra,,,,crossing,,,crossing,0
+3454245028,-3.1919136,51.5070066,zebra,,,,crossing,,,crossing,0
+3454245029,-3.1920452,51.5064361,zebra,,,,crossing,,,crossing,0
+3454245041,-3.1858664,51.5068323,zebra,,,,crossing,,,crossing,0
+3454245042,-3.18613,51.5059631,zebra,,,,crossing,,,crossing,0
+3454245043,-3.1858373,51.505768,zebra,,,,crossing,,,crossing,0
+3461929366,-3.1901933,51.5059499,zebra,,,,crossing,,,crossing,0
+3749502958,-3.1672569,51.4796411,traffic_signals,,,,crossing,,,crossing,0
+3749502970,-3.1677662,51.4795765,traffic_signals,,,,crossing,,,crossing,0
+3749502973,-3.1677279,51.4794586,traffic_signals,,,,crossing,,,crossing,0
+3749502990,-3.1693732,51.4788067,traffic_signals,,,,crossing,,,crossing,0
+3749502991,-3.1693142,51.4787282,traffic_signals,,,,crossing,,,crossing,0
+3749519232,-3.1691306,51.4786958,traffic_signals,,,,crossing,,,crossing,0
+3749536686,-3.1742709,51.4769599,traffic_signals,,,,crossing,,,crossing,0
+3750954758,-3.1716058,51.480319,traffic_signals,,,,crossing,,,crossing,0
+3750954760,-3.1713699,51.4803023,traffic_signals,,,,crossing,,,crossing,0
+3750954763,-3.1713435,51.4804929,traffic_signals,,,,crossing,,,crossing,0
+3750954764,-3.1725219,51.4799315,traffic_signals,,,,crossing,,,crossing,0
+3750954768,-3.1715404,51.4805108,traffic_signals,,,,crossing,,,crossing,0
+3750960801,-3.1717973,51.4782878,traffic_signals,,,,crossing,,,crossing,0
+3761464817,-3.1355563,51.5052045,traffic_signals,,,,crossing,,,crossing,0
+3761482261,-3.1037497,51.5292513,traffic_signals,,,,crossing,,,crossing,0
+3761482262,-3.1041896,51.5290561,traffic_signals,,,,crossing,,,crossing,0
+3761552366,-3.172992,51.475281,traffic_signals,,,,crossing,,,crossing,0
+3827068066,-3.1812373,51.4921061,traffic_signals,,,,crossing,,,crossing,0
+3827068079,-3.1820071,51.496862,traffic_signals,,,,crossing,,,crossing,0
+3845685641,-3.1296982,51.5357369,zebra,,,,crossing,,,crossing,0
+3919534810,-3.1504015,51.4912488,traffic_signals,,,,crossing,,,crossing,0
+3922064539,-3.1707794,51.47592,traffic_signals,,,,crossing,,,crossing,0
+3922064542,-3.1707522,51.4760048,traffic_signals,,,,crossing,,,crossing,0
+3932804497,-3.1644699,51.4852095,traffic_signals,,,,crossing,,,crossing,0
+3932804498,-3.1646964,51.4849087,traffic_signals,,,,crossing,,,crossing,0
+3992117799,-3.1691259,51.4847514,traffic_signals,,,,crossing,,,crossing,0
+3992117804,-3.1668063,51.4843716,traffic_signals,,,,crossing,,,crossing,0
+4192368016,-3.1637032,51.4775561,traffic_signals,,,,crossing,,,crossing,0
+4192368018,-3.1634476,51.4775222,traffic_signals,,,,crossing,,,crossing,0
+4379513959,-3.1906081,51.4674434,traffic_signals,,,,crossing,,,crossing,0
+4379513962,-3.1906464,51.4676027,traffic_signals,,,,crossing,,,crossing,0
+4497553492,-3.2001703,51.5139015,traffic_signals,,,,crossing,,,crossing,0
+4497553497,-3.2007485,51.5169573,traffic_signals,,,,crossing,,,crossing,0
+4596729297,-3.2388341,51.4800296,traffic_signals,,,,crossing,,,crossing,0
+4596729298,-3.2391361,51.480046,traffic_signals,,,,crossing,,,crossing,0
+4596729299,-3.2392615,51.4799195,traffic_signals,,,,crossing,,,crossing,0
+4747039490,-3.1698602,51.4645128,uncontrolled,,,,crossing,,,crossing,0
+4747083767,-3.2281664,51.5072032,traffic_signals,,,,crossing,,,crossing,0
+45514440,-3.2295059,51.4995428,,,,down,steps,,,steps,Highfield steps
+59021510,-3.16338,51.4716899,,,paved,,steps,,,steps,0
+59021520,-3.1655791,51.4722931,,,paved,,steps,,,steps,0
+60921720,-3.1670402,51.4613977,,8,paved,,steps,,,steps,0
+60921730,-3.1673438,51.4601258,,17,,,steps,,,steps,0
+60921730,-3.1671832,51.4609856,,15,,,steps,,,steps,0
+96450170,-3.268119,51.4867777,,3,,,steps,,,steps,0
+96450180,-3.2683901,51.4873453,,5,,,steps,,,steps,0
+96450190,-3.2701702,51.488593,,4,,,steps,,,steps,0
+102969130,-3.2231247,51.4833674,,32,,,steps,,,steps,0
+142496570,-3.195902,51.5373333,,,,down,steps,,,steps,0
+275760740,-3.2689681,51.5261604,,,unpaved,,steps,,,steps,0
+276636150,-3.260023,51.527699,,,asphalt,,steps,,,steps,0
+298027030,-3.1696112,51.4775082,,41,,,steps,,,steps,Smart Bridge
+428340540,-3.1697717,51.4777422,,40,,,steps,,,steps,Smart Bridge
+476171060,-3.1764479,51.4761874,,,,down,steps,,,steps,0
+483034110,-3.1596311,51.464099,,7,paved,,steps,,,steps,0
+483034110,-3.160196,51.4642814,,8,,,steps,,,steps,0
+483034110,-3.1600828,51.4647139,,11,,,steps,,,steps,0
+483443920,-3.1601391,51.4650323,,12,paved,,steps,,,steps,0
+4817220,-3.1737322,51.4764409,0,0,asphalt,0,primary,0,both,sidewalk,Bute Street
+4822490,-3.2700321,51.4666624,0,0,asphalt,0,trunk,0,left,sidewalk,Cowbridge Road West
+4968820,-3.1935853,51.5138826,0,0,asphalt,0,tertiary,0,both,sidewalk,Heathwood Road
+4968830,-3.1928874,51.5283444,0,0,asphalt,0,secondary,0,both,sidewalk,TÅ· Glas Road
+4969080,-3.0939396,51.5283613,0,0,asphalt,0,unclassified,0,both,sidewalk,Willowdene Way
+4970060,-3.1827031,51.4705049,0,0,asphalt,0,tertiary,0,both,sidewalk,Blaenclydach Place
+4989510,-3.1717519,51.475297,0,0,asphalt,0,primary,0,both,sidewalk,Lloyd George Avenue
+4998130,-3.1121678,51.5253075,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+5011080,-3.1712012,51.4785068,0,0,asphalt,0,unclassified,0,left,sidewalk,Churchill Way
+5027020,-3.1715801,51.4804878,0,0,asphalt,0,unclassified,0,left,sidewalk,Churchill Way
+17535970,-3.1759236,51.4765415,0,0,asphalt,0,service,0,both,sidewalk,Custom House Street
+19346860,-3.323954,51.5219227,0,0,asphalt,0,residential,0,both,sidewalk,Parc-Y-Coed
+19828640,-3.219932,51.484318,0,0,0,0,residential,0,both,sidewalk,Victoria Park Road West
+19828660,-3.2220668,51.4842673,0,0,0,0,residential,0,both,sidewalk,Fairfield Avenue
+19829010,-3.2215404,51.4887466,0,0,0,0,tertiary,0,both,sidewalk,Pencisely Road
+19829500,-3.2309967,51.4859051,0,0,asphalt,0,residential,0,both,sidewalk,Limeslade Close
+19829540,-3.2190958,51.4868252,0,0,0,0,residential,0,both,sidewalk,Thompson Avenue
+19829590,-3.222474,51.4873807,0,0,0,0,residential,0,both,sidewalk,Butleigh Avenue
+19829620,-3.2254338,51.4865092,0,0,0,0,residential,0,both,sidewalk,Windway Road
+19829650,-3.2229117,51.4855995,0,0,0,0,residential,0,both,sidewalk,Windway Avenue
+19829660,-3.2213626,51.4867373,0,0,0,0,residential,0,both,sidewalk,Granville Avenue
+19829730,-3.2213594,51.484809,0,0,0,0,residential,0,both,sidewalk,Kensington Avenue
+19829760,-3.2211512,51.4844844,0,0,0,0,residential,0,both,sidewalk,Bernard Avenue
+19829820,-3.2244904,51.4867793,0,0,0,0,residential,0,both,sidewalk,West Orchard Crescent
+19829850,-3.2235702,51.4854394,0,0,0,0,residential,0,both,sidewalk,Aubrey Avenue
+19829990,-3.2196934,51.4875877,0,0,0,0,residential,0,both,sidewalk,Pencisely Crescent
+19830850,-3.1852309,51.4764207,0,0,asphalt,0,tertiary,0,both,sidewalk,Tudor Street
+22675060,-3.239986,51.4767441,0,0,0,0,residential,0,both,sidewalk,Amroth Road
+22675100,-3.2419719,51.4738994,0,0,0,0,residential,0,left,sidewalk,Bishopston Road
+22675230,-3.2435022,51.4736399,0,0,0,0,residential,0,both,sidewalk,Bishopston Road
+22675240,-3.2435424,51.4730467,0,0,0,0,residential,0,both,sidewalk,Newgale Place
+22675250,-3.2381674,51.4774392,0,0,0,0,residential,0,both,sidewalk,Bromley Drive
+22675260,-3.2371696,51.4769587,0,0,0,0,residential,0,both,sidewalk,Bromley Drive
+22675280,-3.2411184,51.4747543,0,0,0,0,residential,0,both,sidewalk,Haverford Way
+22675290,-3.2410194,51.4759797,0,0,0,0,residential,0,both,sidewalk,Camrose Road
+22675330,-3.2337838,51.4754282,0,0,0,0,residential,0,left,sidewalk,Penally Road
+22675340,-3.2398001,51.4737353,0,0,0,0,residential,0,both,sidewalk,Heol Pennar
+22675380,-3.2415777,51.4735755,0,0,0,0,residential,0,both,sidewalk,Broadfield Court
+22675410,-3.2367919,51.4747483,0,0,0,0,residential,0,both,sidewalk,Heol Eglwys
+22675440,-3.2596341,51.4708248,0,0,0,0,residential,0,left,sidewalk,Heol Trelai
+22675450,-3.24917,51.4711641,0,0,0,0,residential,0,left,sidewalk,Heol Trelai
+22675470,-3.2392258,51.4730559,0,0,0,0,residential,0,no,sidewalk,Heol Trelai
+22675480,-3.2351691,51.4747252,0,0,0,0,residential,0,both,sidewalk,Dew Crescent
+22675500,-3.2464342,51.4724173,0,0,0,0,residential,0,both,sidewalk,Heol Pantyderi
+22675620,-3.229597,51.4834272,0,0,0,0,residential,0,both,sidewalk,Robert Street
+22675640,-3.231903,51.4828174,0,0,0,0,residential,0,both,sidewalk,Clarke Street
+22675730,-3.2313311,51.4801591,0,0,0,0,residential,0,both,sidewalk,Aintree Drive
+22675740,-3.2317647,51.4806018,0,0,0,0,residential,0,both,sidewalk,Aintree Drive
+22675910,-3.232203,51.4800929,0,0,0,0,residential,0,both,sidewalk,Epsom Close
+22675920,-3.2353406,51.4812261,0,0,0,0,residential,0,left,sidewalk,Barnard Avenue
+22675930,-3.2336167,51.4800843,0,0,0,0,residential,0,both,sidewalk,Morris Finer Close
+22675940,-3.2363053,51.4809366,0,0,0,0,residential,0,both,sidewalk,Vincent Road
+22675950,-3.23605,51.4796925,0,0,0,0,residential,0,both,sidewalk,Palmers Drive
+22675970,-3.2346424,51.4734144,0,0,0,0,residential,0,both,sidewalk,Emblem Close
+22744680,-3.2410339,51.4821229,0,0,0,0,residential,0,both,sidewalk,Heol Muston
+22744710,-3.2357301,51.4834086,0,0,0,0,residential,0,both,sidewalk,Cherrydale Road
+22744720,-3.2347647,51.483206,0,0,0,0,residential,0,no,sidewalk,Hollycroft Close
+22744750,-3.2384216,51.4843711,0,0,0,0,residential,0,both,sidewalk,Mill Road
+22744790,-3.2390907,51.4824958,0,0,0,0,residential,0,both,sidewalk,Pencader Road
+22744800,-3.2384551,51.4820944,0,0,0,0,residential,0,both,sidewalk,Pengwern Road
+22744810,-3.2405035,51.4815772,0,0,0,0,residential,0,both,sidewalk,Penygarn Road
+22744820,-3.2380357,51.4814971,0,0,0,0,residential,0,both,sidewalk,Pendine Road
+22744840,-3.2392527,51.4845528,0,0,0,0,residential,0,both,sidewalk,Mill Place
+22744890,-3.240612,51.4832928,0,0,0,0,residential,0,no,sidewalk,Ronald Place
+22744900,-3.2416814,51.4829235,0,0,0,0,residential,0,no,sidewalk,Plymouth Wood Close
+22744960,-3.2439941,51.4825597,0,0,0,0,residential,0,both,sidewalk,Charteris Road
+22745030,-3.2432417,51.4816745,0,0,0,0,tertiary,0,left,sidewalk,Grand Avenue
+22745040,-3.2454722,51.4802971,0,0,0,0,tertiary,0,no,sidewalk,Grand Avenue
+22745080,-3.24445,51.4824002,0,0,0,0,residential,0,left,sidewalk,Charteris Crescent
+22745090,-3.2449738,51.4829551,0,0,0,0,residential,0,both,sidewalk,Archer Crescent
+22745100,-3.2462493,51.4827903,0,0,0,0,residential,0,no,sidewalk,Archer Terrace
+22745110,-3.2469397,51.4810725,0,0,0,0,residential,0,both,sidewalk,Red House Crescent
+22745120,-3.2464259,51.4806529,0,0,0,0,residential,0,both,sidewalk,Red House Place
+22745130,-3.2480456,51.4817549,0,0,0,0,residential,0,no,sidewalk,Spinney Close
+22751190,-3.2480683,51.4822503,0,0,0,0,residential,0,both,sidewalk,Archer Road
+22763370,-3.2534987,51.4823587,0,0,0,0,residential,0,both,sidewalk,Pethybridge Road
+22763380,-3.2475832,51.482423,0,0,0,0,residential,0,no,sidewalk,Archer Place
+22763390,-3.2496409,51.4826765,0,0,0,0,residential,0,both,sidewalk,Redbrink Court
+22763400,-3.2503107,51.4822354,0,0,0,0,residential,0,both,sidewalk,Archer Road
+22763410,-3.2505928,51.4828508,0,0,0,0,residential,0,both,sidewalk,Pethybridge Road
+22767310,-3.2433011,51.4800948,0,0,0,0,residential,0,right,sidewalk,Saint Davids Crescent
+22767320,-3.2428667,51.4806204,0,0,0,0,residential,0,both,sidewalk,Cymric Close
+22767330,-3.2466564,51.4773858,0,0,0,0,residential,0,both,sidewalk,Highmead Road
+22767340,-3.2449416,51.478296,0,0,0,0,residential,0,left,sidewalk,Highmead Road
+22767350,-3.2469135,51.4784055,0,0,0,0,residential,0,both,sidewalk,Aberthaw Road
+22767430,-3.2451204,51.4789328,0,0,0,0,residential,0,both,sidewalk,Fonmon Crescent
+22767500,-3.2461515,51.4792826,0,0,0,0,residential,0,both,sidewalk,Vachell Road
+22767510,-3.2491424,51.4768668,0,0,0,0,residential,0,both,sidewalk,Addison Crescent
+22767520,-3.2495479,51.4782672,0,0,0,0,residential,0,right,sidewalk,Wheatley Road
+22767530,-3.2542455,51.4765589,0,0,0,0,residential,0,both,sidewalk,Highbury Road
+22767560,-3.2531714,51.4753191,0,0,0,0,residential,0,no,sidewalk,Wilson Road
+22767660,-3.2523316,51.4756557,0,0,0,0,residential,0,left,sidewalk,Wilson Place
+22767670,-3.2530393,51.4753619,0,0,0,0,residential,0,both,sidewalk,Wilson Place
+22767680,-3.2505811,51.4761418,0,0,0,0,residential,0,both,sidewalk,Nottage Road
+22767690,-3.2551162,51.4761968,0,0,0,0,residential,0,both,sidewalk,Highbury Place
+22772290,-3.2588886,51.4787887,0,0,0,0,residential,0,both,sidewalk,Snowden Road
+22813860,-3.2522677,51.4698364,0,0,0,0,residential,0,both,sidewalk,Heol Trenewydd
+22813870,-3.2506488,51.4700327,0,0,0,0,residential,0,both,sidewalk,Heol-y-castell
+22813880,-3.2491385,51.4689474,0,0,0,0,residential,0,both,sidewalk,Heol Deva
+22813890,-3.2501298,51.4704446,0,0,0,0,residential,0,both,sidewalk,Lon-y-castell
+22813920,-3.254668,51.4690381,0,0,0,0,residential,0,left,sidewalk,Cwrt-yr-ala Avenue
+22814050,-3.2604086,51.4737663,0,0,0,0,residential,0,both,sidewalk,Deere Road
+22814090,-3.2558164,51.4744028,0,0,0,0,residential,0,both,sidewalk,Deere Place
+22814140,-3.2569194,51.4759189,0,0,0,0,residential,0,both,sidewalk,Foxglove Close
+22814150,-3.2590261,51.4756649,0,0,0,0,residential,0,no,sidewalk,Grand Avenue
+22814220,-3.2586281,51.4749876,0,0,0,0,residential,0,both,sidewalk,Parker Place
+22814230,-3.2567325,51.4735804,0,0,0,0,residential,0,both,sidewalk,Forge Place
+22814240,-3.2584599,51.4735318,0,0,0,0,residential,0,both,sidewalk,Gwent Road
+22814270,-3.2615968,51.4726376,0,0,0,0,residential,0,left,sidewalk,Furness Close
+22814280,-3.2611192,51.4730814,0,0,0,0,residential,0,both,sidewalk,Furness Close
+22814300,-3.2601776,51.4741742,0,0,0,0,residential,0,both,sidewalk,Deere Close
+22814310,-3.2621,51.4743056,0,0,0,0,residential,0,both,sidewalk,Macdonald Place
+22814320,-3.2629108,51.4745639,0,0,0,0,residential,0,both,sidewalk,Macdonald Close
+22814330,-3.2637635,51.4742014,0,0,0,0,residential,0,both,sidewalk,Meyrick Road
+22814340,-3.2658665,51.4739568,0,0,0,0,residential,0,both,sidewalk,Marcross Road
+22814370,-3.2684434,51.4744557,0,0,0,0,tertiary,0,left,sidewalk,Green Farm Road
+22814390,-3.2684434,51.4744557,0,0,0,0,tertiary,0,left,sidewalk,Green Farm Road
+22814480,-3.2658687,51.4763792,0,0,0,0,residential,0,both,sidewalk,Stirling Road
+22814500,-3.2652785,51.475584,0,0,0,0,residential,0,right,sidewalk,Wanderers Crescent
+22814560,-3.2645035,51.4764555,0,0,0,0,residential,0,both,sidewalk,LÃ´n y Ffin
+22814580,-3.2658389,51.4770416,0,0,0,0,residential,0,both,sidewalk,Lon-werdd Close
+22814610,-3.2680312,51.4746405,0,0,0,0,residential,0,both,sidewalk,St Fagans Court
+22820940,-3.2471567,51.472893,0,0,0,0,residential,0,both,sidewalk,Kilgetty Close
+22820960,-3.2450692,51.4734111,0,0,0,0,residential,0,both,sidewalk,Tidenham Road
+22820970,-3.24459,51.4739691,0,0,0,0,residential,0,both,sidewalk,Chepstow Close
+22820980,-3.2514514,51.4728573,0,0,0,0,residential,0,both,sidewalk,Caerau Lane
+22821000,-3.2479866,51.474427,0,0,0,0,residential,0,both,sidewalk,Ogmore Road
+22821010,-3.2478865,51.4733435,0,0,0,0,residential,0,no,sidewalk,Llandovery Close
+22821020,-3.2444724,51.4815174,0,0,0,0,tertiary,0,left,sidewalk,Grand Avenue
+22821070,-3.2531513,51.4808813,0,0,0,0,residential,0,both,sidewalk,Stanway Road
+22821080,-3.2521964,51.4797837,0,0,0,0,residential,0,both,sidewalk,Howell Road
+22821090,-3.2519825,51.4795348,0,0,0,0,residential,0,both,sidewalk,Elford Road
+22821100,-3.2555284,51.4791736,0,0,0,0,residential,0,both,sidewalk,Courtis Road
+22821110,-3.2591023,51.4780136,0,0,0,0,residential,0,both,sidewalk,Jackson Road
+22821120,-3.2592603,51.4772188,0,0,0,0,residential,0,no,sidewalk,Kenwood Road
+22821130,-3.2588164,51.4777105,0,0,0,0,residential,0,both,sidewalk,Kenwood Road
+22822120,-3.2636617,51.4768343,0,0,0,0,residential,0,both,sidewalk,Caerwent Road
+22822150,-3.2641481,51.4753406,0,0,0,0,residential,0,no,sidewalk,Mostyn Road
+22822190,-3.2689015,51.4770892,0,0,0,0,residential,0,both,sidewalk,Cwrt y Cadno
+22823420,-3.2519891,51.4742418,0,0,0,0,residential,0,both,sidewalk,Caerau Court Road
+22823430,-3.2530523,51.4737003,0,0,0,0,residential,0,both,sidewalk,Caerau Park Road
+22823440,-3.2557043,51.4714784,0,0,0,0,residential,0,both,sidewalk,Cyntwell Crescent
+22823460,-3.2584081,51.4710217,0,0,0,0,residential,0,right,sidewalk,Cyntwell Avenue
+22823470,-3.2613271,51.4694658,0,0,0,0,residential,0,both,sidewalk,Heol Homfray
+22823510,-3.2578989,51.4696007,0,0,0,0,residential,0,both,sidewalk,Lon Owain
+22823520,-3.2585491,51.4690475,0,0,0,0,residential,0,both,sidewalk,Sweldon Close
+22823530,-3.259577,51.4682041,0,0,0,0,residential,0,both,sidewalk,Farmhouse Way
+22870740,-3.2694157,51.4716817,0,0,asphalt,0,residential,0,both,sidewalk,Llanover Road
+22870750,-3.2706815,51.4689787,0,0,asphalt,0,residential,0,both,sidewalk,Penmaen Walk
+22870760,-3.2722413,51.4689648,0,0,asphalt,0,residential,0,both,sidewalk,Caenewydd Close
+22877650,-3.2625158,51.4709501,0,0,0,0,residential,0,both,sidewalk,Haig Place
+22877660,-3.2620778,51.4705293,0,0,0,0,residential,0,both,sidewalk,Carling Court
+22877750,-3.2648951,51.4667232,0,0,0,0,residential,0,both,sidewalk,The Sanctuary
+22877760,-3.2636664,51.468517,0,0,0,0,residential,0,both,sidewalk,Brundall Crescent
+22877790,-3.2611217,51.4692061,0,0,0,0,residential,0,both,sidewalk,Clos Lindsay
+22877800,-3.2601569,51.4693237,0,0,0,0,residential,0,no,sidewalk,Clos Culver
+22877810,-3.2598295,51.4685483,0,0,0,0,residential,0,no,sidewalk,Upper Meadow
+22877820,-3.2637167,51.4666826,0,0,0,0,residential,0,both,sidewalk,Knightswell Close
+22877910,-3.2586051,51.4704315,0,0,0,0,residential,0,no,sidewalk,Heol Trelai
+22877920,-3.2528768,51.4669228,0,0,0,0,residential,0,left,sidewalk,Cwrt-Yr-Ala Road
+22877950,-3.2775423,51.473671,0,0,0,0,residential,0,no,sidewalk,Drope Road
+22877970,-3.2735057,51.4733689,0,0,0,0,residential,0,both,sidewalk,Traherne Drive
+22877980,-3.274535,51.469362,0,0,0,0,residential,0,no,sidewalk,Coedriglan Drive
+22877990,-3.271793,51.4762053,0,0,0,0,residential,0,both,sidewalk,Falconwood Drive
+22878000,-3.2742391,51.4739738,0,0,0,0,residential,0,no,sidewalk,Nant y Plac
+22878010,-3.2708063,51.4748358,0,0,0,0,residential,0,both,sidewalk,Mansell Avenue
+22878020,-3.2744003,51.4754578,0,0,0,0,residential,0,both,sidewalk,Nant-y-Drope
+22878030,-3.2754121,51.4773404,0,0,0,0,residential,0,both,sidewalk,Clos-y-Cwarra
+22878080,-3.2754297,51.471442,0,0,0,0,residential,0,left,sidewalk,Coedriglan Drive
+22878100,-3.2457852,51.4709454,0,0,0,0,residential,0,both,sidewalk,Prendergast Place
+22878110,-3.2454677,51.4713319,0,0,0,0,residential,0,both,sidewalk,Saundersfoot Close
+22884230,-3.274217,51.474873,0,0,0,0,residential,0,both,sidewalk,Nant y Rhos
+22889780,-3.2624715,51.4666826,0,0,0,0,residential,0,both,sidewalk,Meirwen Drive
+22889910,-3.2772116,51.4731738,0,0,0,0,residential,0,no,sidewalk,Royde Close
+22889920,-3.2738115,51.4725889,0,0,0,0,residential,0,both,sidewalk,Traherne Drive
+22896440,-3.2343587,51.4881084,0,0,asphalt,0,residential,0,both,sidewalk,Norbury Road
+22896450,-3.2366145,51.4880783,0,0,asphalt,0,residential,0,both,sidewalk,Llangattock Road
+22896460,-3.2436292,51.4867516,0,0,0,0,residential,0,both,sidewalk,Bwlch Road
+22896470,-3.2408634,51.4880602,0,0,asphalt,0,residential,0,both,sidewalk,Cartwright Lane
+22896480,-3.2493622,51.4881117,0,0,0,0,residential,0,left,sidewalk,Glan Ely Close
+22896500,-3.2543939,51.4883217,0,0,0,0,residential,0,both,sidewalk,Monkton Close
+22896510,-3.2486435,51.4897588,0,0,asphalt,0,residential,0,both,sidewalk,St Fagans Rise
+22896520,-3.2479307,51.490185,0,0,asphalt,0,residential,0,both,sidewalk,St Fagans Rise
+22899880,-3.2311174,51.4864526,0,0,asphalt,0,residential,0,both,sidewalk,Brook Road
+22919160,-3.2519354,51.4916629,0,0,asphalt,0,residential,0,both,sidewalk,Firs Avenue
+22919170,-3.2533706,51.4925697,0,0,asphalt,0,residential,0,both,sidewalk,Willowdale Road
+22919180,-3.2554649,51.4934141,0,0,asphalt,0,residential,0,both,sidewalk,Beech Road
+22919190,-3.2508976,51.4905885,0,0,asphalt,0,residential,0,both,sidewalk,Hillview
+22919200,-3.2426953,51.4906211,0,0,asphalt,0,residential,0,both,sidewalk,Fern Place
+22919210,-3.2410228,51.4903426,0,0,asphalt,0,residential,0,both,sidewalk,Chestnut Road
+22919230,-3.2555685,51.4957072,0,0,asphalt,0,residential,0,both,sidewalk,Maple Road
+22919240,-3.259076,51.4951583,0,0,asphalt,0,residential,0,both,sidewalk,Bishop Hannon Drive
+22919250,-3.2588746,51.4947144,0,0,asphalt,0,residential,0,both,sidewalk,Cornwood Close
+22919260,-3.258142,51.4945274,0,0,asphalt,0,residential,0,both,sidewalk,0
+22919270,-3.2513757,51.496266,0,0,asphalt,0,residential,0,both,sidewalk,Orange Grove
+22919280,-3.2463845,51.4930893,0,0,asphalt,0,residential,0,both,sidewalk,Poplar Road
+22921770,-3.2431968,51.4713374,0,0,0,0,residential,0,both,sidewalk,Heol Carnau
+22921790,-3.2408691,51.4718144,0,0,0,0,residential,0,both,sidewalk,Canaston Place
+22922260,-3.2440946,51.472258,0,0,0,0,residential,0,no,sidewalk,Heol Trelai
+22922270,-3.2354368,51.4739438,0,0,0,0,residential,0,left,sidewalk,Heol Trelai
+22922300,-3.2354338,51.4859808,0,0,0,0,residential,0,left,sidewalk,Wroughton Place
+22922310,-3.231617,51.484858,0,0,0,0,residential,0,right,sidewalk,Station Terrace
+22922330,-3.2334404,51.4883757,0,0,asphalt,0,residential,0,both,sidewalk,St Fagans Close
+22922360,-3.2348619,51.4867738,0,0,asphalt,0,residential,0,both,sidewalk,Finchley Road
+22922370,-3.2293545,51.4861697,0,0,asphalt,0,residential,0,both,sidewalk,Ely Road
+22922390,-3.24066,51.4886533,0,0,asphalt,0,residential,0,both,sidewalk,The Crescent
+22922400,-3.2381205,51.4897681,0,0,asphalt,0,residential,0,both,sidewalk,McCale Avenue
+22922410,-3.2367216,51.4897979,0,0,asphalt,0,residential,0,both,sidewalk,Cadwgan Place
+22922420,-3.2368072,51.4896343,0,0,asphalt,0,residential,0,both,sidewalk,Cadwgan Place
+22922430,-3.238687,51.4912252,0,0,asphalt,0,residential,0,both,sidewalk,Perrots Close
+22929730,-3.2379227,51.4902432,0,0,asphalt,0,residential,0,both,sidewalk,McCale Avenue
+22929900,-3.2394126,51.4908324,0,0,asphalt,0,residential,0,both,sidewalk,Heol Dennant
+22929930,-3.2427827,51.4909692,0,0,asphalt,0,residential,0,both,sidewalk,0
+22929950,-3.2455265,51.4929258,0,0,asphalt,0,residential,0,both,sidewalk,Peach Place
+22929960,-3.2466691,51.4962484,0,0,asphalt,0,residential,0,both,sidewalk,0
+22930020,-3.2426262,51.4958263,0,0,asphalt,0,residential,0,both,sidewalk,Ferrier Avenue
+22930040,-3.2411778,51.4949262,0,0,asphalt,0,residential,0,both,sidewalk,Heol Gwilym
+22930060,-3.2442917,51.4948967,0,0,asphalt,0,residential,0,both,sidewalk,Frewer Avenue
+22939580,-3.2415383,51.4881225,0,0,asphalt,0,residential,0,both,sidewalk,Tudor Close
+22939600,-3.2350463,51.4884625,0,0,asphalt,0,residential,0,both,sidewalk,Bailey Close
+22939610,-3.2343587,51.4881084,0,0,asphalt,0,residential,0,both,sidewalk,Norbury Avenue
+22939650,-3.2295427,51.4873434,0,0,asphalt,0,residential,0,both,sidewalk,Davies Place
+22939680,-3.2412145,51.4895864,0,0,asphalt,0,residential,0,both,sidewalk,Fairwater Green
+22939690,-3.2421959,51.4890741,0,0,asphalt,0,residential,0,both,sidewalk,The Drive
+22939700,-3.2413811,51.487615,0,0,0,0,residential,0,both,sidewalk,Everswell Avenue
+22939710,-3.2493467,51.4865204,0,0,0,0,residential,0,both,sidewalk,Landwade Close
+22939720,-3.2487748,51.4864339,0,0,0,0,residential,0,right,sidewalk,Landwade Close
+22939740,-3.2534624,51.4984254,0,0,asphalt,0,residential,0,both,sidewalk,Ashcroft Crescent
+22939750,-3.2524548,51.4975405,0,0,asphalt,0,residential,0,both,sidewalk,Cedar Grove
+22939780,-3.2506052,51.498078,0,0,asphalt,0,residential,0,both,sidewalk,Lilac close
+22939790,-3.2554274,51.4979845,0,0,asphalt,0,residential,0,both,sidewalk,Cherry Close
+22939990,-3.2293335,51.4905704,0,0,asphalt,0,residential,0,both,sidewalk,Fairwater Grove East
+22958110,-3.2391949,51.4884004,0,0,asphalt,0,residential,0,both,sidewalk,Llandetty Road
+23025970,-3.1849009,51.4740842,0,0,asphalt,0,residential,0,both,sidewalk,Merches Gardens
+23025990,-3.1866485,51.4737545,0,0,asphalt,0,residential,0,both,sidewalk,Merches Place
+23035550,-3.1837416,51.4706988,0,0,asphalt,0,residential,0,both,sidewalk,Ferndale Street
+23035560,-3.1808728,51.4683844,0,0,asphalt,0,residential,0,both,sidewalk,Bargoed Street
+23035570,-3.1934466,51.4704319,0,0,asphalt,0,tertiary,0,both,sidewalk,Virgil Street
+23035580,-3.1878711,51.4715267,0,0,asphalt,0,residential,0,both,sidewalk,Warwick Street
+23035590,-3.1843088,51.4717811,0,0,asphalt,0,residential,0,both,sidewalk,Dinas Place
+23195010,-3.253962,51.5157005,0,0,asphalt,0,residential,0,both,sidewalk,The Green
+23376920,-3.299323,51.5268995,0,0,asphalt,0,residential,0,both,sidewalk,Penuel Road
+23496510,-3.1857059,51.4727117,0,0,asphalt,0,residential,0,both,sidewalk,Universal Street
+23496560,-3.1854585,51.4715285,0,0,asphalt,0,residential,0,both,sidewalk,Pentre Street
+23496660,-3.1835855,51.4726473,0,0,asphalt,0,residential,0,both,sidewalk,Pentre Gardens
+23497000,-3.1838059,51.4740136,0,0,asphalt,0,residential,0,both,sidewalk,Hafod Street
+23497030,-3.1848692,51.4739268,0,0,asphalt,0,residential,0,both,sidewalk,Dinas Street
+23497040,-3.1860936,51.4746119,0,0,asphalt,0,residential,0,both,sidewalk,Mardy Street
+23497600,-3.1825238,51.4736922,0,0,asphalt,0,residential,0,both,sidewalk,Taffs Mead Embankment
+23497610,-3.18238,51.4706338,0,0,asphalt,0,tertiary,0,both,sidewalk,Taff Embankment
+23941530,-3.1733547,51.4807145,0,0,asphalt,0,unclassified,0,both,sidewalk,Charles Street
+24006430,-3.1890657,51.4705692,0,0,asphalt,0,residential,0,both,sidewalk,Lucknow Street
+24006440,-3.1878988,51.470261,0,0,asphalt,0,residential,0,both,sidewalk,Havelock Place
+24006450,-3.188463,51.4745449,0,0,asphalt,0,residential,0,both,sidewalk,Allerton Street
+24298110,-3.2342481,51.4928733,0,0,asphalt,0,residential,0,both,sidewalk,Marionville Gardens
+25658860,-3.2615642,51.4686162,0,0,0,0,residential,0,both,sidewalk,Heol Homfray
+25850420,-3.1732486,51.4757656,0,0,asphalt,0,primary,0,both,sidewalk,Bute Street
+26170150,-3.2018245,51.5383598,0,0,asphalt,0,residential,0,both,sidewalk,Avonridge
+26200300,-3.2059026,51.5254842,0,0,asphalt,0,residential,0,both,sidewalk,Cae Mawr Road
+26200320,-3.2052835,51.5286343,0,0,asphalt,0,residential,0,both,sidewalk,Heol Hendre
+26200340,-3.2060313,51.5273365,0,0,asphalt,0,residential,0,both,sidewalk,Heol y Wern
+26200360,-3.208955,51.5285632,0,0,asphalt,0,residential,0,both,sidewalk,Blaen y Coed
+26216750,-3.2053536,51.5301799,0,0,asphalt,0,residential,0,both,sidewalk,Clos Fach
+26224560,-3.1921715,51.5430608,0,0,asphalt,0,residential,0,both,sidewalk,Briarmeadow Drive
+26224570,-3.1915688,51.5422149,0,0,asphalt,0,residential,0,both,sidewalk,Thornwood Close
+26224600,-3.1926082,51.5433393,0,0,asphalt,0,residential,0,both,sidewalk,Fairthorn Close
+26224610,-3.1909051,51.5432175,0,0,asphalt,0,residential,0,both,sidewalk,Rambler Close
+26235070,-3.195757,51.5337181,0,0,asphalt,0,tertiary,0,both,sidewalk,Templeton Avenue
+26235080,-3.1913408,51.5341967,0,0,asphalt,0,residential,0,both,sidewalk,Gilwern Crescent
+26235090,-3.191134,51.5335249,0,0,asphalt,0,residential,0,both,sidewalk,Wolfs Castle Avenue
+26235120,-3.1867842,51.5345115,0,0,asphalt,0,residential,0,both,sidewalk,Everest Avenue
+26235130,-3.1875712,51.534517,0,0,asphalt,0,residential,0,both,sidewalk,Hunt Close
+26235160,-3.1852218,51.5345782,0,0,asphalt,0,residential,0,both,sidewalk,Tensing Close
+26235210,-3.1918491,51.5300987,0,0,asphalt,0,residential,0,both,sidewalk,Newborough Avenue
+26235220,-3.1913382,51.5291406,0,0,asphalt,0,residential,0,both,sidewalk,Lundy Close
+26235230,-3.1928045,51.5323316,0,0,asphalt,0,residential,0,both,sidewalk,Glendale Avenue
+26235260,-3.193629,51.5301612,0,0,asphalt,0,residential,0,both,sidewalk,Blue House Road
+26235330,-3.2010188,51.5332668,0,0,asphalt,0,residential,0,both,sidewalk,Morris Avenue
+26235340,-3.2008639,51.5330539,0,0,asphalt,0,residential,0,both,sidewalk,Angle Place
+26235360,-3.1981744,51.5346851,0,0,asphalt,0,residential,0,both,sidewalk,Bardsey Crescent
+26235380,-3.2031688,51.5306907,0,0,asphalt,0,residential,0,both,sidewalk,Johnston Road
+26235390,-3.2043121,51.5343393,0,0,asphalt,0,residential,0,both,sidewalk,Mayflower Avenue
+26235480,-3.201372,51.5292811,0,0,asphalt,0,residential,0,both,sidewalk,White Barn Road
+26235510,-3.2016826,51.5270133,0,0,asphalt,0,residential,0,both,sidewalk,Coed Glas Road
+26235530,-3.1995195,51.5283967,0,0,asphalt,0,residential,0,both,sidewalk,Gaerwen Close
+26235910,-3.2027513,51.5400745,0,0,asphalt,0,residential,0,both,sidewalk,Angelica Way
+26235920,-3.2030541,51.5417605,0,0,asphalt,0,residential,0,both,sidewalk,Woodruff Way
+26235930,-3.2054816,51.5405357,0,0,asphalt,0,residential,0,both,sidewalk,Charlock Close
+26295910,-3.1927414,51.5371393,0,0,asphalt,0,residential,0,both,sidewalk,Garrick Drive
+26295920,-3.1917892,51.5360545,0,0,asphalt,0,residential,0,both,sidewalk,Lyric Way
+26295930,-3.1926671,51.5354638,0,0,asphalt,0,residential,0,both,sidewalk,Lyric Way
+26295940,-3.1942354,51.5368654,0,0,asphalt,0,residential,0,both,sidewalk,Aldwych Close
+26303940,-3.2038623,51.5361518,0,0,asphalt,0,residential,0,both,sidewalk,Guenever Close
+26303950,-3.2048619,51.5353932,0,0,asphalt,0,residential,0,both,sidewalk,Galahad Close
+26304040,-3.2034776,51.5373032,0,0,asphalt,0,residential,0,both,sidewalk,Gareth Close
+26304110,-3.2043842,51.5383175,0,0,asphalt,0,residential,0,both,sidewalk,Bryn Glas
+26304140,-3.2055063,51.5385786,0,0,asphalt,0,residential,0,both,sidewalk,Rhiwlas
+26320470,-3.1988918,51.5367402,0,0,asphalt,0,residential,0,both,sidewalk,Heol Peredur
+26320480,-3.1967224,51.5357826,0,0,asphalt,0,residential,0,both,sidewalk,Bedavere Close
+26320490,-3.2021254,51.5359427,0,0,asphalt,0,residential,0,both,sidewalk,Percival Close
+26320500,-3.1975352,51.5382925,0,0,asphalt,0,residential,0,both,sidewalk,Orchard Castle
+26320550,-3.197817,51.5407861,0,0,asphalt,0,residential,0,both,sidewalk,Huntsmead Close
+26554420,-3.2319294,51.4840574,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+27244620,-3.1718445,51.4818436,0,0,asphalt,0,unclassified,0,both,sidewalk,North Edward Street
+27628460,-3.0981123,51.5289374,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+27628470,-3.0990823,51.5301773,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+27628480,-3.0974374,51.5286767,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+27628490,-3.1003102,51.5293242,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+27628500,-3.0991249,51.5292916,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+27949330,-3.2033801,51.5298063,0,0,asphalt,0,residential,0,both,sidewalk,0
+27949340,-3.2011282,51.527113,0,0,asphalt,0,residential,0,both,sidewalk,Coed Glas Road
+28051890,-3.0884652,51.5207611,0,0,asphalt,0,unclassified,0,both,sidewalk,Meadow Sweet Drive
+28051920,-3.088697,51.5215075,0,0,asphalt,0,unclassified,0,both,sidewalk,Willowherb Close
+28051960,-3.0893042,51.5209874,0,0,asphalt,0,unclassified,0,both,sidewalk,Orchid Close
+28052070,-3.0891331,51.5223199,0,0,asphalt,0,unclassified,0,both,sidewalk,Bulrush Close
+28391870,-3.0961379,51.529305,0,0,asphalt,0,residential,0,both,sidewalk,Wentworth Lane
+28391880,-3.0963885,51.5284043,0,0,asphalt,0,residential,0,both,sidewalk,Vaindre Drive
+28391910,-3.0919971,51.5288562,0,0,asphalt,0,residential,0,both,sidewalk,Comfrey Close
+28391920,-3.0912664,51.5266839,0,0,asphalt,0,residential,0,both,sidewalk,Brython Drive
+28391930,-3.0883697,51.5253138,0,0,asphalt,0,residential,0,both,sidewalk,Maes y Crochan
+28395220,-3.2979528,51.5281346,0,0,asphalt,0,residential,0,both,sidewalk,Bronhaul
+28395230,-3.2952044,51.5284389,0,0,asphalt,0,residential,0,both,sidewalk,Lon-Y-Fro
+28395300,-3.3005025,51.530368,0,0,asphalt,0,residential,0,both,sidewalk,Heol y Bryn
+28395320,-3.298636,51.5329469,0,0,asphalt,0,residential,0,both,sidewalk,Pen Y Waun
+28395330,-3.2979844,51.5297666,0,0,asphalt,0,residential,0,both,sidewalk,Penmaes
+28395340,-3.2986602,51.5277002,0,0,asphalt,0,residential,0,both,sidewalk,Cefn Penuel
+28412640,-3.3259443,51.5266361,0,0,asphalt,0,residential,0,both,sidewalk,Parc y Fro
+29550060,-3.1823442,51.4699605,0,0,asphalt,0,tertiary,0,both,sidewalk,Taff Embankment
+31584740,-3.206124,51.5263686,0,0,asphalt,0,residential,0,both,sidewalk,Heol Iscoed
+31584770,-3.2044378,51.5257211,0,0,asphalt,0,residential,0,both,sidewalk,Lon Y Mynydd
+31584810,-3.2056934,51.5270528,0,0,asphalt,0,residential,0,both,sidewalk,Clos yr Aer
+31584850,-3.2048418,51.5280042,0,0,asphalt,0,residential,0,both,sidewalk,Clos Hendre
+32342470,-3.1706986,51.4809475,0,0,asphalt,0,unclassified,0,both,sidewalk,Guildford Street
+34608340,-3.2054647,51.5334922,0,0,asphalt,0,residential,0,both,sidewalk,Edgehill Avenue
+35745910,-3.3297723,51.5213339,0,0,asphalt,0,residential,0,both,sidewalk,Dol-Y-Felin
+35745920,-3.3300548,51.5208987,0,0,asphalt,0,residential,0,both,sidewalk,Dol-Y-Felin
+35745930,-3.3220448,51.5209207,0,0,asphalt,0,residential,0,both,sidewalk,Maes Cadwgan
+35745940,-3.3269477,51.5272345,0,0,asphalt,0,residential,0,both,sidewalk,Parc y Fro
+35778940,-3.3275474,51.5255672,0,0,asphalt,0,residential,0,both,sidewalk,Parc Castell y Mynach
+35778990,-3.3264598,51.5253766,0,0,asphalt,0,residential,0,both,sidewalk,Parc Castell y Mynach
+35779020,-3.3290074,51.5236226,0,0,asphalt,0,residential,0,both,sidewalk,Parc-Y-Felin
+35779070,-3.3275117,51.5215899,0,0,asphalt,0,residential,0,both,sidewalk,Maes Y Nant
+35779080,-3.3259957,51.5212551,0,0,asphalt,0,residential,0,both,sidewalk,Llys Tudful
+35779090,-3.3253633,51.5217822,0,0,asphalt,0,residential,0,both,sidewalk,0
+35779130,-3.3244089,51.5208179,0,0,asphalt,0,residential,0,both,sidewalk,Maes y Gollen
+35779170,-3.3247555,51.5230632,0,0,asphalt,0,residential,0,both,sidewalk,0
+35779180,-3.3265762,51.5226777,0,0,asphalt,0,residential,0,both,sidewalk,0
+35996120,-3.2358464,51.4771456,0,0,0,0,residential,0,both,sidewalk,Old School Road
+37696660,-3.2935022,51.5306885,0,0,asphalt,0,residential,0,both,sidewalk,Fairmeadow
+37717790,-3.3000241,51.5302156,0,0,asphalt,0,residential,0,both,sidewalk,Bronllwyn
+37717880,-3.3023436,51.5306844,0,0,asphalt,0,residential,0,both,sidewalk,Heol Gam
+38455540,-3.1960641,51.5318916,0,0,asphalt,0,residential,0,both,sidewalk,Llangranog Road
+38455750,-3.1853813,51.5170157,0,0,asphalt,0,tertiary,0,both,sidewalk,Heathwood Road
+38455810,-3.1816268,51.5122981,0,0,asphalt,0,tertiary,0,both,sidewalk,Heath Park Avenue
+38784960,-3.2542586,51.481618,0,0,0,0,residential,0,both,sidewalk,Archer Road
+38784970,-3.2581438,51.4812632,0,0,0,0,residential,0,both,sidewalk,Archer Road
+38785030,-3.2483914,51.4797658,0,0,0,0,residential,0,left,sidewalk,Red House Road
+38829650,-3.248145,51.4842854,0,0,0,0,residential,0,both,sidewalk,Frank Road
+39504570,-3.128485,51.5107109,0,0,asphalt,0,secondary,0,left,sidewalk,Newport Road
+39504590,-3.1323891,51.5086613,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+40798850,-3.2543801,51.4829504,0,0,0,0,residential,0,both,sidewalk,Illtyd Road
+43317440,-3.2219355,51.4834293,0,0,0,0,primary,0,both,sidewalk,Cowbridge Road East
+43317500,-3.2199779,51.483115,0,0,0,0,residential,0,right,sidewalk,Cowbridge Road East
+43347680,-3.1307951,51.5093811,0,0,0,0,secondary,0,left,sidewalk,Newport Road
+43358360,-3.2031602,51.4762689,0,0,0,0,secondary,0,right,sidewalk,Leckwith Road
+43358430,-3.2156863,51.4816206,0,0,paved,0,primary,0,both,sidewalk,Lansdowne Road
+45068480,-3.2741871,51.4779408,0,0,0,0,residential,0,both,sidewalk,Clos-y-Cwarra
+45493420,-3.247742,51.4899844,0,0,asphalt,0,residential,0,both,sidewalk,Quarry Close
+45493480,-3.2474555,51.4897612,0,0,asphalt,0,residential,0,both,sidewalk,Quarry Crescent
+45493610,-3.2512647,51.491461,0,0,asphalt,0,residential,0,both,sidewalk,Rosedale Close
+45549000,-3.2547667,51.4953434,0,0,asphalt,0,residential,0,both,sidewalk,Bramble Close
+45549410,-3.2335147,51.4838096,0,0,0,0,residential,0,right,sidewalk,Mill Road
+45552080,-3.2392513,51.4745778,0,0,0,0,residential,0,both,sidewalk,Bishopston Road
+45552130,-3.2395662,51.4731872,0,0,0,0,residential,0,left,sidewalk,Heol Trelai
+45552140,-3.2433988,51.4722181,0,0,0,0,residential,0,left,sidewalk,Heol Trelai
+45552160,-3.2541147,51.4702652,0,0,0,0,residential,0,no,sidewalk,Heol Trelai
+45552180,-3.2608623,51.4706523,0,0,0,0,trunk,0,left,sidewalk,Cowbridge Road West
+45552220,-3.2438095,51.4775818,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+45553220,-3.2389317,51.4799639,0,0,0,0,trunk,0,left,sidewalk,Cowbridge Road West
+45567590,-3.2401383,51.4791685,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+45568040,-3.2529733,51.4778909,0,0,0,0,tertiary,0,left,sidewalk,Grand Avenue
+45568050,-3.2643934,51.4729737,0,0,0,0,residential,0,both,sidewalk,Green Farm Road
+45568080,-3.2600148,51.4710557,0,0,0,0,trunk,0,left,sidewalk,Cowbridge Road West
+45569520,-3.2112538,51.4825761,0,0,asphalt,0,tertiary,0,both,sidewalk,Cowbridge Road East
+45570200,-3.2693479,51.4669188,0,0,asphalt,0,trunk,0,left,sidewalk,Cowbridge Road West
+45570250,-3.2741093,51.4736718,0,0,0,0,residential,0,left,sidewalk,Drope Road
+45570430,-3.2539624,51.477666,0,0,0,0,tertiary,0,left,sidewalk,Grand Avenue
+45570470,-3.2564705,51.4812194,0,0,0,0,residential,0,left,sidewalk,Archer Road
+45570490,-3.2347081,51.4824274,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+45570680,-3.2376126,51.4807535,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+45570700,-3.2353077,51.4842096,0,0,0,0,residential,0,both,sidewalk,Mill Road
+45570750,-3.2640704,51.4751035,0,0,0,0,tertiary,0,left,sidewalk,Grand Avenue
+45733300,-3.2289148,51.4851091,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+45829690,-3.1739533,51.476721,0,0,asphalt,0,primary,0,both,sidewalk,Bute Street
+45880060,-3.2385452,51.4776609,0,0,0,0,residential,0,no,sidewalk,0
+49324950,-3.2374051,51.4788615,0,0,0,0,residential,0,both,sidewalk,Clos Rhedyn
+49364160,-3.234552,51.4730295,0,0,0,0,residential,0,both,sidewalk,Emblem Close
+50576270,-3.2251727,51.4883838,0,0,0,0,tertiary_link,0,left,sidewalk,Waungron Road
+50643330,-3.235151,51.4864359,0,0,0,0,residential,0,no,sidewalk,Lougher Close
+50648330,-3.2378258,51.4869498,0,0,asphalt,0,residential,0,both,sidewalk,Bwlch Road
+50652220,-3.3271823,51.5238896,0,0,asphalt,0,residential,0,both,sidewalk,Parc Castell y Mynach
+50655090,-3.328236,51.5240864,0,0,asphalt,0,residential,0,both,sidewalk,Parc Castell y Mynach
+50663740,-3.3241146,51.5255104,0,0,asphalt,0,residential,0,both,sidewalk,Castle Close
+51070550,-3.2683211,51.4695649,0,0,0,0,tertiary,0,right,sidewalk,Michaelston Road
+51070660,-3.2693585,51.4742468,0,0,0,0,tertiary,0,left,sidewalk,Michaelston Road
+51071880,-3.2544134,51.4764976,0,0,0,0,residential,0,both,sidewalk,Wilson Road
+51204120,-3.2469839,51.4733853,0,0,0,0,residential,0,no,sidewalk,0
+51229270,-3.2415706,51.4827478,0,0,0,0,residential,0,no,sidewalk,0
+51265560,-3.2349437,51.4847154,0,0,0,0,residential,0,both,sidewalk,St Margaret's Park
+51265590,-3.2345591,51.4845177,0,0,0,0,residential,0,both,sidewalk,St Margaret's Park
+51265600,-3.2340423,51.4844246,0,0,0,0,residential,0,both,sidewalk,St Margaret's Park
+51492480,-3.2321963,51.4838326,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+51736230,-3.2549371,51.4802331,0,0,0,0,residential,0,both,sidewalk,Stanway Place
+51736980,-3.2438926,51.4811957,0,0,0,0,residential,0,both,sidewalk,TÅ· Cefn Road
+51736990,-3.242394,51.4811858,0,0,0,0,service,0,no,sidewalk,Grand Avenue
+52116820,-3.2351006,51.4801106,0,0,0,0,residential,0,both,sidewalk,Vincent Road
+53104150,-3.2322279,51.4799771,0,0,0,0,residential,0,both,sidewalk,0
+54937470,-3.2366937,51.4780005,0,0,0,0,residential,0,both,sidewalk,Addicott Close
+54937490,-3.2427353,51.4772018,0,0,0,0,residential,0,both,sidewalk,Narberth Road
+54937540,-3.2419745,51.4765244,0,0,0,0,residential,0,both,sidewalk,Llandow Road
+54937660,-3.2411943,51.4753578,0,0,0,0,residential,0,both,sidewalk,Neyland Place
+54937700,-3.242658,51.4752355,0,0,0,0,residential,0,both,sidewalk,Heol Ebwy
+54937740,-3.2517153,51.465727,0,0,0,0,residential,0,both,sidewalk,Lauriston Park
+54937750,-3.2529142,51.4661933,0,0,0,0,residential,0,both,sidewalk,Lauriston Park
+54937760,-3.2498724,51.4654299,0,0,0,0,residential,0,both,sidewalk,St Mary's Court
+54937790,-3.2598968,51.4668589,0,0,0,0,residential,0,both,sidewalk,Emerson Drive
+54937840,-3.2597218,51.4663008,0,0,0,0,residential,0,both,sidewalk,Worrells Place
+54937850,-3.2603253,51.4675393,0,0,0,0,residential,0,both,sidewalk,Thorne Way
+54937870,-3.2607722,51.4671328,0,0,0,0,residential,0,both,sidewalk,Murrel Close
+54937940,-3.2744805,51.4743577,0,0,0,0,residential,0,both,sidewalk,Nant y Pepra
+54937950,-3.2657352,51.4776633,0,0,0,0,residential,0,both,sidewalk,Ramsons Way
+54937970,-3.2655755,51.4778931,0,0,0,0,residential,0,both,sidewalk,Fescue Place
+54937990,-3.2626295,51.4777719,0,0,0,0,residential,0,both,sidewalk,Whinberry Way
+54938000,-3.2623626,51.4773709,0,0,0,0,residential,0,both,sidewalk,Yarrow Close
+55931080,-3.1919061,51.5367283,0,0,asphalt,0,residential,0,both,sidewalk,Drury Close
+56445700,-3.191128,51.5362992,0,0,asphalt,0,residential,0,both,sidewalk,Windmill Close
+56445710,-3.1914844,51.53618,0,0,asphalt,0,residential,0,both,sidewalk,Lyric Way
+57390220,-3.2711495,51.4769386,0,0,0,0,residential,0,both,sidewalk,0
+57390230,-3.2750262,51.475609,0,0,0,0,residential,0,both,sidewalk,Nant-y-Drope
+57390590,-3.2757994,51.4738367,0,0,0,0,residential,0,both,sidewalk,Nant yr Ely
+59273180,-3.2711732,51.4777208,0,0,0,0,residential,0,no,sidewalk,Cresta Grove
+60176650,-3.269246,51.4668559,0,0,asphalt,0,trunk,0,left,sidewalk,Cowbridge Road West
+60844700,-3.2922576,51.5321074,0,0,asphalt,0,residential,0,both,sidewalk,Cefn Bychan
+60914590,-3.2643308,51.4753424,0,0,0,0,residential,0,both,sidewalk,Mostyn Road
+60980070,-3.2353087,51.4767938,0,0,0,0,residential,0,both,sidewalk,Bishopston Road
+61044070,-3.2613204,51.4751377,0,0,0,0,residential,0,left,sidewalk,Macdonald Road
+61044090,-3.2572769,51.4714138,0,0,0,0,residential,0,both,sidewalk,0
+61044100,-3.26261,51.473686,0,0,0,0,residential,0,both,sidewalk,Macdonald Road
+61333500,-3.252365,51.4741048,0,0,0,0,residential,0,no,sidewalk,Caerau Court Road
+62064300,-3.2417023,51.4733897,0,0,0,0,residential,0,no,sidewalk,Heol Ebwy
+66292700,-3.1877759,51.47346,0,0,asphalt,0,residential,0,both,sidewalk,Sussex Street
+68423480,-3.3298891,51.5226744,0,0,asphalt,0,residential,0,both,sidewalk,0
+68423490,-3.324807,51.5197651,0,0,asphalt,0,residential,0,both,sidewalk,Maes y Dderwen
+68423500,-3.3239131,51.5211056,0,0,asphalt,0,residential,0,both,sidewalk,Old Farm Lane
+68423520,-3.3275432,51.5246303,0,0,asphalt,0,residential,0,both,sidewalk,Parc Castell y Mynach
+68423530,-3.2926382,51.5293755,0,0,asphalt,0,residential,0,both,sidewalk,Chartwell Court
+68423540,-3.3017487,51.5321982,0,0,asphalt,0,residential,0,both,sidewalk,0
+69559820,-3.2484453,51.4928537,0,0,asphalt,0,residential,0,both,sidewalk,Pinehurst Road
+82243900,-3.1919205,51.470668,0,0,asphalt,0,residential,0,both,sidewalk,Virgil Court
+82323420,-3.1907545,51.4707496,0,0,asphalt,0,residential,0,both,sidewalk,TÅ· Nant Street
+82323430,-3.1917616,51.4719324,0,0,asphalt,0,residential,0,both,sidewalk,Avoca Place
+82323460,-3.1899816,51.4706042,0,0,asphalt,0,residential,0,both,sidewalk,Bishop Street
+82554030,-3.1900616,51.4694778,0,0,asphalt,0,residential,0,both,sidewalk,Rudry Street
+84842220,-3.1860939,51.4493771,0,0,asphalt,0,primary,0,none,sidewalk,0
+84842300,-3.1860656,51.4495246,0,0,asphalt,0,primary,0,none,sidewalk,0
+87234560,-3.244278,51.4689581,0,0,0,0,residential,0,no,sidewalk,Church Road
+87234660,-3.2436635,51.4704129,0,0,0,0,residential,0,both,sidewalk,Hillfort Close
+87236330,-3.2440395,51.469723,0,0,0,0,residential,0,both,sidewalk,Centurion Close
+87236340,-3.2431609,51.4700229,0,0,0,0,residential,0,both,sidewalk,Roman Close
+87246140,-3.2406678,51.473645,0,0,0,0,residential,0,left,sidewalk,Broadfield Court
+87254220,-3.2355045,51.4773465,0,0,0,0,residential,0,both,sidewalk,Old School Road
+87265630,-3.236045,51.4784028,0,0,0,0,residential,0,both,sidewalk,Addicott Close
+88225140,-3.2576529,51.4804375,0,0,0,0,residential,0,both,sidewalk,Marloes Road
+88379280,-3.2443954,51.469138,0,0,0,0,residential,0,both,sidewalk,Church Road
+90443790,-3.1929624,51.5419533,0,0,asphalt,0,residential,0,both,sidewalk,Heol Hir
+96743790,-3.2647916,51.4743162,0,0,0,0,residential,0,both,sidewalk,Penmark Road
+98110750,-3.2360365,51.4807033,0,0,0,0,residential,0,left,sidewalk,Vincent Road
+98110760,-3.2361134,51.4803957,0,0,0,0,residential,0,left,sidewalk,Treseder Way
+98110770,-3.2357057,51.480475,0,0,0,0,residential,0,left,sidewalk,Vincent Road
+98110780,-3.2361321,51.4806254,0,0,0,0,residential,0,left,sidewalk,Vincent Road
+99001590,-3.0923339,51.5276896,0,0,asphalt,0,residential,0,both,sidewalk,Verbena Close
+99001600,-3.0942545,51.5279297,0,0,asphalt,0,residential,0,both,sidewalk,Fairview Close
+99001610,-3.0925162,51.5275427,0,0,asphalt,0,residential,0,both,sidewalk,Oregano Close
+99001620,-3.0938082,51.5280565,0,0,asphalt,0,residential,0,both,sidewalk,Fairview Close
+99001630,-3.09046,51.5264297,0,0,asphalt,0,unclassified,0,both,sidewalk,Swanage Close
+99001640,-3.0998714,51.5288977,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+99001650,-3.0909586,51.5271884,0,0,asphalt,0,unclassified,0,both,sidewalk,Caradoc Close
+99001660,-3.0934316,51.5284877,0,0,asphalt,0,unclassified,0,both,sidewalk,Fennel Close
+99001670,-3.0999357,51.5301989,0,0,asphalt,0,residential,0,both,sidewalk,Heritage Park
+99161970,-3.2485945,51.4864177,0,0,0,0,residential,0,no,sidewalk,Landwade Close
+99161980,-3.2498926,51.4865552,0,0,0,0,residential,0,both,sidewalk,Landwade Close
+99688560,-3.2377233,51.4734369,0,0,0,0,residential,0,no,sidewalk,Argyle Way
+105646870,-3.1869459,51.4707379,0,0,asphalt,0,residential,0,both,sidewalk,Durham Street
+105804100,-3.2540981,51.533031,0,0,asphalt,0,primary,0,both,sidewalk,Merthyr Road
+107176630,-3.2396348,51.4869516,0,0,0,0,residential,0,both,sidewalk,Bwlch Road
+107191210,-3.1255763,51.5127731,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+108093010,-3.2487022,51.4654178,0,0,0,0,residential,0,both,sidewalk,Heritage Drive
+108144080,-3.2386515,51.472262,0,0,0,0,residential,0,both,sidewalk,Heol Carnau
+108435000,-3.2467583,51.4704173,0,0,0,0,residential,0,both,sidewalk,Tapley Close
+109372350,-3.2489812,51.4722907,0,0,0,0,residential,0,left,sidewalk,Pant y Deri Close
+110199860,-3.2462398,51.4730894,0,0,0,0,residential,0,both,sidewalk,Kilgetty Close
+110199870,-3.2454193,51.4733592,0,0,0,0,residential,0,both,sidewalk,Tidenham Road
+112454570,-3.24903,51.4728796,0,0,0,0,residential,0,both,sidewalk,Laleston Close
+112473070,-3.2480821,51.4726868,0,0,0,0,residential,0,both,sidewalk,Kilgetty Close
+113716010,-3.247788,51.4738106,0,0,0,0,residential,0,both,sidewalk,Llandovery Close
+113716030,-3.248472,51.4733092,0,0,0,0,residential,0,both,sidewalk,Hengoed Close
+113716040,-3.248472,51.4733092,0,0,0,0,residential,0,both,sidewalk,Hengoed Close
+115966210,-3.2403185,51.4754339,0,0,0,0,residential,0,both,sidewalk,Neyland Place
+115966230,-3.2410855,51.4753701,0,0,0,0,residential,0,both,sidewalk,Neyland Place
+116079880,-3.2605165,51.4706986,0,0,0,0,residential,0,no,sidewalk,Green Farm Road
+116916340,-3.2414633,51.4765666,0,0,0,0,residential,0,both,sidewalk,Tal y Bont Road
+116942500,-3.2398136,51.477915,0,0,0,0,residential,0,both,sidewalk,Clos Ceirios
+116944750,-3.2356063,51.4794921,0,0,0,0,residential,0,both,sidewalk,Palmers Drive
+117056930,-3.2432065,51.4814321,0,0,0,0,residential,0,left,sidewalk,Saint Davids Crescent
+117056940,-3.2442119,51.4809936,0,0,0,0,residential,0,both,sidewalk,TÅ· Cefn Road
+117058040,-3.2675356,51.4742607,0,0,0,0,tertiary,0,both,sidewalk,Grand Avenue
+117058050,-3.2641322,51.4752351,0,0,0,0,tertiary,0,left,sidewalk,Grand Avenue
+117058180,-3.2637043,51.4735493,0,0,0,0,residential,0,both,sidewalk,Marcross Road
+117059430,-3.2627543,51.4724663,0,0,0,0,residential,0,both,sidewalk,0
+117060190,-3.2691964,51.4721006,0,0,0,0,tertiary,0,right,sidewalk,Michaelston Road
+117469190,-3.2702779,51.4756568,0,0,0,0,residential,0,both,sidewalk,Longreach Close
+117469200,-3.2667149,51.4771533,0,0,0,0,residential,0,both,sidewalk,Lon-werdd Close
+117470250,-3.2712068,51.4755409,0,0,0,0,residential,0,both,sidewalk,Swallowhurst Close
+117470770,-3.2743354,51.474326,0,0,0,0,residential,0,both,sidewalk,Nant y Pepra
+117471250,-3.2759267,51.4748946,0,0,0,0,residential,0,right,sidewalk,Coed Arhyd
+117471860,-3.2770086,51.4743036,0,0,0,0,residential,0,no,sidewalk,Nant y Dowlais
+117819670,-3.2636663,51.4721183,0,0,0,0,residential,0,left,sidewalk,Green Farm Close
+117846340,-3.2627923,51.4760837,0,0,0,0,residential,0,left,sidewalk,Penmark Green
+117846700,-3.2612255,51.478417,0,0,0,0,residential,0,both,sidewalk,0
+117848740,-3.2611472,51.4787858,0,0,0,0,residential,0,both,sidewalk,Vervain Close
+117852320,-3.2617678,51.4773888,0,0,0,0,residential,0,both,sidewalk,Yarrow Close
+117914260,-3.2515649,51.4761346,0,0,0,0,residential,0,no,sidewalk,Llanwern Road
+119477610,-3.1841812,51.5341763,0,0,asphalt,0,residential,0,both,sidewalk,Everest Walk
+119486720,-3.1937135,51.5314616,0,0,asphalt,0,residential,0,both,sidewalk,Coed Cochwyn Avenue
+119486900,-3.1911327,51.533057,0,0,asphalt,0,residential,0,both,sidewalk,Llangefni Place
+119487540,-3.191263,51.543776,0,0,asphalt,0,residential,0,both,sidewalk,Briarmeadow Drive
+119685980,-3.2536565,51.4683684,0,0,0,0,residential,0,right,sidewalk,Woodlands Park Drive
+119686400,-3.2644529,51.4774877,0,0,0,0,residential,0,both,sidewalk,0
+120467200,-3.0950731,51.5284644,0,0,asphalt,0,residential,0,both,sidewalk,Willow Grove
+120467290,-3.0955688,51.5294596,0,0,asphalt,0,residential,0,both,sidewalk,St Pierre Close
+120513080,-3.2076838,51.529129,0,0,asphalt,0,residential,0,both,sidewalk,Clos yr Hafod
+120814800,-3.0876101,51.5198065,0,0,asphalt,0,unclassified,0,both,sidewalk,Valarian Close
+120814810,-3.0881948,51.5217218,0,0,asphalt,0,unclassified,0,both,sidewalk,Fenviolet Close
+120815980,-3.0902151,51.5231337,0,0,asphalt,0,unclassified,0,both,sidewalk,Chartley Close
+120815990,-3.0886873,51.5236884,0,0,asphalt,0,unclassified,0,both,sidewalk,Minsmere Close
+121125520,-3.1979884,51.5359628,0,0,asphalt,0,residential,0,both,sidewalk,Tintagel Close
+121126360,-3.196555,51.5442419,0,0,asphalt,0,residential,0,both,sidewalk,Clos yr Hebog
+121126370,-3.1953663,51.5446243,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Dryw
+121129050,-3.1935552,51.5452047,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Gwalch
+121129060,-3.1931647,51.5453936,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Gwalch
+121132440,-3.2004241,51.5443244,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Carlwm
+121132450,-3.1990098,51.544324,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Blaidd
+121132460,-3.1982716,51.5436668,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Broch
+121132470,-3.1997823,51.5434733,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Gwadd
+121134130,-3.195729,51.542699,0,0,asphalt,0,residential,0,both,sidewalk,Heol y Carw
+121134140,-3.1954259,51.5435851,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Draenog
+121134150,-3.1962117,51.5424824,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Wiwer
+121134160,-3.195362,51.5436514,0,0,asphalt,0,residential,0,both,sidewalk,Clos y Draenog
+121138690,-3.1934012,51.5398199,0,0,asphalt,0,residential,0,both,sidewalk,Brookvale Drive
+121139420,-3.1962718,51.5403404,0,0,asphalt,0,residential,0,both,sidewalk,Carlton Close
+121139430,-3.1926326,51.5403838,0,0,asphalt,0,residential,0,both,sidewalk,Ragnall Close
+121139700,-3.1955208,51.5392294,0,0,asphalt,0,residential,0,both,sidewalk,Kennington Close
+121139710,-3.195598,51.5400101,0,0,asphalt,0,residential,0,both,sidewalk,Reigate Close
+121163560,-3.319766,51.5198198,0,0,asphalt,0,residential,0,both,sidewalk,Cardiff Road
+121164330,-3.3235839,51.5242518,0,0,asphalt,0,residential,0,both,sidewalk,The Terrace
+121164450,-3.3245109,51.5198218,0,0,asphalt,0,residential,0,both,sidewalk,Maes y Dderwen
+121164860,-3.3266127,51.5196406,0,0,asphalt,0,residential,0,both,sidewalk,Llys Gwynno
+121166620,-3.3302127,51.5218787,0,0,asphalt,0,residential,0,both,sidewalk,Ffordd Dinefwr
+121166700,-3.3253225,51.5202805,0,0,asphalt,0,residential,0,both,sidewalk,Maes y Rhedyn
+121175560,-3.0909833,51.5235749,0,0,asphalt,0,unclassified,0,both,sidewalk,Wicken Close
+121175880,-3.0884641,51.5259159,0,0,asphalt,0,unclassified,0,both,sidewalk,Maes y Crochan
+121175890,-3.0899104,51.5250935,0,0,asphalt,0,unclassified,0,both,sidewalk,Clos Tyla Bach
+121410260,-3.2026221,51.5412972,0,0,asphalt,0,residential,0,both,sidewalk,Woodruff Way
+121410270,-3.2044407,51.542118,0,0,asphalt,0,residential,0,both,sidewalk,Woodruff Way
+121413310,-3.2023852,51.5402218,0,0,asphalt,0,residential,0,both,sidewalk,Angelica Way
+121413320,-3.2036683,51.5399712,0,0,asphalt,0,residential,0,both,sidewalk,Lucerne Drive
+121498910,-3.1994833,51.5381126,0,0,asphalt,0,tertiary,0,both,sidewalk,Excalibur Drive
+121525610,-3.2035562,51.5375201,0,0,asphalt,0,residential,0,both,sidewalk,Gawain Close
+121705670,-3.1930277,51.5373786,0,0,asphalt,0,residential,0,both,sidewalk,Apollo Close
+122040910,-3.1917181,51.532526,0,0,asphalt,0,residential,0,both,sidewalk,Templeton Close
+122124560,-3.1976116,51.5407302,0,0,asphalt,0,residential,0,both,sidewalk,Huntsmead Close
+122124570,-3.1987435,51.5416735,0,0,asphalt,0,residential,0,both,sidewalk,Havenwood Drive
+122124580,-3.1989621,51.5401295,0,0,asphalt,0,residential,0,both,sidewalk,Glenmount Way
+122193000,-3.1901926,51.5439848,0,0,asphalt,0,residential,0,both,sidewalk,Cantref Close
+122193010,-3.1874541,51.5443768,0,0,asphalt,0,residential,0,both,sidewalk,Roundel Close
+122193020,-3.1908095,51.5451141,0,0,asphalt,0,residential,0,both,sidewalk,Cefn Onn Meadows
+122193030,-3.1886531,51.5435978,0,0,asphalt,0,residential,0,both,sidewalk,Brenig Close
+122193220,-3.1898922,51.5441165,0,0,asphalt,0,residential,0,both,sidewalk,Cantref Close
+122193570,-3.189042,51.5424334,0,0,asphalt,0,residential,0,both,sidewalk,Bankside Close
+122193580,-3.1892458,51.5413424,0,0,asphalt,0,residential,0,both,sidewalk,Pinecrest Drive
+122194040,-3.188704,51.5404132,0,0,asphalt,0,residential,0,both,sidewalk,Oakridge
+122194050,-3.1906137,51.5402447,0,0,asphalt,0,residential,0,both,sidewalk,Oakridge
+122194240,-3.1882977,51.5371651,0,0,asphalt,0,residential,0,both,sidewalk,Dombey Close
+122194250,-3.1887738,51.5359955,0,0,asphalt,0,residential,0,both,sidewalk,Copperfield Drive
+122194840,-3.1858957,51.5380126,0,0,asphalt,0,residential,0,both,sidewalk,Cottage Close
+122194850,-3.1891707,51.5377607,0,0,asphalt,0,residential,0,both,sidewalk,Norwood
+122194860,-3.1864483,51.539866,0,0,asphalt,0,residential,0,both,sidewalk,Cherrywood Close
+122194870,-3.1875641,51.5392805,0,0,asphalt,0,residential,0,both,sidewalk,Whiteacre Close
+122231290,-3.1973566,51.5391239,0,0,asphalt,0,residential,0,both,sidewalk,Lowfield Drive
+122234260,-3.1958857,51.5451436,0,0,asphalt,0,residential,0,both,sidewalk,0
+122266820,-3.2073958,51.5409664,0,0,asphalt,0,residential,0,both,sidewalk,Bassetts Field
+122266830,-3.2074736,51.5406494,0,0,asphalt,0,residential,0,both,sidewalk,Bassetts Field
+122267070,-3.2042969,51.5416532,0,0,asphalt,0,residential,0,both,sidewalk,Woodruff Way
+122269440,-3.2040986,51.5389747,0,0,asphalt,0,residential,0,both,sidewalk,Pen y Cefn
+122270050,-3.1978253,51.5363818,0,0,asphalt,0,residential,0,both,sidewalk,Launcelot Crescent
+122270920,-3.2036221,51.5325795,0,0,asphalt,0,residential,0,both,sidewalk,Whitesands Road
+122275010,-3.2007521,51.5272683,0,0,asphalt,0,residential,0,both,sidewalk,Coed Glas Road
+122462590,-3.2523889,51.4656204,0,0,0,0,residential,0,both,sidewalk,Lauriston Park
+122462880,-3.2486689,51.4654841,0,0,0,0,residential,0,both,sidewalk,Heritage Drive
+122463200,-3.2606981,51.4663581,0,0,0,0,residential,0,both,sidewalk,0
+122463210,-3.2614357,51.4677166,0,0,0,0,residential,0,both,sidewalk,Murrel Close
+122463430,-3.2641431,51.467668,0,0,0,0,residential,0,both,sidewalk,Knightswell Road
+122463580,-3.2608269,51.4691067,0,0,0,0,residential,0,both,sidewalk,0
+122463620,-3.2538228,51.4682959,0,0,0,0,residential,0,no,sidewalk,Cwrt-Yr-Ala Road
+122515360,-3.3012213,51.5318324,0,0,asphalt,0,residential,0,both,sidewalk,Maes Y Sarn
+122515370,-3.3013053,51.5314841,0,0,asphalt,0,residential,0,both,sidewalk,Heol Penllwyn
+122515880,-3.2950438,51.5305988,0,0,asphalt,0,residential,0,both,sidewalk,Heol Dan Yr Odyn
+122781820,-3.2525999,51.4738512,0,0,0,0,residential,0,both,sidewalk,Caerau Park Place
+123066580,-3.2067233,51.5279456,0,0,asphalt,0,residential,0,both,sidewalk,Clos-y-Wern
+129694740,-3.1723096,51.478414,0,0,asphalt,0,unclassified,0,both,sidewalk,Mary Ann Street
+132561540,-3.1830606,51.4752888,0,0,asphalt,0,residential,0,both,sidewalk,Taffs Mead Embankment
+132562510,-3.1889322,51.4755348,0,0,asphalt,0,residential,0,both,sidewalk,Monmouth Street
+132834690,-3.2376902,51.484064,0,0,0,0,residential,0,no,sidewalk,Pendoylan Court
+132835410,-3.2407957,51.4914827,0,0,asphalt,0,residential,0,both,sidewalk,Reardon Smith Court
+132835420,-3.2518483,51.4910596,0,0,asphalt,0,residential,0,both,sidewalk,Firtree Close
+133892750,-3.2195942,51.4871922,0,0,0,0,residential,0,both,sidewalk,Thompson Place
+138654430,-3.2679323,51.4673616,0,0,0,0,trunk,0,left,sidewalk,Cowbridge Road West
+145122630,-3.1900608,51.4754482,0,0,asphalt,0,residential,0,both,sidewalk,Wedmore Road
+154680470,-3.201153,51.5352523,0,0,asphalt,0,residential,0,both,sidewalk,Pendragon Close
+179052200,-3.1714827,51.4803901,0,0,asphalt,0,unclassified,0,both,sidewalk,Bridge Street
+179785290,-3.2528219,51.474557,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+186648630,-3.2391698,51.4769316,0,0,0,0,residential,0,left,sidewalk,0
+187056290,-3.2376491,51.4733705,0,0,0,0,service,0,no,sidewalk,Argyle Way
+187056300,-3.2349775,51.4768241,0,0,0,0,residential,0,both,sidewalk,Penally Road
+187153200,-3.2407321,51.4737528,0,0,0,0,residential,0,left,sidewalk,Broadfield Court
+187153210,-3.2445775,51.4692892,0,0,0,0,residential,0,right,sidewalk,Church Road
+187165080,-3.2324647,51.4804,0,0,0,0,residential,0,both,sidewalk,Ascot Close
+187165090,-3.23288,51.4804634,0,0,0,0,residential,0,no,sidewalk,Ascot Close
+187370830,-3.2519589,51.4737565,0,0,0,0,residential,0,left,sidewalk,Caerau Court Road
+187370840,-3.2492378,51.4726423,0,0,0,0,residential,0,right,sidewalk,Laleston Close
+187675490,-3.2418616,51.478942,0,0,0,0,residential,0,both,sidewalk,Highmead Road
+187768060,-3.2581152,51.4685386,0,0,0,0,residential,0,right,sidewalk,Clos-Y-Rhiw
+187768070,-3.2510422,51.4660661,0,0,0,0,residential,0,both,sidewalk,Heritage Drive
+187926310,-3.264533,51.4661031,0,0,0,0,residential,0,both,sidewalk,Sanctuary Court
+187943790,-3.2561685,51.4750109,0,0,0,0,residential,0,both,sidewalk,Deere Road
+188214490,-3.2623173,51.4672884,0,0,0,0,residential,0,both,sidewalk,Branwen Close
+188214500,-3.2606348,51.47077,0,0,0,0,residential,0,left,sidewalk,Green Farm Road
+188223000,-3.2648111,51.4780543,0,0,0,0,residential,0,both,sidewalk,Butterbur Place
+188223010,-3.2714238,51.4692563,0,0,asphalt,0,residential,0,both,sidewalk,Caenewydd Close
+188223020,-3.2755025,51.471402,0,0,0,0,residential,0,both,sidewalk,Coedriglan Drive
+188223030,-3.2761177,51.4716404,0,0,0,0,residential,0,both,sidewalk,Coedriglan Drive
+188223040,-3.2739226,51.4764563,0,0,0,0,residential,0,both,sidewalk,Denison Way
+188223050,-3.2700434,51.470993,0,0,asphalt,0,residential,0,both,sidewalk,Llanover Road
+188223060,-3.2755601,51.474241,0,0,0,0,residential,0,right,sidewalk,Nant yr Arthur
+188223070,-3.2688183,51.4689806,0,0,asphalt,0,residential,0,both,sidewalk,Penmaen Walk
+188223080,-3.273165,51.4732142,0,0,0,0,residential,0,both,sidewalk,Traherne Drive
+188331530,-3.2611192,51.4730814,0,0,0,0,residential,0,both,sidewalk,Furness Close
+188331540,-3.2513851,51.4763039,0,0,0,0,residential,0,left,sidewalk,Llanwern Road
+188331550,-3.2629165,51.4761846,0,0,0,0,residential,0,both,sidewalk,Penmark Green
+188354140,-3.2588164,51.4777105,0,0,0,0,residential,0,both,sidewalk,Kenwood Road
+188354150,-3.257451,51.4778395,0,0,0,0,residential,0,both,sidewalk,Kenwood Road
+188354160,-3.2618181,51.4795869,0,0,0,0,residential,0,no,sidewalk,0
+188484250,-3.2349261,51.4813638,0,0,0,0,residential,0,no,sidewalk,Barnard Avenue
+188484260,-3.2327781,51.4819265,0,0,0,0,residential,0,no,sidewalk,Chichester Way
+188484270,-3.2321008,51.4836336,0,0,0,0,residential,0,both,sidewalk,Dyfrig Road
+188484280,-3.2423835,51.4841924,0,0,0,0,residential,0,left,sidewalk,Frank Road
+188484290,-3.2305105,51.4839342,0,0,0,0,residential,0,left,sidewalk,Riverside Terrace
+188587460,-3.2386763,51.4833908,0,0,0,0,residential,0,no,sidewalk,Windsor Green
+188740490,-3.2496469,51.4884297,0,0,0,0,residential,0,both,sidewalk,Glan Ely Close
+189245430,-3.2512325,51.4826434,0,0,0,0,residential,0,both,sidewalk,Pethybridge Road
+191193910,-3.3285071,51.5276834,0,0,asphalt,0,residential,0,both,sidewalk,Parc-Y-Bryn
+191253240,-3.2979545,51.5282418,0,0,asphalt,0,residential,0,both,sidewalk,Ael-Y-Bryn
+191253250,-3.2967154,51.5274683,0,0,asphalt,0,residential,0,both,sidewalk,Brodeg
+193000140,-3.1144714,51.5226861,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+193000810,-3.1152738,51.5210091,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+193003650,-3.1215231,51.5161867,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+193008120,-3.1298361,51.5100213,0,0,asphalt,0,secondary,0,right,sidewalk,Newport Road
+193018180,-3.1334088,51.5078244,0,0,asphalt,0,secondary,0,left,sidewalk,Newport Road
+203524020,-3.1883955,51.4712002,0,0,asphalt,0,residential,0,both,sidewalk,Dorset Street
+207814380,-3.1823155,51.4721096,0,0,asphalt,0,residential,0,both,sidewalk,Taff Embankment
+221313380,-3.2505413,51.4706722,0,0,0,0,residential,0,right,sidewalk,Heol Trelai
+222354550,-3.3291716,51.5254353,0,0,asphalt,0,residential,0,both,sidewalk,Tregarth Court
+222355470,-3.295367,51.5275467,0,0,asphalt,0,residential,0,both,sidewalk,Parc St Catwg
+225410590,-3.2295427,51.4873434,0,0,asphalt,0,residential,0,both,sidewalk,Shears Road
+225410950,-3.2269774,51.4885531,0,0,0,0,tertiary,0,left,sidewalk,Waungron Road
+227827790,-3.1719178,51.4780672,0,0,asphalt,0,unclassified,0,both,sidewalk,Mary Ann Street
+228604870,-3.1831942,51.4701826,0,0,asphalt,0,residential,0,both,sidewalk,Coedcae Street
+228607300,-3.2309497,51.4834076,0,0,0,0,residential,0,both,sidewalk,Dyfrig Road
+228607310,-3.2317988,51.4841719,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+246463960,-3.2207733,51.4861211,0,0,asphalt,0,residential,0,left,sidewalk,0
+251484650,-3.1887184,51.5275845,0,0,concrete,0,residential,0,both,sidewalk,Kimberley Terrace
+262082790,-3.1997519,51.5347115,0,0,asphalt,0,residential,0,both,sidewalk,Johnston Road
+262085940,-3.226753,51.48845,0,0,0,0,tertiary,0,left,sidewalk,Waungron Road
+262185820,-3.2686577,51.4677431,0,0,0,0,tertiary,0,both,sidewalk,Michaelston Road
+262186570,-3.2194113,51.4829297,0,0,asphalt,0,tertiary,0,left,sidewalk,Cowbridge Road East
+318935100,-3.2043504,51.4754496,0,0,0,0,secondary,0,right,sidewalk,Leckwith Road
+319140600,-3.2022833,51.5337384,0,0,asphalt,0,residential,0,both,sidewalk,Johnston Road
+319666950,-3.1906765,51.471537,0,0,asphalt,0,tertiary,0,both,sidewalk,Virgil Street
+343099550,-3.2083411,51.5272081,0,0,asphalt,0,service,0,both,sidewalk,0
+349332220,-3.2508081,51.5315967,0,0,asphalt,0,primary,0,both,sidewalk,Merthyr Road
+367718700,-3.229413,51.485014,0,0,0,0,trunk,0,both,sidewalk,Cowbridge Road West
+368363050,-3.2322269,51.483652,0,0,0,0,residential,0,both,sidewalk,Dyfrig Road
+369911700,-3.2238761,51.4838427,0,0,0,0,primary,0,both,sidewalk,Cowbridge Road East
+371529800,-3.1712306,51.4805791,0,0,asphalt,0,unclassified,0,both,sidewalk,Guildford Street
+371529810,-3.1725219,51.4799315,0,0,asphalt,0,unclassified,0,both,sidewalk,Bridge Street
+371530930,-3.1713791,51.4802264,0,0,asphalt,0,unclassified,0,left,sidewalk,Churchill Way
+371530940,-3.1709987,51.4794568,0,0,asphalt,0,unclassified,0,left,sidewalk,Churchill Way
+372592240,-3.1127523,51.5247266,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+372592890,-3.1305473,51.5095905,0,0,asphalt,0,secondary,0,left,sidewalk,Newport Road
+372600410,-3.1746764,51.4768314,0,0,asphalt,0,service,0,both,sidewalk,Custom House Street
+376830520,-3.2263209,51.4844507,0,0,0,0,primary,0,both,sidewalk,Cowbridge Road East
+376830530,-3.2280858,51.484905,0,0,0,0,primary,0,both,sidewalk,Cowbridge Road East
+377881580,-3.2053583,51.5424169,0,0,asphalt,0,residential,0,both,sidewalk,Woodruff Way
+379396070,-3.1830921,51.5156068,0,0,asphalt,0,tertiary,0,both,sidewalk,Heath Park Avenue
+379396080,-3.1820663,51.513722,0,0,asphalt,0,tertiary,0,both,sidewalk,Heath Park Avenue
+381133700,-3.1904801,51.5430537,0,0,asphalt,0,residential,0,both,sidewalk,Rambler Close
+404615540,-3.170937,51.4795129,0,0,asphalt,0,unclassified,0,left,sidewalk,Churchill Way
+404615550,-3.1714099,51.4804422,0,0,asphalt,0,unclassified,0,both,sidewalk,Guildford Street
+404998610,-3.175454,51.4766258,0,0,asphalt,0,service,0,both,sidewalk,Custom House Street
+405045400,-3.210615,51.4884944,0,0,0,0,tertiary,0,both,sidewalk,Pencisely Road
+405192050,-3.2162271,51.4892428,0,0,0,0,tertiary,0,both,sidewalk,Pencisely Road
+405541820,-3.2191589,51.4829827,0,0,asphalt,0,tertiary,0,left,sidewalk,Cowbridge Road East
+405541830,-3.2195905,51.4827907,0,0,0,0,primary,0,left,sidewalk,Cowbridge Road East
+406516850,-3.2604973,51.4708295,0,0,0,0,trunk,0,left,sidewalk,Cowbridge Road West
+406721320,-3.1300669,51.5098748,0,0,asphalt,0,secondary,0,left,sidewalk,Newport Road
+414870970,-3.2285096,51.485062,0,0,0,0,primary,0,both,sidewalk,Cowbridge Road East
+416372550,-3.1897665,51.5459985,0,0,asphalt,0,unclassified,0,both,sidewalk,Capelgwilym Road
+419062450,-3.1151545,51.5212364,0,0,asphalt,0,secondary,0,both,sidewalk,Newport Road
+419258080,-3.1836004,51.5177615,0,0,asphalt,0,tertiary,0,both,sidewalk,Heathwood Road
+426849960,-3.0945342,51.5299253,0,0,asphalt,0,unclassified,0,both,sidewalk,Willowdene Way
+444274180,-3.230197,51.4856808,0,0,asphalt,0,residential,0,both,sidewalk,Ely Road
+444275200,-3.2307093,51.4907945,0,0,asphalt,0,residential,0,both,sidewalk,Fairwater Grove West

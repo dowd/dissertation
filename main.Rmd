@@ -72,13 +72,20 @@ kable(results,caption="showing attribute counts")
 ```
 
 
-- {I need to add the sidewalk element attributes and possibly remove the entrance element}
-- No crossings had a ‘length’ tag added to them but this is not in the OSM wiki.
-- The majorities of crossings had a type added to them, though we see the differences in areas again with Manchester being just over 50% whereas Cardiff and Bristol have 80% and nearly 90%.
-- The wheelchair accessible element needs removing as this is more for general accessibility
 - The incline tag for steps is less than 10% for all areas this may be because it is hard to measure.
 - The number of steps is very low with only Cardiff having over 2% coverage. This is something that could easily be added.
 - The steps surface tag for all areas has about 5% coverage.
+
+Again we see that the three areas are not consistent, neither is there consistency in an area across different tags, ever for the same type of element.
+
+As the OSM wiki does not suggest adding a 'length=*' tag to crossings it is not surprising to find that no length tag was found for any of the crossings in any of the areas. Though the length tag is applied to ?????? elements. Knowledge about the length of a crossig can give a visually impaired person knowledge about the easiest place to cross a road and how long it will take to reach the other side. For this information to be included it will need to be added to the OSM wiki page for crossings.
+
+The crossing=* tag is used in crossings to denote the type of crossing that is being mapped. Overall there is a high percentage of use of this tag with it being found in ???% of all the crossings looked at ad ??% of crossinngs in the UK (ref). But in Manchester only about half of the crossings included this tag whereas in Bristol and Cardiff the percentage was over 80%.
+
+The sidewalk tag is poorly and inconsistently used with ??% of highways havig the tag overall in the areas and ??% across the UK (ref), though Cardiff did have 7.6% of highways tagged Manchester only had 0.5% tagged. This information can be vital for pedestrian route planning and especially for visually impaired people. In Google Maps pedestrian route planning sending someone along a highway with no sidewalk resulted in a death?? (ref??).
+
+The tags for steps are not used much, the highest percentage being 10.3% of steps in Manchester including the 'incline=*' tag but this tag is only used 2.1% of the time in Cardiff. All other tags are used in less than 10% of steps across all of the areas. Knowith the number of steps can help a visually impaired person know when they have got to the end of the steps and can help in route planning. From the researchers experience some visually impaired people will avoid steps if there is a large number of them. The surface and incline can affect whether a visually impaired person would choose to use the steps, especially in poor weather conditions or if they have other mobility conditions (??% of visually impaired people have some other mobility impairment (ref????)).
+
 
 *Ground survey comparison of OSM tags*
 
